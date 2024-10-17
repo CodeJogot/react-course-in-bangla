@@ -4,39 +4,39 @@
 
 While you complete the 30-chapter module, jump in the [Projects Section](#).
 
-|                                         Chapter                                         |                                        Topics                                         | Video Explanation |
-| :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :---------------: |
-|                                         [00](#)                                         |                                         []()                                          |   [Watch Now]()   |
-| [01](#chapter-01-what-is-nextjs-features-of-nextjs-environment-setup-project-structure) | [](#chapter-01-what-is-nextjs-features-of-nextjs-environment-setup-project-structure) |   [Watch Now]()   |
-|                 [02](#chapter-02-html-quotation-link-image-and-favicon)                 |                 [](#chapter-02-html-quotation-link-image-and-favicon)                 |     Watch Now     |
-|    [03](#chapter-03-html-table-list-iframes-code-tag-semantic-element-and-entities)     |    [](#chapter-03-html-table-list-iframes-code-tag-semantic-element-and-entities)     |     Watch Now     |
-|                [04](#chapter-04-html-symbols-emojis-charsets-and-forms)                 |                [](#chapter-04-html-symbols-emojis-charsets-and-forms)                 |     Watch Now     |
-|                    [05](#chapter-05-html-canvas-svg-and-html-media)                     |                    [](#chapter-05-html-canvas-svg-and-html-media)                     |     Watch Now     |
-|      [06](#chapter-06-introduction-to-css-css-selectors-ways-of-styling-and-color)      |      [](#chapter-06-introduction-to-css-css-selectors-ways-of-styling-and-color)      |     Watch Now     |
-|                                           07                                            |                                                                                       |     Watch Now     |
-|                                           08                                            |                                                                                       |     Watch Now     |
-|                                           09                                            |                                                                                       |     Watch Now     |
-|                                           10                                            |                                                                                       |     Watch Now     |
-|                     [11](#chapter-11-css-position-z-index-overflow)                     |                     [](#chapter-11-css-position-z-index-overflow)                     |     Watch Now     |
-|                      [12](#chapter-12-css-float-display-alignment)                      |                      [](#chapter-12-css-float-display-alignment)                      |     Watch Now     |
-|                              [13](#chapter-13-css-flexbox)                              |                              [](#chapter-13-css-flexbox)                              |     Watch Now     |
-|                             [14](#chapter-14-css-selectors)                             |                             [](#chapter-14-css-selectors)                             |     Watch Now     |
-|                         [15](#chapter-15-css-text-fonts--icons)                         |                         [](#chapter-15-css-text-fonts--icons)                         |     Watch Now     |
-|               [16](#chapter-16-css-links-lists-tables-display--max-width)               |               [](#chapter-16-css-links-lists-tables-display--max-width)               |     Watch Now     |
-|                  [17](#chapter-17-css-image-gallery-and-image-sprites)                  |                  [](#chapter-17-css-image-gallery-and-image-sprites)                  |     Watch Now     |
-|                                           18                                            |                                                                                       |     Watch Now     |
-|                [19](#chapter-19-visualize-and-play-with-css-properties)                 |                [](#chapter-19-visualize-and-play-with-css-properties)                 |     Watch Now     |
-|                            [20](#chapter-20-css-grid-layout)                            |                            [](#chapter-20-css-grid-layout)                            |     Watch Now     |
-|                             [21](#chapter-21-css-gradient)                              |                             [](#chapter-21-css-gradient)                              |     Watch Now     |
-|                       [22](#chapter-22-css-2d-and-3d-transforms)                        |                       [](#chapter-22-css-2d-and-3d-transforms)                        |     Watch Now     |
-|                            [23](#chapter-23-css-animations)                             |                                         []()                                          |     Watch Now     |
-|                                           24                                            |                                                                                       |     Watch Now     |
-|                                           25                                            |                                                                                       |     Watch Now     |
-|                                           26                                            |                                                                                       |     Watch Now     |
-|                                           27                                            |                                                                                       |     Watch Now     |
-|                                           28                                            |                                                                                       |     Watch Now     |
-|                                           29                                            |                                                                                       |     Watch Now     |
-|                                           30                                            |                                                                                       |     Watch Now     |
+|                                    Chapter                                     |                                                               Topics                                                               | Video Explanation |
+| :----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :---------------: |
+|                                    [00](#)                                     |                                                                []()                                                                |   [Watch Now]()   |
+|                   [01](#chapter-01-introduction-to-reactjs)                    |                                  [Introduction to React.js](#chapter-01-introduction-to-reactjs)                                   |   [Watch Now]()   |
+|                 [02](#chapter-02-react-virtual-dom-what--why)                  |                              [React Virtual DOM: What & Why](#chapter-02-react-virtual-dom-what--why)                              |     Watch Now     |
+| [03](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) | [How to Install React (Step by Step Guide with Example)](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) |     Watch Now     |
+|                      [04](#chapter-04-react-render-html)                       |                                         [React Render HTML](#chapter-04-react-render-html)                                         |     Watch Now     |
+|                          [05](#chapter-05-react-jsx)                           |                                                 [React JSX](#chapter-05-react-jsx)                                                 |     Watch Now     |
+|                       [06](#chapter-06-react-components)                       |                                          [React Components](#chapter-06-react-components)                                          |     Watch Now     |
+|                    [07](#chapter-07-react-class-components)                    |                                    [React Class Components](#chapter-07-react-class-components)                                    |     Watch Now     |
+|                         [08](#chapter-08-react-props)                          |                                               [React Props](#chapter-08-react-props)                                               |     Watch Now     |
+|          [09](#chapter-09-react-state--lifecycle-in-class-components)          |               [React State & Lifecycle in Class Components](#chapter-09-react-state--lifecycle-in-class-components)                |     Watch Now     |
+|                         [10](#chapter-10-react-events)                         |                                              [React Events](#chapter-10-react-events)                                              |     Watch Now     |
+|                 [11](#chapter-11-react-conditional-rendering)                  |                               [React Conditional Rendering](#chapter-11-react-conditional-rendering)                               |     Watch Now     |
+|                                    [12](#)                                     |                                            [](#chapter-12-css-float-display-alignment)                                             |     Watch Now     |
+|                         [13](#chapter-13-css-flexbox)                          |                                                    [](#chapter-13-css-flexbox)                                                     |     Watch Now     |
+|                        [14](#chapter-14-css-selectors)                         |                                                   [](#chapter-14-css-selectors)                                                    |     Watch Now     |
+|                    [15](#chapter-15-css-text-fonts--icons)                     |                                               [](#chapter-15-css-text-fonts--icons)                                                |     Watch Now     |
+|          [16](#chapter-16-css-links-lists-tables-display--max-width)           |                                     [](#chapter-16-css-links-lists-tables-display--max-width)                                      |     Watch Now     |
+|             [17](#chapter-17-css-image-gallery-and-image-sprites)              |                                        [](#chapter-17-css-image-gallery-and-image-sprites)                                         |     Watch Now     |
+|                                       18                                       |                                                                                                                                    |     Watch Now     |
+|            [19](#chapter-19-visualize-and-play-with-css-properties)            |                                       [](#chapter-19-visualize-and-play-with-css-properties)                                       |     Watch Now     |
+|                       [20](#chapter-20-css-grid-layout)                        |                                                  [](#chapter-20-css-grid-layout)                                                   |     Watch Now     |
+|                         [21](#chapter-21-css-gradient)                         |                                                    [](#chapter-21-css-gradient)                                                    |     Watch Now     |
+|                   [22](#chapter-22-css-2d-and-3d-transforms)                   |                                              [](#chapter-22-css-2d-and-3d-transforms)                                              |     Watch Now     |
+|                        [23](#chapter-23-css-animations)                        |                                                                []()                                                                |     Watch Now     |
+|                                       24                                       |                                                                                                                                    |     Watch Now     |
+|                                       25                                       |                                                                                                                                    |     Watch Now     |
+|                                       26                                       |                                                                                                                                    |     Watch Now     |
+|                                       27                                       |                                                                                                                                    |     Watch Now     |
+|                                       28                                       |                                                                                                                                    |     Watch Now     |
+|                                       29                                       |                                                                                                                                    |     Watch Now     |
+|                                       30                                       |                                                                                                                                    |     Watch Now     |
 
 # 5 React.js Projects
 
@@ -314,7 +314,7 @@ React এর সবচেয়ে বড় সুবিধা হলো **comp
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Project-02: React Virtual DOM: What & Why
+# Chapter-02: React Virtual DOM: What & Why
 
 ### Table of Contents:
 
@@ -765,13 +765,1677 @@ React environment setup করার পর, আপনি খুব সহজে
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-04:
+# Chapter-04: React Render HTML
+
+### Table of Contents:
+
+1. [What Does Rendering HTML Mean in React?](#what-does-rendering-html-mean-in-react)
+2. [How React Renders HTML](#how-react-renders-html)
+   - [JSX Syntax](#jsx-syntax)
+   - [ReactDOM.render()](#reactdomrender)
+3. [Rendering Dynamic Content](#rendering-dynamic-content)
+4. [Real-life Example of Rendering HTML](#real-life-example-of-rendering-html)
+5. [React Virtual DOM and Rendering Efficiency](#react-virtual-dom-and-rendering-efficiency)
+6. [Conclusion](#conclusion)
+
+---
+
+### 1. What Does Rendering HTML Mean in React?
+
+**Rendering HTML** মানে হলো HTML elements বা components-কে web browser এ প্রদর্শন করা। সাধারণত traditional JavaScript দিয়ে DOM (Document Object Model) এর সাথে কাজ করা হয়, যেখানে `document.createElement()` বা `innerHTML` ব্যবহার করে HTML dynamically generate করা হয়। কিন্তু **React** এ, rendering process আরও streamlined এবং efficient, কারণ React এর মাধ্যমে আপনি HTML code **JSX (JavaScript XML)** syntax ব্যবহার করে লিখতে পারেন এবং virtual DOM এর মাধ্যমে efficiently render করতে পারেন।
+
+React এর মূল কাজ হলো user interface তৈরি করা এবং সেই UI কে browser এর real DOM এ reflect করা। React এই কাজটি করে **ReactDOM** এর মাধ্যমে যা web page এ HTML render করে।
+
+---
+
+### 2. How React Renders HTML
+
+#### JSX Syntax
+
+**JSX (JavaScript XML)** হলো React এর special syntax যা HTML এর মতো দেখতে, কিন্তু এটি JavaScript এর মধ্যে embedded থাকে। JSX ব্যবহার করলে HTML elements এবং JavaScript একসাথে manage করা সহজ হয়। JSX এর মাধ্যমে আপনি HTML এর মতো structure লিখতে পারেন, যেটা পরে React component এ পরিবর্তিত হয়ে rendering হয়।
+
+##### Example of JSX:
+
+```jsx
+const element = <h1>Hello, world!</h1>;
+```
+
+এটি দেখলে HTML এর মতো মনে হলেও এটি আসলে **JSX**। React এই JSX কে JavaScript এ convert করে এবং DOM এ render করে।
+
+#### ReactDOM.render()
+
+**ReactDOM.render()** method ব্যবহার করে React component বা JSX কে real DOM এ রেন্ডার করা হয়।
+
+##### Syntax:
+
+```jsx
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+এই example এ, **element** হলো যে HTML বা React component টি render করা হবে, এবং **'root'** হলো HTML এর id, যেখানে এই content inject হবে।
+
+##### Example:
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+
+const element = <h1>Hello, React!</h1>;
+
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+উপরের কোডটি **index.html** এর একটি **div** element এর মধ্যে render হবে যেটির id হবে "root":
+
+```html
+<div id="root"></div>
+```
+
+---
+
+### 3. Rendering Dynamic Content
+
+React এ শুধু static HTML নয়, বরং dynamic content render করা যায়। উদাহরণস্বরূপ, user input অনুযায়ী data dynamically update এবং render করা যায়।
+
+##### Example of Rendering Dynamic Content:
+
+```jsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+
+function App() {
+  const [name, setName] = useState("React");
+
+  return (
+    <div>
+      <h1>Hello, {name}!</h1>
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+```
+
+#### Explanation:
+
+1. **useState Hook**: আমরা **useState** hook ব্যবহার করে **name** নামক একটি state তৈরি করেছি।
+2. **Dynamic Rendering**: যখন user input field এ কিছু লিখবে, সেই **name** value dynamically update হয়ে rendering হবে।
+
+---
+
+### 4. Real-life Example of Rendering HTML
+
+ধরা যাক, আপনি একটি e-commerce website তৈরি করছেন যেখানে প্রতিবার নতুন product যোগ করলে সেই product টি dynamically render করতে হবে। React এর মাধ্যমে সহজেই এই কাজ করা যায়।
+
+#### Example:
+
+```jsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+
+function ProductList() {
+  const [products, setProducts] = useState(["Product 1", "Product 2"]);
+
+  const addProduct = () => {
+    setProducts([...products, `Product ${products.length + 1}`]);
+  };
+
+  return (
+    <div>
+      <h1>Product List</h1>
+      <ul>
+        {products.map((product, index) => (
+          <li key={index}>{product}</li>
+        ))}
+      </ul>
+      <button onClick={addProduct}>Add Product</button>
+    </div>
+  );
+}
+
+ReactDOM.render(<ProductList />, document.getElementById("root"));
+```
+
+#### Explanation:
+
+1. **useState**: এখানে **products** নামক একটি state আছে যেটা একটি array ধরে। যখন নতুন product যোগ করা হয়, সেটা **addProduct** function এর মাধ্যমে **products** এ যুক্ত হয়।
+2. **Dynamic Rendering**: প্রতিবার নতুন product যোগ করার পরে, **ProductList** component টিকে re-render করা হয় এবং updated product list দেখতে পাওয়া যায়।
+
+---
+
+### 5. React Virtual DOM and Rendering Efficiency
+
+React এর HTML rendering এত efficient হওয়ার পেছনে বড় কারণ হলো এর **Virtual DOM**। যখন আপনি React component এ কোনো পরিবর্তন করেন, React পুরো DOM কে re-render করে না। এটি প্রথমে Virtual DOM এ changes apply করে এবং তারপর minimal changes real DOM এ implement করে। এর মাধ্যমে unnecessary re-rendering এড়ানো যায়, এবং UI দ্রুত আপডেট হয়।
+
+---
+
+### 6. Conclusion
+
+React এর মাধ্যমে HTML rendering process অনেক সহজ এবং efficient হয়ে যায়, বিশেষ করে **JSX** এবং **ReactDOM** এর কারণে। আপনি শুধুমাত্র static content নয়, dynamic content ও খুব সহজে render করতে পারেন, এবং React এর **Virtual DOM** এর মাধ্যমে UI খুব দ্রুত এবং smooth ভাবে update হয়।
+
+এইভাবে, React modern web applications এর জন্য একটি essential tool হয়ে উঠেছে, যা UI rendering কে সহজ করে এবং performance উন্নত করে।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-05:
+# Chapter-05: React JSX
+
+### Table of Contents:
+
+1. [What is JSX?](#what-is-jsx)
+2. [Why JSX is Important](#why-jsx-is-important)
+3. [JSX Syntax](#jsx-syntax)
+   - [Embedding Expressions in JSX](#embedding-expressions-in-jsx)
+   - [JSX Elements and Components](#jsx-elements-and-components)
+4. [JSX vs HTML](#jsx-vs-html)
+5. [Real-life Example of JSX](#real-life-example-of-jsx)
+6. [Common JSX Mistakes and Best Practices](#common-jsx-mistakes-and-best-practices)
+7. [Conclusion](#conclusion)
+
+---
+
+### 1. What is JSX?
+
+**JSX (JavaScript XML)** হলো React এর একটি syntax extension, যা JavaScript এর ভেতরে HTML এর মতো structure লিখতে দেয়। যদিও JSX দেখতে HTML এর মতো, এটি আসলে একটি **JavaScript** এর বিশেষ syntax যা **React** এর মধ্যে ব্যবহার করা হয়। React এর সাথে কাজ করতে গেলে JSX শেখা অত্যন্ত গুরুত্বপূর্ণ, কারণ React এর মাধ্যমে UI তৈরি করার জন্য JSX অন্যতম প্রধান উপাদান।
+
+##### Example of JSX:
+
+```jsx
+const element = <h1>Hello, World!</h1>;
+```
+
+উপরের কোডটিতে **<h1>Hello, World!</h1>** হলো JSX এর একটি উদাহরণ, যা পরবর্তীতে JavaScript কোডে পরিবর্তিত হয়ে DOM এ render হয়।
+
+---
+
+### 2. Why JSX is Important
+
+JSX React এর একটি প্রধান অংশ, কারণ এটি HTML এর মতো syntax ব্যবহার করে **JavaScript** এর ভেতরে **UI components** তৈরির কাজকে সহজ করে। এর কিছু প্রধান সুবিধা হলো:
+
+1. **Readable and Declarative**: JSX HTML এর মতো দেখতে হওয়ায় কোডটি অনেক বেশি readable এবং declarative হয়, যা development experience সহজ করে।
+2. **Integration with JavaScript**: JSX এর মাধ্যমে সহজেই JavaScript expressions এবং logic UI এর সাথে integrate করা যায়।
+3. **Faster Rendering**: React এর **Virtual DOM** এর সাথে মিলিত হয়ে JSX দ্রুত HTML render করে এবং performance বৃদ্ধি করে।
+
+---
+
+### 3. JSX Syntax
+
+JSX এর syntax দেখতে HTML এর মতো, কিন্তু এর কিছু বিশেষ নিয়ম এবং functionality রয়েছে যা HTML এর চেয়ে আলাদা।
+
+#### Embedding Expressions in JSX
+
+JSX এর সবচেয়ে শক্তিশালী বৈশিষ্ট্য হলো এর মধ্যে **JavaScript expressions** embed করা যায়। JavaScript এর কোনো value JSX এ curly braces `{}` এর মধ্যে রেখে render করা যায়।
+
+##### Example of Embedding JavaScript in JSX:
+
+```jsx
+const name = "React";
+const element = <h1>Hello, {name}!</h1>;
+```
+
+এই উদাহরণে, **name** নামক JavaScript variable টি JSX এর মধ্যে রাখা হয়েছে। এর ফলে DOM এ **"Hello, React!"** render হবে।
+
+#### JSX Elements and Components
+
+JSX এর মাধ্যমে শুধুমাত্র HTML elements তৈরি করা যায় না, বরং React components কে JSX এর মধ্যে ব্যবহার করা যায়।
+
+##### Example of JSX with Components:
+
+```jsx
+function Welcome(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+const element = <Welcome name="React" />;
+```
+
+এখানে **Welcome** হলো একটি React component যা JSX এর মাধ্যমে render হয়েছে। Component এর **props** ব্যবহার করে dynamic data render করা হচ্ছে।
+
+---
+
+### 4. JSX vs HTML
+
+যদিও JSX HTML এর মতো দেখতে, এদের মধ্যে কিছু পার্থক্য রয়েছে। কিছু গুরুত্বপূর্ণ পার্থক্য নিচে উল্লেখ করা হলো:
+
+1. **class vs className**: HTML এ **class** attribute ব্যবহার করা হয়, কিন্তু JSX এ **className** ব্যবহার করতে হয়, কারণ **class** হলো JavaScript এর reserved keyword।
+
+   ```jsx
+   <div className="container"></div>
+   ```
+
+2. **Self-closing Tags**: JSX এ প্রতিটি tag self-close করা প্রয়োজন, যদি তার কোনো closing tag না থাকে।
+
+   ```jsx
+   <img src="image.jpg" alt="Sample" />
+   ```
+
+3. **JSX attributes in camelCase**: HTML attributes, যেমন **onclick** বা **onchange** JSX এ camelCase এ লিখতে হয়।
+
+   ```jsx
+   <button onClick={handleClick}>Click Me</button>
+   ```
+
+---
+
+### 5. Real-life Example of JSX
+
+ধরা যাক, আপনি একটি **User Profile** component তৈরি করতে চান, যেখানে user's name, email, এবং profile picture থাকবে। React এর মাধ্যমে এটি সহজেই করা যায়।
+
+#### Example:
+
+```jsx
+function UserProfile(props) {
+  return (
+    <div className="profile-card">
+      <img src={props.avatar} alt="User Avatar" />
+      <h2>{props.name}</h2>
+      <p>Email: {props.email}</p>
+    </div>
+  );
+}
+
+const element = (
+  <UserProfile
+    avatar="https://example.com/avatar.jpg"
+    name="John Doe"
+    email="john.doe@example.com"
+  />
+);
+
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+#### Explanation:
+
+1. **UserProfile Component**: এখানে **UserProfile** নামে একটি React component তৈরি করা হয়েছে, যা props হিসেবে user এর **name**, **email**, এবং **avatar** image গ্রহণ করে।
+2. **Props Usage**: **props.name**, **props.email** ইত্যাদি JSX এর মধ্যে render হচ্ছে, যার ফলে component dynamic ভাবে ব্যবহার করা যায়।
+3. **Rendering**: ReactDOM.render() method এর মাধ্যমে component কে DOM এ render করা হয়েছে।
+
+---
+
+### 6. Common JSX Mistakes and Best Practices
+
+#### Mistake 1: Forgetting to Close Tags
+
+JSX এ প্রতিটি element self-closing হওয়া উচিত যদি তার কোনো child না থাকে। উদাহরণস্বরূপ:
+
+```jsx
+// Incorrect
+<input>
+
+// Correct
+<input />
+```
+
+#### Mistake 2: Returning Multiple Elements Without Wrapping
+
+JSX এ multiple elements return করতে গেলে এগুলোকে একটি parent element এর মধ্যে রাখতে হয়। উদাহরণস্বরূপ:
+
+```jsx
+// Incorrect
+return (
+  <h1>Hello</h1>
+  <p>World</p>
+);
+
+// Correct
+return (
+  <div>
+    <h1>Hello</h1>
+    <p>World</p>
+  </div>
+);
+```
+
+---
+
+### 7. Conclusion
+
+**JSX** হলো React এর প্রধান syntax যা JavaScript এর মধ্যে HTML elements এবং components তৈরি করতে সাহায্য করে। এটি declarative এবং readable syntax এর কারণে UI development সহজ করে। JSX এর মাধ্যমে আপনি শুধু static content নয়, dynamic JavaScript expressions এবং React components ব্যবহার করতে পারবেন।
+
+JSX এর সঠিক ব্যবহার React এর core concepts বুঝতে সাহায্য করে এবং complex UI গুলোকে সহজে maintainable করে তোলে।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-06: React Components
+
+### Table of Contents:
+
+1. [What are React Components?](#what-are-react-components)
+2. [Types of React Components](#types-of-react-components)
+   - [Function Components](#function-components)
+   - [Class Components](#class-components)
+3. [Props in React Components](#props-in-react-components)
+4. [State in React Components](#state-in-react-components)
+5. [Lifecycle Methods in Class Components](#lifecycle-methods-in-class-components)
+6. [Real-life Example of React Components](#real-life-example-of-react-components)
+7. [Conclusion](#conclusion)
+
+---
+
+### 1. What are React Components?
+
+**React components** হলো React এর মূল building blocks, যা UI কে ছোট ছোট অংশে ভাগ করে পুনরায় ব্যবহারযোগ্য করে তোলে। প্রতিটি React component একটি JavaScript function বা class যা **HTML-like** structure (JSX) return করে এবং UI এর বিভিন্ন অংশে প্রদর্শিত হয়। Components independent হওয়ার কারণে, একটি component তার নিজস্ব state এবং props ব্যবহার করে নির্দিষ্ট অংশের কাজ সম্পন্ন করে।
+
+##### Example of a Simple React Component:
+
+```jsx
+function Welcome() {
+  return <h1>Hello, React!</h1>;
+}
+```
+
+এখানে, **Welcome** হলো একটি React function component যা **Hello, React!** text কে render করে। React components ব্যবহার করে আপনি complex UI গুলোকে ছোট ছোট reusable অংশে ভাগ করতে পারেন।
+
+---
+
+### 2. Types of React Components
+
+React এ দুটি প্রধান ধরনের component আছে: **Function Components** এবং **Class Components**।
+
+#### Function Components
+
+**Function Components** হলো JavaScript functions যা JSX return করে। এগুলো React Hooks ব্যবহার করে state এবং lifecycle এর সাথে কাজ করতে পারে। Function components সাধারণত সহজ এবং lightweight হয়।
+
+##### Example of Function Component:
+
+```jsx
+function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+```
+
+#### Class Components
+
+**Class Components** হলো ES6 এর JavaScript classes যা React.Component থেকে extend করে। এগুলো state এবং lifecycle methods support করে। তবে function components এবং hooks এর আগমনের পর class components এর ব্যবহার কমে গেছে।
+
+##### Example of Class Component:
+
+```jsx
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+```
+
+---
+
+### 3. Props in React Components
+
+**Props** হলো component এর external data যা parent component থেকে pass করা হয়। এটি immutable, অর্থাৎ component এর ভিতর থেকে props modify করা যায় না। Props এর মাধ্যমে component গুলো dynamic data গ্রহণ করে এবং সেই অনুযায়ী render করতে পারে।
+
+##### Example of Passing Props:
+
+```jsx
+function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+const element = <Greeting name="John" />;
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+এখানে, **name** prop parent component থেকে **Greeting** component এ pass করা হয়েছে, যা UI তে dynamic data প্রদর্শন করছে।
+
+---
+
+### 4. State in React Components
+
+**State** হলো component এর internal data, যা পরিবর্তনশীল এবং component এর behavior কে dynamically পরিবর্তন করতে পারে। Function components এ state handle করতে **useState Hook** এবং class components এ **this.state** ব্যবহার করা হয়। State dynamic data handle করে, যা user interaction এর উপর ভিত্তি করে পরিবর্তিত হয়।
+
+##### Example of State in Function Component:
+
+```jsx
+import React, { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+```
+
+##### Example of State in Class Component:
+
+```jsx
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+  }
+
+  render() {
+    return (
+      <div>
+        <p>You clicked {this.state.count} times</p>
+        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+          Click me
+        </button>
+      </div>
+    );
+  }
+}
+```
+
+---
+
+### 5. Lifecycle Methods in Class Components
+
+React class components এ **lifecycle methods** থাকে, যা component এর বিভিন্ন পর্যায়ে (mounting, updating, unmounting) কাজ করতে সাহায্য করে। কিছু গুরুত্বপূর্ণ lifecycle methods হলো:
+
+- **componentDidMount**: component render হওয়ার পর একবার চালানো হয়।
+- **componentDidUpdate**: component re-render হলে এটি চালানো হয়।
+- **componentWillUnmount**: component destroy হওয়ার আগে চালানো হয়।
+
+##### Example of componentDidMount:
+
+```jsx
+class Timer extends React.Component {
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  tick() {
+    console.log("Timer is ticking");
+  }
+
+  render() {
+    return <h1>Timer Running</h1>;
+  }
+}
+```
+
+---
+
+### 6. Real-life Example of React Components
+
+ধরা যাক, আপনি একটি **User Profile** তৈরি করতে চান যেখানে user এর নাম, বয়স এবং address দেখানো হবে। এটি component ভিত্তিক ভাবে খুব সহজেই করা যায়।
+
+#### Example:
+
+```jsx
+function UserProfile(props) {
+  return (
+    <div className="profile">
+      <h2>{props.name}</h2>
+      <p>Age: {props.age}</p>
+      <p>Address: {props.address}</p>
+    </div>
+  );
+}
+
+const element = (
+  <UserProfile name="John Doe" age="30" address="123 React Street" />
+);
+
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+#### Explanation:
+
+- **UserProfile Component**: এখানে একটি reusable React component তৈরি করা হয়েছে, যা props এর মাধ্যমে dynamic data render করছে।
+- **Props**: User এর **name**, **age**, এবং **address** props আকারে **UserProfile** component এ পাঠানো হয়েছে।
+
+---
+
+### 7. Conclusion
+
+React এর **components** modern web development এর cornerstone, কারণ এগুলো UI কে ছোট, reusable অংশে ভাগ করে, যেগুলো dynamic ভাবে কাজ করে। React components বিভিন্ন ধরণের data handle করতে পারে, যেমন props, state, এবং lifecycle methods এর মাধ্যমে complex UI তৈরি করতে পারে।
+
+Function components এবং hooks আসার পর থেকে React এর ব্যবহার আরও সহজ এবং efficient হয়েছে, কিন্তু class components এর শক্তিশালী lifecycle methods এখনও বেশ উপযোগী।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-07: React Class Components
+
+### Table of Contents:
+
+1. [What is a React Class Component?](#what-is-a-react-class-component)
+2. [Defining a React Class Component](#defining-a-react-class-component)
+3. [React Class vs Function Components](#react-class-vs-function-components)
+4. [State in Class Components](#state-in-class-components)
+5. [Lifecycle Methods in Class Components](#lifecycle-methods-in-class-components)
+6. [Props in Class Components](#props-in-class-components)
+7. [Real-life Example of React Class Components](#real-life-example-of-react-class-components)
+8. [Conclusion](#conclusion)
+
+---
+
+### 1. What is a React Class Component?
+
+**React Class Components** হলো traditional React components যা ES6 এর JavaScript class এর মাধ্যমে তৈরি করা হয়। Class components ব্যবহার করে state management, lifecycle methods এবং complex functionality সহজে handle করা যায়। যদিও function components এবং React Hooks এর আগমনে class components এর ব্যবহার কমে গেছে, তবুও class components এখনও পুরোনো কোডবেস এবং কিছু complex scenarios তে ব্যবহৃত হয়।
+
+Class components React.Component class থেকে extend করে এবং অবশ্যই **render()** method রাখতে হয়, যা JSX বা React elements return করে।
+
+---
+
+### 2. Defining a React Class Component
+
+React class component define করতে গেলে, আপনাকে ES6 class ব্যবহার করতে হবে, যা **React.Component** class থেকে inherit করে। নিচে একটি React class component এর উদাহরণ দেয়া হলো:
+
+##### Example of Class Component:
+
+```jsx
+import React, { Component } from "react";
+
+class Welcome extends Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+
+export default Welcome;
+```
+
+#### Explanation:
+
+1. **Welcome Component**: এখানে **Welcome** নামে একটি React class component তৈরি করা হয়েছে, যা **React.Component** থেকে extend করা হয়েছে।
+2. **render() Method**: প্রত্যেক React class component এর মধ্যে **render()** method থাকতে হবে, যেখানে JSX বা React elements return করা হবে।
+3. **props**: Class components এর মধ্যে **props** **this.props** ব্যবহার করে access করতে হয়।
+
+---
+
+### 3. React Class vs Function Components
+
+React এর শুরুতে class components ব্যবহার করা হতো, কিন্তু function components এবং React Hooks আসার পর থেকে function components বেশি জনপ্রিয়। নিচে দুই ধরনের component এর পার্থক্য দেয়া হলো:
+
+#### Function Components:
+
+- **Simpler**: Function components সহজ এবং lightweight।
+- **Hooks**: React Hooks এর মাধ্যমে function components state এবং lifecycle methods manage করতে পারে।
+- **Less Boilerplate**: Function components এ class components এর মতো boilerplate কোড লিখতে হয় না।
+
+#### Class Components:
+
+- **State and Lifecycle**: Class components এ state এবং lifecycle methods প্রাকৃতিকভাবে আছে।
+- **Legacy Code**: পুরোনো React কোডবেসে এখনও class components ব্যবহার করা হয়।
+- **Complex Features**: কিছু complex feature class components এ বেশি সহজে handle করা যায়।
+
+---
+
+### 4. State in Class Components
+
+**State** হলো class component এর internal data, যা dynamic ভাবে পরিবর্তিত হতে পারে এবং component এর UI কে update করতে পারে। Class components এ **this.state** এবং **this.setState()** ব্যবহার করে state manage করা হয়।
+
+##### Example of State in Class Component:
+
+```jsx
+import React, { Component } from "react";
+
+class Counter extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+  }
+
+  increment = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+
+  render() {
+    return (
+      <div>
+        <p>Count: {this.state.count}</p>
+        <button onClick={this.increment}>Increment</button>
+      </div>
+    );
+  }
+}
+
+export default Counter;
+```
+
+#### Explanation:
+
+1. **this.state**: এখানে **count** নামক একটি state তৈরি করা হয়েছে।
+2. **this.setState()**: state update করতে **this.setState()** method ব্যবহার করা হয়েছে।
+3. **render()**: state এর পরিবর্তন অনুযায়ী component re-render হয় এবং updated data UI তে প্রদর্শিত হয়।
+
+---
+
+### 5. Lifecycle Methods in Class Components
+
+React class components এর একটি গুরুত্বপূর্ণ feature হলো **lifecycle methods**। এই methods component এর lifecycle এর বিভিন্ন পর্যায়ে (mounting, updating, unmounting) execute হয়।
+
+#### Common Lifecycle Methods:
+
+1. **componentDidMount**: Component render হওয়ার পর এটি একবার execute হয়।
+2. **componentDidUpdate**: Component re-render হলে execute হয়।
+3. **componentWillUnmount**: Component destroy হওয়ার আগে execute হয়।
+
+##### Example of Lifecycle Method:
+
+```jsx
+import React, { Component } from "react";
+
+class Timer extends Component {
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    console.log("Timer ticking");
+  }
+
+  render() {
+    return <h1>Timer is running</h1>;
+  }
+}
+
+export default Timer;
+```
+
+#### Explanation:
+
+1. **componentDidMount**: Timer শুরু করার জন্য **setInterval** এখানে ব্যবহার করা হয়েছে, যা component render হওয়ার পর চালু হয়।
+2. **componentWillUnmount**: Component destroy হওয়ার আগে **clearInterval** ব্যবহার করে timer বন্ধ করা হয়েছে।
+
+---
+
+### 6. Props in Class Components
+
+**Props** হলো external data যা parent component থেকে class component এ pass করা হয়। Class components এ props **this.props** ব্যবহার করে access করা হয়।
+
+##### Example of Props in Class Component:
+
+```jsx
+import React, { Component } from "react";
+
+class Welcome extends Component {
+  render() {
+    return <h1>Welcome, {this.props.name}!</h1>;
+  }
+}
+
+export default Welcome;
+```
+
+#### Explanation:
+
+1. **this.props**: এখানে **name** prop pass করা হয়েছে, যা **this.props.name** ব্যবহার করে UI তে প্রদর্শিত হচ্ছে।
+
+---
+
+### 7. Real-life Example of React Class Components
+
+ধরা যাক, আপনি একটি **User Profile** class component তৈরি করতে চান, যেখানে user এর নাম এবং বয়স dynamic ভাবে প্রদর্শিত হবে এবং সেই তথ্য পরিবর্তিত হবে।
+
+#### Example:
+
+```jsx
+import React, { Component } from "react";
+
+class UserProfile extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { age: 25 };
+  }
+
+  incrementAge = () => {
+    this.setState({ age: this.state.age + 1 });
+  };
+
+  render() {
+    return (
+      <div>
+        <h2>{this.props.name}</h2>
+        <p>Age: {this.state.age}</p>
+        <button onClick={this.incrementAge}>Increase Age</button>
+      </div>
+    );
+  }
+}
+
+export default UserProfile;
+```
+
+#### Explanation:
+
+1. **UserProfile Component**: এখানে **UserProfile** একটি class component যা user এর নাম এবং বয়স প্রদর্শন করছে।
+2. **Props and State**: User এর নাম **props** এর মাধ্যমে pass করা হয়েছে এবং বয়স **state** এর মাধ্যমে handle করা হচ্ছে।
+3. **Increment Function**: **this.setState()** method ব্যবহার করে user এর বয়স বাড়ানো হচ্ছে।
+
+---
+
+### 8. Conclusion
+
+React class components modern web development এর cornerstone, বিশেষ করে state management এবং lifecycle methods handle করার ক্ষেত্রে। যদিও function components এবং React Hooks আসার পরে class components এর ব্যবহার কিছুটা কমেছে, তবুও তারা পুরনো কোডবেস এবং complex applications এর জন্য এখনও গুরুত্বপূর্ণ। Class components এর মাধ্যমে React এর powerful features যেমন state, props, এবং lifecycle methods handle করা সম্ভব হয়।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-08: React Props
+
+### Table of Contents:
+
+1. [What are Props in React?](#what-are-props-in-react)
+2. [Why are Props Important?](#why-are-props-important)
+3. [How to Pass Props in React](#how-to-pass-props-in-react)
+4. [Accessing Props in Components](#accessing-props-in-components)
+5. [Default Props](#default-props)
+6. [Props vs State](#props-vs-state)
+7. [Real-life Example of Props](#real-life-example-of-props)
+8. [Conclusion](#conclusion)
+
+---
+
+### 1. What are Props in React?
+
+**Props** হলো React components এর external data যা parent component থেকে child component এ pass করা হয়। React এর **props** system component গুলোর মধ্যে data share এবং dynamic UI তৈরি করার অন্যতম প্রধান উপায়। **Props** immutable, অর্থাৎ component এর ভেতর থেকে props পরিবর্তন করা যায় না, বরং এটি শুধুমাত্র read-only data হিসেবে কাজ করে।
+
+Props এর মাধ্যমে React components reusability বাড়ানো যায়, কারণ parent component থেকে child component এ বিভিন্ন data পাঠানো যায় এবং সেই অনুযায়ী render করা যায়।
+
+##### Example of Props:
+
+```jsx
+function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+```
+
+এখানে **props.name** এর মাধ্যমে **name** নামক external data component এ dynamically প্রদর্শিত হচ্ছে।
+
+---
+
+### 2. Why are Props Important?
+
+Props React এ **reusable** এবং **dynamic** component তৈরি করার জন্য অত্যন্ত গুরুত্বপূর্ণ। এগুলো parent-child component গুলোর মধ্যে data communication এর কাজ করে। Parent component থেকে props pass করলে, child component সেই props data ব্যবহার করে dynamic content তৈরি করতে পারে।
+
+#### Key Reasons Props are Important:
+
+- **Reusability**: Props ব্যবহার করে একই component কে বিভিন্ন data দিয়ে পুনরায় ব্যবহার করা যায়।
+- **Dynamic Rendering**: Props এর মাধ্যমে dynamic data handle করা যায়, যা UI কে ব্যবহারকারীর action অনুযায়ী পরিবর্তিত করতে পারে।
+- **Unidirectional Data Flow**: React এর props system parent থেকে child component এ data flow নিশ্চিত করে।
+
+---
+
+### 3. How to Pass Props in React
+
+React component এ props pass করতে গেলে JSX attributes এর মতো syntax ব্যবহার করতে হয়। Parent component থেকে child component এ props pass করা খুবই সহজ এবং নিচের উদাহরণে তা দেখানো হয়েছে।
+
+##### Example of Passing Props:
+
+```jsx
+function Welcome(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+const element = <Welcome name="John" />;
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+#### Explanation:
+
+1. **Parent Component**: Parent component থেকে **name="John"** props হিসেবে pass করা হয়েছে।
+2. **Child Component**: Child component (Welcome) **props.name** এর মাধ্যমে সেই data access করছে এবং JSX এর মধ্যে render করছে।
+
+---
+
+### 4. Accessing Props in Components
+
+**Props** কে class component এবং function component দুটিতেই ব্যবহার করা যায়, কিন্তু দুটো component এ props access করার পদ্ধতি কিছুটা আলাদা।
+
+#### Accessing Props in Function Components:
+
+Function components এ **props** function এর argument হিসেবে access করা হয়।
+
+##### Example:
+
+```jsx
+function Welcome(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+```
+
+#### Accessing Props in Class Components:
+
+Class components এ **this.props** ব্যবহার করে props access করা হয়।
+
+##### Example:
+
+```jsx
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+```
+
+---
+
+### 5. Default Props
+
+কিছু ক্ষেত্রে, component এ কোনো props pass না হলে default value set করা দরকার হতে পারে। এই ক্ষেত্রে React এর **defaultProps** feature ব্যবহার করা হয়।
+
+##### Example of Default Props:
+
+```jsx
+function Welcome(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+Welcome.defaultProps = {
+  name: "Guest",
+};
+```
+
+#### Explanation:
+
+এখানে **name** props pass না করা হলে, **'Guest'** default হিসেবে render হবে।
+
+---
+
+### 6. Props vs State
+
+**Props** এবং **State** উভয়ই component এর data manage করতে ব্যবহৃত হয়, কিন্তু এদের মধ্যে কিছু গুরুত্বপূর্ণ পার্থক্য রয়েছে:
+
+| **Props**                      | **State**                              |
+| ------------------------------ | -------------------------------------- |
+| Immutable                      | Mutable                                |
+| Parent component থেকে pass হয় | Component এর ভেতরে declare করা হয়     |
+| Read-only                      | Component এর ভেতর থেকে update করা যায় |
+| Unidirectional data flow করে   | Component এর behavior handle করে       |
+
+#### Key Differences:
+
+- **Props** parent থেকে child component এ data pass করার জন্য ব্যবহৃত হয়।
+- **State** component এর internal data যা dynamic এবং component এর behavior পরিবর্তন করতে সাহায্য করে।
+
+---
+
+### 7. Real-life Example of Props
+
+ধরা যাক, আপনি একটি **Product Card** component তৈরি করতে চান, যেখানে product এর image, নাম, এবং মূল্য থাকবে। Props ব্যবহার করে parent component থেকে এই data child component এ pass করা হবে।
+
+#### Example:
+
+```jsx
+function ProductCard(props) {
+  return (
+    <div className="product-card">
+      <img src={props.image} alt={props.name} />
+      <h2>{props.name}</h2>
+      <p>Price: ${props.price}</p>
+    </div>
+  );
+}
+
+const product = {
+  name: "Laptop",
+  price: 1200,
+  image: "https://example.com/laptop.jpg",
+};
+
+ReactDOM.render(
+  <ProductCard
+    name={product.name}
+    price={product.price}
+    image={product.image}
+  />,
+  document.getElementById("root")
+);
+```
+
+#### Explanation:
+
+1. **ProductCard Component**: এখানে **ProductCard** নামে একটি component তৈরি করা হয়েছে, যেখানে props এর মাধ্যমে **name**, **price**, এবং **image** pass করা হয়েছে।
+2. **Parent Component**: Parent component থেকে product এর সমস্ত data props হিসেবে **ProductCard** component এ pass করা হচ্ছে।
+3. **Rendering**: Product এর নাম, মূল্য এবং ছবি dynamic ভাবে render হচ্ছে।
+
+---
+
+### 8. Conclusion
+
+React এর **Props** হলো component গুলোর মধ্যে data flow এবং communication এর অন্যতম প্রধান উপাদান। এটি component কে dynamic ভাবে render করতে এবং reusability বাড়াতে সাহায্য করে। Props immutable হওয়ায় component এর ভিতরে এটি পরিবর্তন করা যায় না, যা predictable এবং stable component তৈরি করতে সহায়ক।
+
+Props এবং state একসাথে ব্যবহার করে complex এবং interactive UI তৈরি করা সম্ভব হয়।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-09: React State & Lifecycle in Class Components
+
+### Table of Contents:
+
+1. [What is State in React Class Components?](#what-is-state-in-react-class-components)
+2. [What is Lifecycle in React Class Components?](#what-is-lifecycle-in-react-class-components)
+3. [Managing State in Class Components](#managing-state-in-class-components)
+   - [Setting Initial State](#setting-initial-state)
+   - [Updating State with setState](#updating-state-with-setstate)
+4. [React Class Component Lifecycle Phases](#react-class-component-lifecycle-phases)
+   - [Mounting Phase](#mounting-phase)
+   - [Updating Phase](#updating-phase)
+   - [Unmounting Phase](#unmounting-phase)
+5. [Common Lifecycle Methods](#common-lifecycle-methods)
+   - [componentDidMount](#componentdidmount)
+   - [componentDidUpdate](#componentdidupdate)
+   - [componentWillUnmount](#componentwillunmount)
+6. [Real-life Example: Timer with State and Lifecycle](#real-life-example-timer-with-state-and-lifecycle)
+7. [Conclusion](#conclusion)
+
+---
+
+### 1. What is State in React Class Components?
+
+**State** হলো React class component এর internal data, যা component এর behavior এবং appearance পরিবর্তনের জন্য dynamically manage করা হয়। Class components এ **state** এর মাধ্যমে component এ পরিবর্তন আসলে UI সেই অনুযায়ী update হয়। State এমন একটি JavaScript object যা component এর ভেতরে থাকে এবং component এর data বা UI control করতে সাহায্য করে।
+
+##### Example of State:
+
+```jsx
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+  }
+
+  render() {
+    return <h1>Count: {this.state.count}</h1>;
+  }
+}
+```
+
+---
+
+### 2. What is Lifecycle in React Class Components?
+
+**Component lifecycle** হলো React component এর বিভিন্ন পর্যায় যা component এর creation থেকে destruction পর্যন্ত চলে। একটি React class component মূলত তিনটি ধাপে থাকে:
+
+1. **Mounting**: Component DOM এ প্রথমবার insert হওয়ার সময়।
+2. **Updating**: Component এর props বা state পরিবর্তিত হলে।
+3. **Unmounting**: Component DOM থেকে remove হওয়ার সময়।
+
+React এর lifecycle methods এই বিভিন্ন ধাপগুলোতে component এর behavior পরিচালনা করে। এই methods component এর বিভিন্ন পর্যায়ে execute হয়, যেমন component যখন render হয় বা destroy হয়।
+
+---
+
+### 3. Managing State in Class Components
+
+#### Setting Initial State
+
+Class component এর **constructor()** method এর মাধ্যমে initial state set করা হয়। **this.state** এর মাধ্যমে state এর initial value নির্ধারণ করা হয়।
+
+##### Example of Initial State:
+
+```jsx
+class Greeting extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { message: "Hello, World!" };
+  }
+
+  render() {
+    return <h1>{this.state.message}</h1>;
+  }
+}
+```
+
+#### Updating State with setState
+
+State কে পরিবর্তন করতে হলে **this.setState()** method ব্যবহার করা হয়। এটি asynchronous ভাবে কাজ করে এবং state এর পরিবর্তন অনুযায়ী component re-render করে।
+
+##### Example of Updating State:
+
+```jsx
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+  }
+
+  increment = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Count: {this.state.count}</h1>
+        <button onClick={this.increment}>Increment</button>
+      </div>
+    );
+  }
+}
+```
+
+#### Explanation:
+
+1. **this.state**: Initial state set করার জন্য **this.state** ব্যবহার করা হয়েছে।
+2. **this.setState()**: state update করার জন্য **this.setState()** method ব্যবহার করা হয়েছে এবং count increment করা হচ্ছে।
+
+---
+
+### 4. React Class Component Lifecycle Phases
+
+React class component lifecycle তিনটি ধাপে বিভক্ত:
+
+#### Mounting Phase
+
+এই phase এ component DOM এ প্রথমবার insert হয়। কিছু common lifecycle methods হলো:
+
+- **constructor()**
+- **componentDidMount()**
+
+#### Updating Phase
+
+Component এর state বা props পরিবর্তিত হলে component update হয়। এই phase এ কিছু common lifecycle methods হলো:
+
+- **shouldComponentUpdate()**
+- **componentDidUpdate()**
+
+#### Unmounting Phase
+
+Component যখন DOM থেকে remove হয়, তখন এই phase শুরু হয়। একটি common lifecycle method হলো:
+
+- **componentWillUnmount()**
+
+---
+
+### 5. Common Lifecycle Methods
+
+#### componentDidMount
+
+**componentDidMount** lifecycle method টি তখন execute হয় যখন component DOM এ প্রথমবার render হয়। এটি সাধারণত API calls বা external resources load করার জন্য ব্যবহার করা হয়।
+
+##### Example:
+
+```jsx
+class Timer extends React.Component {
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  tick() {
+    console.log("Timer is running");
+  }
+
+  render() {
+    return <h1>Timer Started</h1>;
+  }
+}
+```
+
+#### componentDidUpdate
+
+**componentDidUpdate** method টি component update হওয়ার পরে execute হয়। এটি props বা state এর পরিবর্তন অনুযায়ী কাজ করতে পারে।
+
+##### Example:
+
+```jsx
+class Counter extends React.Component {
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.count !== prevState.count) {
+      console.log("Count updated");
+    }
+  }
+
+  render() {
+    return <h1>Updated Count: {this.state.count}</h1>;
+  }
+}
+```
+
+#### componentWillUnmount
+
+**componentWillUnmount** method component destroy হওয়ার আগে execute হয়। এটি component এর resources (যেমন timers, subscriptions) clear করতে ব্যবহার করা হয়।
+
+##### Example:
+
+```jsx
+class Timer extends React.Component {
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  render() {
+    return <h1>Timer Stopped</h1>;
+  }
+}
+```
+
+---
+
+### 6. Real-life Example: Timer with State and Lifecycle
+
+ধরা যাক, আপনি একটি timer component তৈরি করতে চান, যেখানে প্রতি সেকেন্ডে timer increment হবে এবং component destroy হলে timer বন্ধ হবে।
+
+##### Example:
+
+```jsx
+class Timer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { seconds: 0 };
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    this.setState({ seconds: this.state.seconds + 1 });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Timer: {this.state.seconds} seconds</h1>
+      </div>
+    );
+  }
+}
+
+export default Timer;
+```
+
+#### Explanation:
+
+1. **State Management**: Timer component এর state initial value হিসাবে 0 set করা হয়েছে।
+2. **Lifecycle Methods**: **componentDidMount** method এর মাধ্যমে timer শুরু করা হয়েছে এবং **componentWillUnmount** method এর মাধ্যমে timer clear করা হয়েছে।
+3. **State Update**: **this.setState()** method এর মাধ্যমে প্রতি সেকেন্ডে state update হচ্ছে এবং seconds value বাড়ানো হচ্ছে।
+
+---
+
+### 7. Conclusion
+
+React class components এর **state** এবং **lifecycle methods** React এর অন্যতম প্রধান features, যা dynamic এবং interactive UI তৈরি করতে সাহায্য করে। **State** component এর internal data manage করতে সাহায্য করে, যেখানে **lifecycle methods** component এর lifecycle এর বিভিন্ন পর্যায়ে বিভিন্ন কাজ পরিচালনা করে।
+
+State এবং lifecycle methods ব্যবহার করে আপনি complex functionality handle করতে পারেন, যেমন asynchronous operations (API calls), timers, এবং resource management। Class components এ state এবং lifecycle একসাথে কাজ করে component behavior এবং rendering process কে নিয়ন্ত্রণ করে, যা একটি powerful tool React developers এর জন্য।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-10: React Events
+
+### Table of Contents:
+
+1. [What are Events in React?](#what-are-events-in-react)
+2. [How Events Work in React](#how-events-work-in-react)
+3. [Handling Events in React](#handling-events-in-react)
+4. [Event Handling in Functional and Class Components](#event-handling-in-functional-and-class-components)
+5. [Passing Arguments to Event Handlers](#passing-arguments-to-event-handlers)
+6. [Common React Event Types](#common-react-event-types)
+   - [Click Events](#click-events)
+   - [Form Events](#form-events)
+   - [Keyboard Events](#keyboard-events)
+7. [Real-life Example: Form Handling with Events](#real-life-example-form-handling-with-events)
+8. [Conclusion](#conclusion)
+
+---
+
+### 1. What are Events in React?
+
+**Events** React এ এমন কার্যকলাপ যেগুলো ব্যবহারকারী UI এর সাথে ইন্টারেক্ট করলে ট্রিগার হয়। উদাহরণস্বরূপ, button এ click করা, input field এ টাইপ করা, form submit করা — এসবই events। React events web browsers এর native DOM events এর উপর ভিত্তি করে কাজ করে, কিন্তু React events **camelCase** এ লেখা হয় এবং inline **JavaScript functions** বা **function references** এর মাধ্যমে handle করা হয়।
+
+---
+
+### 2. How Events Work in React
+
+React এ event handling এর process কিছুটা আলাদা। Traditional DOM এর events যেমন `onclick`, `onchange` এগুলো lowercase এ লেখা হয়, কিন্তু React এ event attributes গুলো **camelCase** এ লিখতে হয় যেমন `onClick`, `onChange` ইত্যাদি। React events **synthetic events** নামে পরিচিত, যা native browser events এর উপর ভিত্তি করে তৈরি।
+
+Synthetic events cross-browser compatibility নিশ্চিত করে এবং React এর Virtual DOM এর সাথে efficiently কাজ করে।
+
+---
+
+### 3. Handling Events in React
+
+React এ events handle করতে হলে inline function অথবা function reference ব্যবহার করা হয়। একটি React event handling এর উদাহরণ নিচে দেখানো হলো।
+
+##### Example of Event Handling:
+
+```jsx
+function ButtonClick() {
+  const handleClick = () => {
+    alert("Button was clicked!");
+  };
+
+  return <button onClick={handleClick}>Click Me</button>;
+}
+```
+
+#### Explanation:
+
+- **handleClick function**: এই function টি button এ click হলে execute হবে।
+- **onClick event**: **onClick** event attribute এর মাধ্যমে **handleClick** function button এ click করার সাথে সাথে ট্রিগার হয়।
+
+---
+
+### 4. Event Handling in Functional and Class Components
+
+React এ event handling class components এবং functional components এ কিছুটা আলাদা পদ্ধতিতে করা হয়। Functional components এ সরাসরি function declare করা হয়, যেখানে class components এ event handlers typically class methods এর মাধ্যমে handle করা হয়।
+
+#### Event Handling in Functional Components:
+
+```jsx
+function Greeting() {
+  const handleClick = () => {
+    console.log("Hello!");
+  };
+
+  return <button onClick={handleClick}>Greet</button>;
+}
+```
+
+#### Event Handling in Class Components:
+
+```jsx
+class Greeting extends React.Component {
+  handleClick = () => {
+    console.log("Hello!");
+  };
+
+  render() {
+    return <button onClick={this.handleClick}>Greet</button>;
+  }
+}
+```
+
+#### Key Differences:
+
+- **Functional Components**: সরাসরি function declaration এর মাধ্যমে events handle করা হয়।
+- **Class Components**: **this** keyword ব্যবহার করে class methods এর মাধ্যমে events handle করা হয়।
+
+---
+
+### 5. Passing Arguments to Event Handlers
+
+React এ event handlers এ arguments pass করা সম্ভব। React এর events automatically **event object** কে প্রথম argument হিসেবে pass করে, তবে আপনি custom arguments pass করতে চাইলে inline function বা arrow function ব্যবহার করতে পারেন।
+
+##### Example of Passing Arguments:
+
+```jsx
+function ButtonClick() {
+  const handleClick = (message) => {
+    alert(message);
+  };
+
+  return (
+    <button onClick={() => handleClick("Button was clicked!")}>Click Me</button>
+  );
+}
+```
+
+#### Explanation:
+
+- **Arrow Function**: Inline arrow function ব্যবহার করে custom message pass করা হয়েছে।
+
+---
+
+### 6. Common React Event Types
+
+React এ বিভিন্ন ধরনের events আছে, যেগুলো UI এর বিভিন্ন element এর সাথে ব্যবহার করা যায়। নিচে কিছু common event types এর উদাহরণ দেয়া হলো:
+
+#### Click Events
+
+Click event হল এমন একটি event যা button, link, বা যেকোনো clickable element এ ঘটে।
+
+##### Example:
+
+```jsx
+<button onClick={() => alert("Button clicked!")}>Click Me</button>
+```
+
+#### Form Events
+
+Form elements এর জন্য যেমন **input**, **select**, **textarea** — এগুলোতে **onChange**, **onSubmit** events ব্যবহার করা হয়।
+
+##### Example:
+
+```jsx
+function Form() {
+  const handleChange = (event) => {
+    console.log(event.target.value);
+  };
+
+  return <input type="text" onChange={handleChange} placeholder="Type here" />;
+}
+```
+
+#### Keyboard Events
+
+Keyboard events ব্যবহার করে keyboard interaction handle করা যায়, যেমন key press করা।
+
+##### Example:
+
+```jsx
+function KeyPress() {
+  const handleKeyPress = (event) => {
+    console.log(`Key pressed: ${event.key}`);
+  };
+
+  return <input type="text" onKeyPress={handleKeyPress} />;
+}
+```
+
+---
+
+### 7. Real-life Example: Form Handling with Events
+
+ধরা যাক, আপনি একটি simple form তৈরি করতে চান যেখানে user এর নাম এবং email input field থাকবে এবং submit button এর মাধ্যমে form data handle করা হবে।
+
+##### Example:
+
+```jsx
+import React, { useState } from "react";
+
+function SimpleForm() {
+  const [formData, setFormData] = useState({ name: "", email: "" });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("Form Submitted: ", formData);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label>Name:</label>
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
+      </div>
+      <div>
+        <label>Email:</label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default SimpleForm;
+```
+
+#### Explanation:
+
+1. **useState Hook**: **useState** hook ব্যবহার করে form এর **name** এবং **email** state management করা হচ্ছে।
+2. **handleChange function**: Input field এ কোন পরিবর্তন আসলে সেই data **handleChange** function এর মাধ্যমে state এ store হচ্ছে।
+3. **handleSubmit function**: Form submit করার সময় **handleSubmit** function prevent করে browser এর default behavior এবং data console এ দেখানো হচ্ছে।
+
+---
+
+### 8. Conclusion
+
+React এর ইভেন্ট সিস্টেম developer দের dynamic এবং interactive user interfaces তৈরি করতে সাহায্য করে। React এর **synthetic events** ব্রাউজারের বিভিন্ন incompatibility সমস্যা থেকে মুক্তি দেয় এবং একটি unified event handling system প্রদান করে। ইভেন্টগুলোর মাধ্যমে ব্যবহারকারীর actions যেমন **button click**, **keyboard input**, **form submission** ইত্যাদি handle করা হয়।
+
+React এর **functional components** এবং **class components** উভয় ক্ষেত্রেই ইভেন্ট সহজে handle করা যায়। **Props** এর মাধ্যমে ফাংশনগুলো dynamic ভাবে ব্যবহার করা হয় এবং **state management** এর মাধ্যমে UI তে পরিবর্তন আনা হয়।
+
+React এ ইভেন্ট handling এর সুবিধা হলো:
+
+- ইভেন্টগুলো **camelCase** ফর্মেটে লেখা হয় এবং inline function বা reference ফাংশনের মাধ্যমে সহজেই ব্যবহার করা যায়।
+- Cross-browser compatibility নিশ্চিত হয় এবং performance উন্নত হয়।
+
+React ইভেন্টগুলো সম্পর্কে ভালো ধারণা থাকলে, interactive এবং responsive web applications তৈরি করা অনেক সহজ হয়ে যায়।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-11: React Conditional Rendering
+
+### Table of Contents:
+
+1. [What is Conditional Rendering?](#what-is-conditional-rendering)
+2. [Importance of Conditional Rendering](#importance-of-conditional-rendering)
+3. [Different Ways to Implement Conditional Rendering](#different-ways-to-implement-conditional-rendering)
+   - [Using if/else Statements](#using-ifelse-statements)
+   - [Using Ternary Operators](#using-ternary-operators)
+   - [Using Logical && Operator](#using-logical--operator)
+   - [Using Switch Statements](#using-switch-statements)
+4. [Real-life Example of Conditional Rendering](#real-life-example-of-conditional-rendering)
+5. [Best Practices for Conditional Rendering](#best-practices-for-conditional-rendering)
+6. [Conclusion](#conclusion)
+
+---
+
+### 1. What is Conditional Rendering?
+
+React এ **Conditional Rendering** মানে হলো component গুলো নির্দিষ্ট শর্তের (conditions) ভিত্তিতে UI তে render হয়। অর্থাৎ, শর্ত অনুযায়ী একটি component UI তে প্রদর্শিত হবে, না হলে অন্য কিছু দেখানো হবে। উদাহরণস্বরূপ, user login করা থাকলে তার profile দেখা যাবে, আর না থাকলে login form দেখানো হবে।
+
+---
+
+### 2. Importance of Conditional Rendering
+
+React এ **Conditional Rendering** এর গুরুত্ব অনেক। এটি আমাদের dynamic এবং responsive UI তৈরি করতে সাহায্য করে। Web application এ user এর interaction, data এবং state এর উপর ভিত্তি করে UI বিভিন্ন ভাবে পরিবর্তন করা প্রয়োজন হয়। এই dynamic পরিবর্তনগুলি Conditional Rendering এর মাধ্যমে সহজেই সম্ভব।
+
+উদাহরণস্বরূপ, একটি e-commerce site এ user logged in থাকলে তার order history দেখানো হয়, আর logged in না থাকলে তাকে login করতে বলা হয়। এছাড়াও, যদি কোনো API call থেকে data fetch করতে সময় লাগে, তখন loader দেখানো হয় এবং data পাওয়ার পর result দেখানো হয়।
+
+---
+
+### 3. Different Ways to Implement Conditional Rendering
+
+#### Using if/else Statements
+
+Traditional **if/else** statement ব্যবহার করে React এ সহজেই conditional rendering করা যায়। তবে এই statements JSX এর মধ্যে ব্যবহার করা সম্ভব নয়, তাই function এর ভেতরে রাখতে হয়।
+
+##### Example:
+
+```jsx
+function Greeting(props) {
+  if (props.isLoggedIn) {
+    return <h1>Welcome back!</h1>;
+  } else {
+    return <h1>Please sign up.</h1>;
+  }
+}
+
+ReactDOM.render(
+  <Greeting isLoggedIn={true} />,
+  document.getElementById("root")
+);
+```
+
+#### Breakdown:
+
+- **if/else Statement**: এখানে **props.isLoggedIn** এর মান চেক করা হচ্ছে। যদি true হয়, তাহলে "Welcome back!" দেখানো হচ্ছে। না হলে "Please sign up."।
+- Output:
+  - যদি **isLoggedIn** true হয়: **"Welcome back!"**
+  - যদি **isLoggedIn** false হয়: **"Please sign up."**
+
+#### Using Ternary Operators
+
+**Ternary operator** React এ conditional rendering এর জন্য সবচেয়ে সংক্ষিপ্ত উপায়। এটি একই কোড আরও ছোট করে লিখতে সাহায্য করে।
+
+##### Example:
+
+```jsx
+function Greeting(props) {
+  return (
+    <div>
+      {props.isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please sign up.</h1>}
+    </div>
+  );
+}
+
+ReactDOM.render(
+  <Greeting isLoggedIn={false} />,
+  document.getElementById("root")
+);
+```
+
+#### Breakdown:
+
+- **Ternary Operator**: এক লাইনে condition check করে "Welcome back!" বা "Please sign up." দেখানো হচ্ছে।
+- Output:
+  - যদি **isLoggedIn** true হয়: **"Welcome back!"**
+  - যদি **isLoggedIn** false হয়: **"Please sign up."**
+
+#### Using Logical && Operator
+
+**Logical && operator** React এ এমন শর্ত ব্যবহারের জন্য উপযুক্ত যেখানে কোনো শর্ত true হলে শুধুমাত্র একটি অংশ render হবে।
+
+##### Example:
+
+```jsx
+function Greeting(props) {
+  return <div>{props.isLoggedIn && <h1>Welcome back!</h1>}</div>;
+}
+
+ReactDOM.render(
+  <Greeting isLoggedIn={true} />,
+  document.getElementById("root")
+);
+```
+
+#### Breakdown:
+
+- **Logical && operator**: এখানে **props.isLoggedIn** true হলে "Welcome back!" দেখানো হচ্ছে। যদি false হয়, কিছুই render হবে না।
+- Output:
+  - যদি **isLoggedIn** true হয়: **"Welcome back!"**
+  - যদি **isLoggedIn** false হয়: **(কিছুই দেখাবে না)**
+
+#### Using Switch Statements
+
+যখন একাধিক শর্ত থাকে, তখন **switch statement** ব্যবহার করা হয়। এটি বড় বড় conditions সহজে handle করতে সাহায্য করে।
+
+##### Example:
+
+```jsx
+function Greeting(props) {
+  switch (props.status) {
+    case "guest":
+      return <h1>Welcome, Guest!</h1>;
+    case "user":
+      return <h1>Welcome back!</h1>;
+    case "admin":
+      return <h1>Welcome, Admin!</h1>;
+    default:
+      return <h1>Hello!</h1>;
+  }
+}
+
+ReactDOM.render(<Greeting status="admin" />, document.getElementById("root"));
+```
+
+#### Breakdown:
+
+- **Switch Statement**: এখানে **props.status** চেক করে বিভিন্ন greeting message দেখানো হচ্ছে। যেমন, guest এর জন্য "Welcome, Guest!" এবং admin এর জন্য "Welcome, Admin!"।
+- Output:
+  - **status** "admin" হলে: **"Welcome, Admin!"**
+  - **status** "guest" হলে: **"Welcome, Guest!"**
+  - অন্য কোনো status থাকলে: **"Hello!"**
+
+---
+
+### 4. Real-life Example of Conditional Rendering
+
+একটি বাস্তব উদাহরণে ধরুন, একটি **E-commerce Dashboard** রয়েছে, যেখানে user logged in থাকলে তার নাম এবং recent order গুলো দেখানো হবে, আর logged in না থাকলে তাকে login করতে বলবে।
+
+##### Example:
+
+```jsx
+function UserDashboard(props) {
+  if (props.isLoggedIn) {
+    return (
+      <div>
+        <h1>Welcome back, {props.userName}!</h1>
+        <p>Here are your recent orders:</p>
+        {/* Order details */}
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <h1>Please log in to view your dashboard.</h1>
+        <button onClick={props.onLogin}>Login</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <UserDashboard
+    isLoggedIn={false}
+    userName="John"
+    onLogin={() => alert("Logging in...")}
+  />,
+  document.getElementById("root")
+);
+```
+
+#### Breakdown:
+
+- **isLoggedIn চেক করা হচ্ছে**: যদি user logged in থাকে, তার নাম এবং order details দেখানো হবে। আর না থাকলে login button দেখানো হবে।
+- **Output**:
+  - যদি **isLoggedIn = true** হয়, তাহলে দেখাবে:
+    ```
+    Welcome back, John!
+    Here are your recent orders.
+    ```
+  - যদি **isLoggedIn = false** হয়, তাহলে দেখাবে:
+    ```
+    Please log in to view your dashboard.
+    [Login Button]
+    ```
+
+---
+
+### 5. Best Practices for Conditional Rendering
+
+1. **Simple Logic ব্যবহার করুন**: Complex conditional rendering এর জন্য কোডকে যতটা সম্ভব সহজ রাখা উচিত। ছোট শর্তগুলির জন্য **ternary operator** এবং **&& operator** ব্যবহার করতে পারেন। উদাহরণস্বরূপ, একটি খুব ছোট condition এর জন্য একাধিক **if/else** না করে **ternary operator** ব্যবহার করতে পারেন।
+2. **Nested JSX এড়িয়ে চলুন**: Nested JSX অনেক ক্ষেত্রে পড়তে এবং বোঝাতে জটিল হয়ে যায়। এর চেয়ে ভালো উপায় হলো subcomponents তৈরি করা।
+
+3. **Switch Statement ব্যবহার করুন**: যখন একাধিক শর্ত রয়েছে, তখন **switch statement** ব্যবহার করলে কোড সহজ এবং পরিষ্কার হয়।
+
+---
+
+### 6. Conclusion
+
+React এর **Conditional Rendering** একটি শক্তিশালী ফিচার, যা UI কে dynamic এবং responsive করতে সাহায্য করে। এই পদ্ধতিতে আপনি user এর state বা props এর উপর ভিত্তি করে UI এর বিভিন্ন অংশকে পরিবর্তন করতে পারেন। React এ conditional rendering এর বিভিন্ন পদ্ধতি রয়েছে, যেমন **if/else**, **ternary operators**, **&& operator**, এবং **switch statement**। প্রতিটি পদ্ধতি situation অনুযায়ী উপযোগী, তবে সবসময় কোডকে সহজ এবং পরিষ্কার রাখার চেষ্টা করা উচিত।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-12:
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-12:
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
