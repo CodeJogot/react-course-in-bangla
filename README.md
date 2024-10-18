@@ -8,6 +8,7 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 | :----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :---------------: |
 |                                    [00](#)                                     |                                                                []()                                                                |   [Watch Now]()   |
 |                   [01](#chapter-01-introduction-to-reactjs)                    |                                  [Introduction to React.js](#chapter-01-introduction-to-reactjs)                                   |   [Watch Now]()   |
+|                   [01.1](#chapter-011-library-vs-framework)                    |                                  [Libray vs Framework](#chapter-011-library-vs-framework)                                   |   [Watch Now]()   |
 |                 [02](#chapter-02-react-virtual-dom-what--why)                  |                              [React Virtual DOM: What & Why](#chapter-02-react-virtual-dom-what--why)                              |     Watch Now     |
 | [03](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) | [How to Install React (Step by Step Guide with Example)](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) |     Watch Now     |
 |                      [04](#chapter-04-react-render-html)                       |                                         [React Render HTML](#chapter-04-react-render-html)                                         |     Watch Now     |
@@ -309,6 +310,99 @@ export default Greeting;
 React একটি declarative, efficient, এবং flexible JavaScript library, যা modern web development এর জন্য অত্যন্ত উপযোগী। এটি UI development কে সহজতর করে, বিশেষত complex applications এর জন্য যেখানে dynamic content management প্রয়োজন।
 
 React এর সবচেয়ে বড় সুবিধা হলো **component-based architecture** এবং **Virtual DOM**, যা UI management এবং performance সমস্যাগুলোকে অনেক সহজ করে তোলে। Traditional JavaScript এর তুলনায় React development আরও maintainable এবং reusable করে তোলে, যা large-scale applications এর জন্য বিশেষভাবে গুরুত্বপূর্ণ।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-01.1: Library vs Framework
+
+### Table of Contents:
+1. [What is a Library?](#what-is-a-library)
+2. [What is a Framework?](#what-is-a-framework)
+3. [Key Differences Between Library and Framework](#key-differences-between-library-and-framework)
+4. [Examples of Popular Libraries and Frameworks](#examples-of-popular-libraries-and-frameworks)
+5. [When to Use a Library vs. a Framework](#when-to-use-a-library-vs-a-framework)
+6. [Conclusion](#conclusion)
+
+---
+
+### 1. What is a Library?
+
+**Library** হলো এমন একটি code collection বা package, যা নির্দিষ্ট কাজ বা functionalities সম্পন্ন করার জন্য ব্যবহৃত হয়। এটি সাধারণত pre-written functions বা methods এর একটি সমাহার, যা developer দের একটি নির্দিষ্ট কাজ সহজে সম্পন্ন করতে সাহায্য করে। Library ব্যবহার করলে developer দের প্রয়োজনীয় function বা method call করে ব্যবহার করতে হয়, অর্থাৎ developer ই decide করে, কখন, কিভাবে, এবং কোথায় সেই code ব্যবহার হবে।
+
+##### উদাহরণ:
+JavaScript এর **React** একটি library, যা user interface তৈরি করতে ব্যবহৃত হয়। React developer দের components তৈরি এবং তাদের মধ্যে data pass করার জন্য functions এবং methods প্রদান করে, কিন্তু পুরো application structure বা control developer এর উপর থাকে।
+
+---
+
+### 2. What is a Framework?
+
+**Framework** হলো একটি complete structure বা architecture, যা পুরো application এর জন্য একটি নির্দিষ্ট guideline এবং control প্রদান করে। Framework ব্যবহার করলে, developer দের নির্দিষ্ট rules এবং conventions অনুযায়ী code লিখতে হয়। এটি একটি predefined code structure প্রদান করে এবং application এর control অনেকাংশে framework এর উপর থাকে, যেখানে developer নির্দিষ্ট parts এ code লিখতে পারেন।
+
+##### উদাহরণ:
+JavaScript এর **Angular** একটি framework, যা একটি complete structure বা architecture প্রদান করে। Angular application তৈরি করার সময় developer দের Angular এর বিভিন্ন services, components, এবং modules ব্যবহার করতে হয়, এবং Angular application এর flow এবং lifecycle manage করে।
+
+---
+
+### 3. Key Differences Between Library and Framework
+
+| **Aspect**               | **Library**                                       | **Framework**                                      |
+|-------------------------|--------------------------------------------------|---------------------------------------------------|
+| **Control**             | Developer control করে কিভাবে এবং কোথায় code ব্যবহার হবে | Framework control করে application structure এবং flow |
+| **Flexibility**         | Developer এর হাতে বেশি flexibility থাকে          | Framework এর নির্দিষ্ট guideline অনুযায়ী কাজ করতে হয় |
+| **Usage**               | নির্দিষ্ট কাজ সম্পন্ন করার জন্য library import করা হয় | Framework application এর পুরো structure তৈরি করে |
+| **Examples**            | React, Lodash, jQuery                             | Angular, Vue.js, Django                            |
+
+#### Explanation:
+- **Control**: Library ব্যবহার করলে developer control করে কিভাবে function call করা হবে। Framework এ control অনেকাংশে framework নিজেই করে, developer framework এর নির্দিষ্ট rules অনুযায়ী code লিখেন।
+- **Flexibility**: Library এর ক্ষেত্রে developer ই নির্ধারণ করেন কিভাবে এবং কখন library এর code ব্যবহার করা হবে। Framework এর ক্ষেত্রে developer framework এর নির্দিষ্ট structure এবং guideline অনুসরণ করে code লিখেন।
+- **Usage**: Library সাধারণত ছোট কাজগুলো (যেমন: data manipulation, DOM manipulation) সহজ করতে ব্যবহৃত হয়। Framework একটি পূর্ণাঙ্গ application তৈরি করার জন্য ব্যবহৃত হয়, যেখানে পুরো application structure predefined থাকে।
+
+---
+
+### 4. Examples of Popular Libraries and Frameworks
+
+#### Libraries:
+1. **React** (JavaScript)
+2. **Lodash** (JavaScript)
+3. **jQuery** (JavaScript)
+4. **NumPy** (Python)
+5. **Pandas** (Python)
+
+#### Frameworks:
+1. **Angular** (JavaScript)
+2. **Vue.js** (JavaScript)
+3. **Django** (Python)
+4. **Laravel** (PHP)
+5. **Spring** (Java)
+
+React এর মতো library developer দের UI components তৈরির flexibility প্রদান করে, যেখানে Angular এর মতো framework একটি পূর্ণাঙ্গ structure এবং control প্রদান করে।
+
+---
+
+### 5. When to Use a Library vs. a Framework
+
+#### When to Use a Library:
+- যদি আপনার application এর একটি নির্দিষ্ট part এর জন্য code reusability এবং flexibility দরকার হয়।
+- যখন আপনি কিছু specific functionality যেমন DOM manipulation (jQuery) বা data manipulation (Lodash, Pandas) করতে চান।
+- যখন আপনি পুরো application structure নিজের মতো করে তৈরি করতে চান এবং তার উপর control রাখতে চান।
+
+#### When to Use a Framework:
+- যদি আপনি একটি complete application তৈরি করতে চান এবং predefined structure এবং architecture ব্যবহার করতে চান।
+- যখন আপনি code organization এবং application structure নিয়ে সময় বাঁচাতে চান।
+- যখন একটি large-scale application তৈরি করতে হবে এবং একটি scalable structure দরকার।
+
+---
+
+### 6. Conclusion
+
+**Library** এবং **Framework** উভয়ই software development এর জন্য গুরুত্বপূর্ণ tools, তবে এদের কাজ এবং control এর ধরণ ভিন্ন। 
+
+- **Library** developer কে নির্দিষ্ট কাজ সম্পন্ন করার জন্য flexibility দেয় এবং developer control করে কিভাবে এবং কখন সেই library ব্যবহার হবে। 
+- **Framework** একটি পূর্ণাঙ্গ architecture বা structure প্রদান করে এবং developer কে সেই structure অনুযায়ী কাজ করতে হয়। Framework অনেক ক্ষেত্রে control ধরে রাখে এবং application এর flow manage করে।
+
+React এর মতো libraries ছোট ছোট components তৈরি করতে সাহায্য করে, যেখানে Angular এর মতো frameworks পুরো application structure নির্ধারণ করে দেয়। আপনার application এর nature এবং requirement এর উপর ভিত্তি করে library বা framework বেছে নেওয়া উচিত।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
