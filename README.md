@@ -8,7 +8,7 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 | :----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :---------------: |
 |                                    [00](#)                                     |                                                                []()                                                                |   [Watch Now]()   |
 |                   [01](#chapter-01-introduction-to-reactjs)                    |                                  [Introduction to React.js](#chapter-01-introduction-to-reactjs)                                   |   [Watch Now]()   |
-|                   [01.1](#chapter-011-library-vs-framework)                    |                                  [Libray vs Framework](#chapter-011-library-vs-framework)                                   |   [Watch Now]()   |
+|                   [01.1](#chapter-011-library-vs-framework)                    |                                      [Libray vs Framework](#chapter-011-library-vs-framework)                                      |   [Watch Now]()   |
 |                 [02](#chapter-02-react-virtual-dom-what--why)                  |                              [React Virtual DOM: What & Why](#chapter-02-react-virtual-dom-what--why)                              |     Watch Now     |
 | [03](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) | [How to Install React (Step by Step Guide with Example)](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) |     Watch Now     |
 |                      [04](#chapter-04-react-render-html)                       |                                         [React Render HTML](#chapter-04-react-render-html)                                         |     Watch Now     |
@@ -318,6 +318,7 @@ React এর সবচেয়ে বড় সুবিধা হলো **comp
 # Chapter-01.1: Library vs Framework
 
 ### Table of Contents:
+
 1. [What is a Library?](#what-is-a-library)
 2. [What is a Framework?](#what-is-a-framework)
 3. [Key Differences Between Library and Framework](#key-differences-between-library-and-framework)
@@ -332,6 +333,7 @@ React এর সবচেয়ে বড় সুবিধা হলো **comp
 **Library** হলো এমন একটি code collection বা package, যা নির্দিষ্ট কাজ বা functionalities সম্পন্ন করার জন্য ব্যবহৃত হয়। এটি সাধারণত pre-written functions বা methods এর একটি সমাহার, যা developer দের একটি নির্দিষ্ট কাজ সহজে সম্পন্ন করতে সাহায্য করে। Library ব্যবহার করলে developer দের প্রয়োজনীয় function বা method call করে ব্যবহার করতে হয়, অর্থাৎ developer ই decide করে, কখন, কিভাবে, এবং কোথায় সেই code ব্যবহার হবে।
 
 ##### উদাহরণ:
+
 JavaScript এর **React** একটি library, যা user interface তৈরি করতে ব্যবহৃত হয়। React developer দের components তৈরি এবং তাদের মধ্যে data pass করার জন্য functions এবং methods প্রদান করে, কিন্তু পুরো application structure বা control developer এর উপর থাকে।
 
 ---
@@ -341,20 +343,22 @@ JavaScript এর **React** একটি library, যা user interface তৈ�
 **Framework** হলো একটি complete structure বা architecture, যা পুরো application এর জন্য একটি নির্দিষ্ট guideline এবং control প্রদান করে। Framework ব্যবহার করলে, developer দের নির্দিষ্ট rules এবং conventions অনুযায়ী code লিখতে হয়। এটি একটি predefined code structure প্রদান করে এবং application এর control অনেকাংশে framework এর উপর থাকে, যেখানে developer নির্দিষ্ট parts এ code লিখতে পারেন।
 
 ##### উদাহরণ:
+
 JavaScript এর **Angular** একটি framework, যা একটি complete structure বা architecture প্রদান করে। Angular application তৈরি করার সময় developer দের Angular এর বিভিন্ন services, components, এবং modules ব্যবহার করতে হয়, এবং Angular application এর flow এবং lifecycle manage করে।
 
 ---
 
 ### 3. Key Differences Between Library and Framework
 
-| **Aspect**               | **Library**                                       | **Framework**                                      |
-|-------------------------|--------------------------------------------------|---------------------------------------------------|
-| **Control**             | Developer control করে কিভাবে এবং কোথায় code ব্যবহার হবে | Framework control করে application structure এবং flow |
-| **Flexibility**         | Developer এর হাতে বেশি flexibility থাকে          | Framework এর নির্দিষ্ট guideline অনুযায়ী কাজ করতে হয় |
-| **Usage**               | নির্দিষ্ট কাজ সম্পন্ন করার জন্য library import করা হয় | Framework application এর পুরো structure তৈরি করে |
-| **Examples**            | React, Lodash, jQuery                             | Angular, Vue.js, Django                            |
+| **Aspect**      | **Library**                                              | **Framework**                                          |
+| --------------- | -------------------------------------------------------- | ------------------------------------------------------ |
+| **Control**     | Developer control করে কিভাবে এবং কোথায় code ব্যবহার হবে | Framework control করে application structure এবং flow   |
+| **Flexibility** | Developer এর হাতে বেশি flexibility থাকে                  | Framework এর নির্দিষ্ট guideline অনুযায়ী কাজ করতে হয় |
+| **Usage**       | নির্দিষ্ট কাজ সম্পন্ন করার জন্য library import করা হয়   | Framework application এর পুরো structure তৈরি করে       |
+| **Examples**    | React, Lodash, jQuery                                    | Angular, Vue.js, Django                                |
 
 #### Explanation:
+
 - **Control**: Library ব্যবহার করলে developer control করে কিভাবে function call করা হবে। Framework এ control অনেকাংশে framework নিজেই করে, developer framework এর নির্দিষ্ট rules অনুযায়ী code লিখেন।
 - **Flexibility**: Library এর ক্ষেত্রে developer ই নির্ধারণ করেন কিভাবে এবং কখন library এর code ব্যবহার করা হবে। Framework এর ক্ষেত্রে developer framework এর নির্দিষ্ট structure এবং guideline অনুসরণ করে code লিখেন।
 - **Usage**: Library সাধারণত ছোট কাজগুলো (যেমন: data manipulation, DOM manipulation) সহজ করতে ব্যবহৃত হয়। Framework একটি পূর্ণাঙ্গ application তৈরি করার জন্য ব্যবহৃত হয়, যেখানে পুরো application structure predefined থাকে।
@@ -364,6 +368,7 @@ JavaScript এর **Angular** একটি framework, যা একটি comple
 ### 4. Examples of Popular Libraries and Frameworks
 
 #### Libraries:
+
 1. **React** (JavaScript)
 2. **Lodash** (JavaScript)
 3. **jQuery** (JavaScript)
@@ -371,6 +376,7 @@ JavaScript এর **Angular** একটি framework, যা একটি comple
 5. **Pandas** (Python)
 
 #### Frameworks:
+
 1. **Angular** (JavaScript)
 2. **Vue.js** (JavaScript)
 3. **Django** (Python)
@@ -384,11 +390,13 @@ React এর মতো library developer দের UI components তৈরির
 ### 5. When to Use a Library vs. a Framework
 
 #### When to Use a Library:
+
 - যদি আপনার application এর একটি নির্দিষ্ট part এর জন্য code reusability এবং flexibility দরকার হয়।
 - যখন আপনি কিছু specific functionality যেমন DOM manipulation (jQuery) বা data manipulation (Lodash, Pandas) করতে চান।
 - যখন আপনি পুরো application structure নিজের মতো করে তৈরি করতে চান এবং তার উপর control রাখতে চান।
 
 #### When to Use a Framework:
+
 - যদি আপনি একটি complete application তৈরি করতে চান এবং predefined structure এবং architecture ব্যবহার করতে চান।
 - যখন আপনি code organization এবং application structure নিয়ে সময় বাঁচাতে চান।
 - যখন একটি large-scale application তৈরি করতে হবে এবং একটি scalable structure দরকার।
@@ -397,9 +405,9 @@ React এর মতো library developer দের UI components তৈরির
 
 ### 6. Conclusion
 
-**Library** এবং **Framework** উভয়ই software development এর জন্য গুরুত্বপূর্ণ tools, তবে এদের কাজ এবং control এর ধরণ ভিন্ন। 
+**Library** এবং **Framework** উভয়ই software development এর জন্য গুরুত্বপূর্ণ tools, তবে এদের কাজ এবং control এর ধরণ ভিন্ন।
 
-- **Library** developer কে নির্দিষ্ট কাজ সম্পন্ন করার জন্য flexibility দেয় এবং developer control করে কিভাবে এবং কখন সেই library ব্যবহার হবে। 
+- **Library** developer কে নির্দিষ্ট কাজ সম্পন্ন করার জন্য flexibility দেয় এবং developer control করে কিভাবে এবং কখন সেই library ব্যবহার হবে।
 - **Framework** একটি পূর্ণাঙ্গ architecture বা structure প্রদান করে এবং developer কে সেই structure অনুযায়ী কাজ করতে হয়। Framework অনেক ক্ষেত্রে control ধরে রাখে এবং application এর flow manage করে।
 
 React এর মতো libraries ছোট ছোট components তৈরি করতে সাহায্য করে, যেখানে Angular এর মতো frameworks পুরো application structure নির্ধারণ করে দেয়। আপনার application এর nature এবং requirement এর উপর ভিত্তি করে library বা framework বেছে নেওয়া উচিত।
@@ -854,6 +862,227 @@ React প্রজেক্ট চালানোর জন্য **npm start** 
 React এর মাধ্যমে একটি সহজ প্রজেক্ট তৈরি করা অত্যন্ত সহজ এবং দ্রুত। উপরের উদাহরণে আমরা **Simple To-Do List** প্রজেক্ট দেখিয়েছি, যেখানে আপনি একটি নতুন task যুক্ত করতে পারবেন এবং task list দেখতে পারবেন।
 
 React environment setup করার পর, আপনি খুব সহজেই এমন আরও প্রজেক্ট তৈরি করতে পারবেন এবং React এর অন্যান্য feature ব্যবহার করতে পারবেন, যেমন state management এবং component rendering।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-03.1: React Install with Vite
+
+### Table of Contents:
+
+1. [Introduction to Vite](#introduction-to-vite)
+2. [Why Use Vite for React?](#why-use-vite-for-react)
+3. [Installing React with Vite](#installing-react-with-vite)
+   - [Step 1: Installing Vite](#step-1-installing-vite)
+   - [Step 2: Setting Up the React Project](#step-2-setting-up-the-react-project)
+   - [Step 3: Running the Development Server](#step-3-running-the-development-server)
+4. [Folder Structure Overview](#folder-structure-overview)
+5. [Real-life Example Project](#real-life-example-project)
+6. [Conclusion](#conclusion)
+
+---
+
+### 1. Introduction to Vite
+
+**Vite** হলো একটি modern frontend build tool, যা দ্রুত development server এবং build process প্রদান করে। এটি মূলত **ESM (ECMAScript Modules)** এবং **Hot Module Replacement (HMR)** ব্যবহার করে দ্রুত development environment setup করতে সাহায্য করে। Vite বিশেষভাবে দ্রুত startup time এবং minimal configuration এর জন্য পরিচিত, যা React এর মতো frameworks এর সাথে ভালোভাবে কাজ করে।
+
+---
+
+### 2. Why Use Vite for React?
+
+Vite React এর development environment setup করার জন্য দ্রুত এবং efficient একটি উপায়। এর কিছু প্রধান সুবিধা হলো:
+
+- **Fast Startup**: Traditional bundlers যেমন Webpack এর তুলনায় Vite অনেক দ্রুত startup time প্রদান করে।
+- **Hot Module Replacement (HMR)**: Vite এর মাধ্যমে দ্রুত code changes UI তে reflect হয়, যা development process কে আরও efficient করে তোলে।
+- **Minimal Configuration**: Vite এর default configuration অনেক সহজ, এবং React এর জন্য এটি automatically সেটআপ করে।
+- **Optimized Build**: Vite production build এর জন্য automatically optimized output তৈরি করে।
+
+---
+
+### 3. Installing React with Vite
+
+Vite দিয়ে React setup করতে কয়েকটি ধাপে কাজ করতে হয়। নিচে step-by-step নির্দেশনা দেয়া হলো:
+
+#### Step 1: Installing Vite
+
+প্রথমে, **npm** বা **yarn** ব্যবহার করে Vite ইনস্টল করতে হবে। Terminal বা Command Prompt এ নিচের command লিখুন:
+
+```bash
+npm create vite@latest my-react-app
+```
+
+অথবা
+
+```bash
+yarn create vite my-react-app
+```
+
+**my-react-app** এর জায়গায় আপনার পছন্দমতো project এর নাম দিতে পারেন।
+
+#### Step 2: Setting Up the React Project
+
+Vite ইনস্টল করার পরে, Vite আপনাকে কিছু options দিবে। আপনি **React** এবং **JavaScript** (বা TypeScript) select করতে পারেন।
+
+```bash
+cd my-react-app
+npm install
+```
+
+এখন, **cd my-react-app** command এর মাধ্যমে project এর ভেতরে যান এবং **npm install** command দিয়ে dependencies install করুন।
+
+#### Step 3: Running the Development Server
+
+Development server চালু করতে নিচের command লিখুন:
+
+```bash
+npm run dev
+```
+
+এটি আপনার local server চালু করবে এবং browser এ application preview করবে। Vite এর HMR feature এর কারণে, code এ কোনো পরিবর্তন হলে সাথে সাথে UI তে reflect হবে।
+
+Output:
+
+```
+VITE vX.X.X  ready in 300 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+```
+
+এই URL এ গিয়ে আপনি আপনার React application দেখতে পাবেন।
+
+---
+
+### 4. Folder Structure Overview
+
+Vite দিয়ে React setup করার পরে একটি সহজ এবং পরিচ্ছন্ন folder structure তৈরি হয়:
+
+```
+my-react-app
+├── node_modules
+├── public
+├── src
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+```
+
+- **src**: সমস্ত application এর মূল কোড এখানে থাকে। **App.jsx** এবং **main.jsx** হলো মূল React components এবং entry point।
+- **public**: Static files এর জন্য ব্যবহৃত হয়।
+- **index.html**: Vite এর জন্য প্রধান HTML ফাইল।
+- **vite.config.js**: Vite এর configuration ফাইল।
+
+---
+
+## Explanation of main.jsx File
+
+### Table of Contents
+1. **Code Overview**
+2. **What is StrictMode?**
+3. **How does createRoot Work?**
+4. **Rendering Process with ReactDOM**
+5. **Discussion on File Imports**
+
+---
+
+### 1. Code Overview
+
+এই কোডটি একটি React Application এর Entry Point হিসেবে কাজ করে, যা মূলত ব্রাউজারে Render করা হয়। এখানে `React` এবং `ReactDOM` লাইব্রেরির কিছু ফাংশন ব্যবহার করা হয়েছে আমাদের Application-কে ব্রাউজারে দেখানোর জন্য।
+
+### 2. What is StrictMode?
+
+`StrictMode` হল React এর একটি Component যা আমাদের কোডের কিছু সাধারণ সমস্যা যেমন Deprecated API ব্যবহার করা বা কোনো অনাকাঙ্ক্ষিত Side-Effect ধরতে সাহায্য করে। এটি শুধুমাত্র Development Mode-এ কাজ করে, Production Mode-এ কোনো প্রভাব ফেলে না। নিচে আমরা `StrictMode` ব্যবহার করেছি Application-কে Render করার সময় যাতে Development Console-এ কোনো সমস্যা থাকলে সেটি দেখায়:
+
+```jsx
+<StrictMode>
+  <App />
+</StrictMode>
+```
+
+### 3. How does createRoot Work?
+
+`createRoot` হল `React 18` এর একটি নতুন API, যা React Application-কে Render করার জন্য ব্যবহৃত হয়। এটি ReactDOM এর নতুন Method হিসেবে এসেছে, যা পুরোনো `ReactDOM.render` এর পরিবর্তে ব্যবহৃত হচ্ছে।
+
+```javascript
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+```
+
+- `createRoot` প্রথমে HTML ডকুমেন্টে সেই Element খুঁজে বের করে যার `id` `'root'`।
+- তারপর এটি `render` Method এর মাধ্যমে `<App />` Component-টি `StrictMode` এর মধ্যে Render করে। এতে করে, পুরো Application টি ঐ `root` Div-এর মধ্যে Render হয়।
+
+### 4. Rendering Process with ReactDOM
+
+আগে আমরা `ReactDOM.render` ব্যবহার করতাম, কিন্তু `React 18` থেকে, আমরা `ReactDOM.createRoot` এবং `.render()` Method ব্যবহার করি। এটি Rendering Performance উন্নত করে এবং নতুন কিছু Feature যেমন Concurrent Mode কে সমর্থন করে।
+
+### 5. Discussion on File Imports
+
+```javascript
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+```
+
+- **`StrictMode`**: এটি `react` লাইব্রেরি থেকে Import করা হয়।
+- **`createRoot`**: এটি `react-dom/client` থেকে Import করা হয়।
+- **`'./index.css'`**: Stylesheet Import করা হয়েছে, যা Application এর Style নির্ধারণ করে।
+- **`App`**: `'./App.jsx'` থেকে আমাদের মূল Application Component Import করা হয়েছে, যা আমাদের Application এর প্রধান অংশ।
+
+এইভাবে, কোডটি আমাদের React Application-কে সফলভাবে ব্রাউজারে Render করার জন্য প্রয়োজনীয় সবকিছু প্রস্তুত করে।
+
+### 5. Real-life Example Project
+
+ধরা যাক, আমরা একটি simple React component তৈরি করবো যেখানে "Hello, Vite!" প্রদর্শিত হবে।
+
+#### Example Code:
+
+**App.jsx**
+
+```jsx
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello, Vite!</h1>
+    </div>
+  );
+}
+
+export default App;
+```
+
+**main.jsx**
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+
+এই কোড Vite environment এ দ্রুত render হবে এবং আপনি browser এ "Hello, Vite!" দেখতে পাবেন।
+
+---
+
+### 6. Conclusion
+
+Vite দিয়ে React setup করা খুবই সহজ এবং efficient। এটি traditional bundlers এর তুলনায় দ্রুত এবং minimal configuration দিয়ে কাজ করে, যা modern React development এর জন্য আদর্শ। Vite এর মাধ্যমে আপনি খুব সহজেই একটি React application তৈরি করতে পারেন এবং দ্রুত development environment পেতে পারেন।
+
+Vite এর speed এবং flexibility React এর modern development environment এর জন্য একটি বড় সুবিধা।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
