@@ -11,11 +11,14 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 |                   [01.1](#chapter-011-library-vs-framework)                    |                                      [Libray vs Framework](#chapter-011-library-vs-framework)                                      |   [Watch Now]()   |
 |                 [02](#chapter-02-react-virtual-dom-what--why)                  |                              [React Virtual DOM: What & Why](#chapter-02-react-virtual-dom-what--why)                              |     Watch Now     |
 | [03](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) | [How to Install React (Step by Step Guide with Example)](#chapter-03-how-to-install-react-step-by-step-guide-with-example-project) |     Watch Now     |
+| [03.1](#chapter-031-react-install-with-vite) | [React Install with Vite](#chapter-031-react-install-with-vite) |     Watch Now     |
 |                      [04](#chapter-04-react-render-html)                       |                                         [React Render HTML](#chapter-04-react-render-html)                                         |     Watch Now     |
 |                          [05](#chapter-05-react-jsx)                           |                                                 [React JSX](#chapter-05-react-jsx)                                                 |     Watch Now     |
 |                       [06](#chapter-06-react-components)                       |                                          [React Components](#chapter-06-react-components)                                          |     Watch Now     |
 |                    [07](#chapter-07-react-class-components)                    |                                    [React Class Components](#chapter-07-react-class-components)                                    |     Watch Now     |
-|                         [08](#chapter-08-react-props)                          |                                               [React Props](#chapter-08-react-props)                                               |     Watch Now     |
+|                    [07.1](#chapter-071-lifecycle-methods-in-class-components)                    |                                    [Lifecyle Methods in Class Components](#chapter-071-lifecycle-methods-in-class-components)                                    |     Watch Now     |
+|                    [07.2](#chapter-072-props-in-class-components)                    |                                    [Props in Class Components](#chapter-072-props-in-class-components)                                    |     Watch Now     |
+|                         [08](#chapter-08-props-in-functional-components)                          |                                               [Props in Functional Components](#chapter-08-props-in-functional-components)                                               |     Watch Now     |
 |          [09](#chapter-09-react-state--lifecycle-in-class-components)          |               [React State & Lifecycle in Class Components](#chapter-09-react-state--lifecycle-in-class-components)                |     Watch Now     |
 |                         [10](#chapter-10-react-events)                         |                                              [React Events](#chapter-10-react-events)                                              |     Watch Now     |
 |                 [11](#chapter-11-react-conditional-rendering)                  |                               [React Conditional Rendering](#chapter-11-react-conditional-rendering)                               |     Watch Now     |
@@ -1848,7 +1851,400 @@ React class components modern web development এর cornerstone, বিশে�
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-08: React Props
+# Chapter-07.1: Lifecycle Methods in Class Components
+
+### Table of Contents:
+1. [What are Lifecycle Methods?](#what-are-lifecycle-methods)
+2. [Phases of Component Lifecycle](#phases-of-component-lifecycle)
+3. [Lifecycle Methods in Each Phase](#lifecycle-methods-in-each-phase)
+   - [Mounting Phase](#mounting-phase)
+   - [Updating Phase](#updating-phase)
+   - [Unmounting Phase](#unmounting-phase)
+4. [Real-life Example of Lifecycle Methods](#real-life-example-of-lifecycle-methods)
+5. [Best Practices for Using Lifecycle Methods](#best-practices-for-using-lifecycle-methods)
+6. [Conclusion](#conclusion)
+
+---
+
+### 1. What are Lifecycle Methods?
+
+React এর class components এ **lifecycle methods** এমন কিছু বিশেষ method, যা component এর বিভিন্ন পর্যায়ে execute হয়। Component এর initialization থেকে শুরু করে update এবং destruction পর্যন্ত প্রতিটি ধাপে এই methods গুলো ব্যবহার করে component এর behavior control করা যায়। **Lifecycle methods** component render, update, এবং unmount হওয়ার সময় নির্দিষ্ট কাজ পরিচালনা করতে সাহায্য করে, যেমন: data fetching, DOM manipulation, cleanup, ইত্যাদি।
+
+---
+
+### 2. Phases of Component Lifecycle
+
+React component এর lifecycle মূলত তিনটি ধাপে বিভক্ত:
+1. **Mounting**: Component DOM এ প্রথমবার যুক্ত হওয়ার সময়।
+2. **Updating**: Component এর props বা state পরিবর্তিত হলে।
+3. **Unmounting**: Component যখন DOM থেকে remove হয়।
+
+---
+
+### 3. Lifecycle Methods in Each Phase
+
+#### Mounting Phase
+
+Mounting phase এ component তৈরি হয় এবং DOM এ প্রথমবার render হয়। এই সময়ে নিচের lifecycle methods গুলো sequentially call হয়:
+
+1. **constructor()**
+2. **getDerivedStateFromProps()**
+3. **render()**
+4. **componentDidMount()**
+
+##### Explanation of Each Method:
+
+- **constructor(props)**: Component এর initial state এবং props set করার জন্য constructor method ব্যবহার করা হয়। এটি lifecycle এর প্রথম method এবং **this.state** initialize করার জন্য এটি গুরুত্বপূর্ণ।
+  
+  ```javascript
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+  }
+  ```
+
+- **getDerivedStateFromProps(props, state)**: এটি একটি static method যা props এর উপর ভিত্তি করে state update করার জন্য ব্যবহৃত হয়। এটি rendering এর ঠিক আগে call হয় এবং state return করে।
+  
+  ```javascript
+  static getDerivedStateFromProps(props, state) {
+    if (props.reset) {
+      return { count: 0 };
+    }
+    return null;
+  }
+  ```
+
+- **render()**: render() method component এর UI define করে এবং JSX return করে। এটি mandatory method এবং এটি re-rendering trigger করে।
+  
+  ```javascript
+  render() {
+    return <h1>Count: {this.state.count}</h1>;
+  }
+  ```
+
+- **componentDidMount()**: component প্রথমবার render হওয়ার পরে **componentDidMount** execute হয়। এটি API call বা DOM manipulation এর জন্য উপযুক্ত।
+  
+  ```javascript
+  componentDidMount() {
+    console.log("Component mounted!");
+  }
+  ```
+
+---
+
+#### Updating Phase
+
+Updating phase এ component এর props বা state পরিবর্তিত হলে component re-render হয়। এই সময়ে sequentially নিচের lifecycle methods গুলো call হয়:
+
+1. **getDerivedStateFromProps()**
+2. **shouldComponentUpdate()**
+3. **render()**
+4. **getSnapshotBeforeUpdate()**
+5. **componentDidUpdate()**
+
+##### Explanation of Each Method:
+
+- **shouldComponentUpdate(nextProps, nextState)**: এই method return করে true বা false, যা নির্ধারণ করে component re-render হবে কি না। এটি performance optimization এর জন্য উপযুক্ত।
+
+  ```javascript
+  shouldComponentUpdate(nextProps, nextState) {
+    return nextState.count !== this.state.count;
+  }
+  ```
+
+- **getSnapshotBeforeUpdate(prevProps, prevState)**: DOM update হওয়ার আগে component এর পূর্বের অবস্থার snapshot নিতে ব্যবহৃত হয়। এটি scrolling position, DOM updates track করতে ব্যবহৃত হয়।
+
+  ```javascript
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    if (prevState.count < this.state.count) {
+      return "Count increased";
+    }
+    return null;
+  }
+  ```
+
+- **componentDidUpdate(prevProps, prevState, snapshot)**: Component update হওয়ার পরে execute হয় এবং **getSnapshotBeforeUpdate** এর return value receive করে।
+
+  ```javascript
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (snapshot) {
+      console.log(snapshot);
+    }
+  }
+  ```
+
+---
+
+#### Unmounting Phase
+
+Unmounting phase এ component যখন DOM থেকে remove হওয়ার সময়, এই method টি call হয়:
+
+- **componentWillUnmount()**: Component unmount হওয়ার আগে এই method execute হয়। এটি cleanup এর জন্য, যেমন: timers, subscriptions, event listeners remove করতে ব্যবহৃত হয়।
+
+  ```javascript
+  componentWillUnmount() {
+    console.log("Component will unmount!");
+  }
+  ```
+
+---
+
+### 4. Real-life Example of Lifecycle Methods
+
+ধরা যাক, আমরা একটি **Timer** component তৈরি করতে চাচ্ছি যা প্রতি সেকেন্ডে update হবে এবং component unmount হলে timer বন্ধ হবে।
+
+##### Example:
+
+```javascript
+import React, { Component } from 'react';
+
+class Timer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { seconds: 0 };
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(() => {
+      this.setState((prevState) => ({ seconds: prevState.seconds + 1 }));
+    }, 1000);
+  }
+
+  componentDidUpdate() {
+    console.log("Timer updated:", this.state.seconds);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+    console.log("Timer cleared");
+  }
+
+  render() {
+    return <h1>Seconds: {this.state.seconds}</h1>;
+  }
+}
+
+export default Timer;
+```
+
+**Explanation**:
+1. **componentDidMount**: এখানে interval set করা হয়েছে এবং timer প্রতি সেকেন্ডে update হচ্ছে।
+2. **componentDidUpdate**: Timer এর প্রতি update console এ log করা হচ্ছে।
+3. **componentWillUnmount**: Component unmount হওয়ার আগে interval clear করা হচ্ছে।
+
+---
+
+### 5. Best Practices for Using Lifecycle Methods
+
+1. **Avoid Excessive use of componentDidUpdate**: Unnecessary re-renders এড়ানোর জন্য **componentDidUpdate** এ conditionals ব্যবহার করুন।
+2. **Perform Cleanup in componentWillUnmount**: Memory leak এড়াতে cleanup নিশ্চিত করুন।
+3. **Avoid Direct DOM Manipulation**: React এর built-in state এবং props ব্যবহার করুন, সরাসরি DOM access না করাই ভালো।
+
+---
+
+### 6. Conclusion
+
+React এর class components এ **lifecycle methods** component এর initialization, update, এবং destruction phases কে manage করতে সাহায্য করে। Proper use of these lifecycle methods allows developers to control the behavior of components effectively, manage resources, and optimize performance, making React applications more robust and efficient.
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-07.2: Props in Class Components
+
+### Table of Contents:
+1. [What are Props?](#what-are-props)
+2. [Why Use Props in Class Components?](#why-use-props-in-class-components)
+3. [How to Access Props in Class Components](#how-to-access-props-in-class-components)
+4. [Passing Props to Class Components](#passing-props-to-class-components)
+5. [Default Props](#default-props)
+6. [Prop Types for Validation](#prop-types-for-validation)
+7. [Real-life Example of Props Usage](#real-life-example-of-props-usage)
+8. [Conclusion](#conclusion)
+
+---
+
+### 1. What are Props?
+
+**Props** বা "properties" হলো React এ data passing করার একটি পদ্ধতি, যা parent component থেকে child component এ data পাঠাতে ব্যবহৃত হয়। Props হলো immutable, অর্থাৎ, child component এ props এর মান পরিবর্তন করা যায় না। এটি component এর behavior customize করতে এবং dynamic content প্রদর্শন করতে সাহায্য করে।
+
+---
+
+### 2. Why Use Props in Class Components?
+
+Props ব্যবহার করে:
+- Parent component থেকে data child component এ পাঠানো যায়।
+- Dynamic এবং reusable components তৈরি করা যায়।
+- Component কে configurable এবং flexible করে তোলা সম্ভব হয়, যা কোডের reusability বাড়ায়।
+
+---
+
+### 3. How to Access Props in Class Components
+
+Class components এ props access করতে `this.props` ব্যবহার করা হয়। 
+
+##### Example:
+```javascript
+class Greeting extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+```
+
+**Explanation**:
+- এখানে **this.props.name** এর মাধ্যমে props এ পাঠানো `name` property access করা হচ্ছে। 
+
+---
+
+### 4. Passing Props to Class Components
+
+Parent component থেকে child component এ props পাঠানোর জন্য component attribute হিসেবে data pass করতে হয়। 
+
+##### Example:
+
+```javascript
+class App extends React.Component {
+  render() {
+    return <Greeting name="John" age={25} />;
+  }
+}
+
+class Greeting extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello, {this.props.name}!</h1>
+        <p>Your age is {this.props.age}.</p>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+```
+
+**Explanation**:
+- **name** এবং **age** props হিসেবে **Greeting** component এ pass করা হয়েছে, এবং **this.props.name** ও **this.props.age** এর মাধ্যমে access করা হয়েছে।
+
+**Output**:
+```
+Hello, John!
+Your age is 25.
+```
+
+---
+
+### 5. Default Props
+
+React এ **default props** সেট করে দেয়া যায়, যা component এ props না পাঠালে default value হিসেবে ব্যবহৃত হবে। 
+
+##### Example:
+```javascript
+class Greeting extends React.Component {
+  static defaultProps = {
+    name: "Guest",
+  };
+
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+
+ReactDOM.render(<Greeting />, document.getElementById('root'));
+```
+
+**Explanation**:
+- এখানে **name** prop না পাঠালে default value হিসেবে "Guest" দেখাবে।
+
+**Output**:
+```
+Hello, Guest!
+```
+
+---
+
+### 6. Prop Types for Validation
+
+React এ prop types ব্যবহার করে props validation করা যায়, যা সাহায্য করে সঠিক ধরনের data component এ pass হচ্ছে কি না তা নিশ্চিত করতে। 
+
+##### Example:
+```javascript
+import PropTypes from 'prop-types';
+
+class Greeting extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+
+Greeting.propTypes = {
+  name: PropTypes.string.isRequired,
+};
+
+ReactDOM.render(<Greeting name="John" />, document.getElementById('root'));
+```
+
+**Explanation**:
+- **PropTypes** ব্যবহার করে props এর type নিশ্চিত করা হয়েছে। এখানে **name** একটি string এবং এটি অবশ্যই প্রয়োজন।
+
+---
+
+### 7. Real-life Example of Props Usage
+
+ধরা যাক, আমরা একটি simple profile component তৈরি করতে চাই, যেখানে user এর নাম এবং তার কাজ দেখানো হবে।
+
+##### Example:
+```javascript
+class Profile extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Name: {this.props.name}</h1>
+        <p>Profession: {this.props.profession}</p>
+      </div>
+    );
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Profile name="Alice" profession="Engineer" />
+        <Profile name="Bob" profession="Designer" />
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+```
+
+**Explanation**:
+- **App** component থেকে **Profile** component এ **name** এবং **profession** props হিসেবে pass করা হয়েছে। প্রতিটি **Profile** component এ আলাদা আলাদা data pass করে বিভিন্ন content render করা হচ্ছে।
+
+**Output**:
+```
+Name: Alice
+Profession: Engineer
+
+Name: Bob
+Profession: Designer
+```
+
+---
+
+### 8. Conclusion
+
+React এর class components এ **props** ব্যবহার করলে data সহজে parent থেকে child component এ pass করা যায়। এটি component কে flexible এবং reusable করে তোলে, কারণ parent component dynamic data পাঠিয়ে component এর behavior customize করতে পারে। **Default props** এবং **prop types validation** ব্যবহার করে props এর type এবং মান নিশ্চিত করা যায়।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+
+# Chapter-08: Props in Functional Components
 
 ### Table of Contents:
 
