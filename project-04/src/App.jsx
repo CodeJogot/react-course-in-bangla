@@ -3,6 +3,12 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import HeroClass from './components/HeroClass'
+import CounterClass from './components/CounterClass'
+import Timer from './components/Timer'
+
+
+
 
 
 function App() {
@@ -17,7 +23,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero data={myData} />
+      {/* <Hero data={myData} /> */}
+      <HeroClass data = {myData}/>
+      {/* <CounterClass /> */}
+      <Timer/>
       <Footer />
     </>
   )

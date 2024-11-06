@@ -1,23 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-// Functional Hero Component
-const Hero = (props) => {
+class HeroClass extends Component {
+  render() {
+    const {data} = this.props;
     return (
         <section style={styles.hero}>
             <div style={styles.container}>
-                {props.data.isLogin ? (
-                    <h1 style={styles.heading}>{props.data.title}</h1>
+                {data.isLogin ? (
+                    <h1 style={styles.heading}>{data.title}</h1>
                 ) : (
-                    <h1 style={styles.heading}>{props.data.title2}</h1>
+                    <h1 style={styles.heading}>{data.title2}</h1>
                 )}
-                <p style={styles.subheading}>{props.data.ds}</p>
+                <p style={styles.subheading}>{data.ds}</p>
                 <button  style={styles.ctaButton}>Get Started</button>
             </div>
         </section>
     );
-};
+  }
+}
 
-// Inline CSS for the Hero Section
 const styles = {
     hero: {
         height: '100vh',
@@ -57,4 +58,7 @@ const styles = {
     },
 };
 
-export default Hero;
+
+
+
+export default HeroClass;
