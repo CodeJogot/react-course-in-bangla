@@ -23,6 +23,7 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 |                         [10](#chapter-10-react-events)                         |                                              [React Events](#chapter-10-react-events)                                              |     Watch Now     |
 |                 [11](#chapter-11-react-conditional-rendering)                  |                               [React Conditional Rendering](#chapter-11-react-conditional-rendering)                               |     Watch Now     |
 |                                    [12](#chapter-12-react-composition-vs-inheritance)                                     |                                            [React Composition vs Inheritance](#chapter-12-react-composition-vs-inheritance)                                             |     Watch Now     |
+|                                    [12.1](#chapter-121-why-react-prefers-composition-over-inheritance-️)                                     |                                            [Why React Prefers Composition Over Inheritance](#chapter-121-why-react-prefers-composition-over-inheritance-️)                                             |     Watch Now     |
 |                         [13](#chapter-13-react-higher-order-components-hoc)                          |                                                    [React Higher Order Components (HOC)](#chapter-13-react-higher-order-components-hoc)                                                     |     Watch Now     |
 |                        [14](#chapter-14-react-render-props)                         |                                                   [React Render Props](#chapter-14-react-render-props)                                                    |     Watch Now     |
 |                    [15](#chapter-15-react-context-api)                     |                                               [React Context API](#chapter-15-react-context-api)                                                |     Watch Now     |
@@ -3344,6 +3345,299 @@ function App() {
 ---
 
 Composition এবং Inheritance এর মধ্যে composition React এর জন্য সবচেয়ে কার্যকরী এবং প্রয়োজনীয় পদ্ধতি। এটি component গুলোকে nested এবং reusable ভাবে তৈরি করতে সাহায্য করে। Inheritance এর তুলনায় Composition ব্যবহার করে React এর UI component গুলো আরও modular, flexible এবং manageable রাখা যায়।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+
+# Chapter-12.1: Why React Prefers Composition Over Inheritance ⚛️
+
+### Table of Contents
+1. [What is Composition in React? 🎨](#1-what-is-composition-in-react-)
+2. [Why Composition is Preferred over Inheritance 🚀](#2-why-composition-is-preferred-over-inheritance-)
+3. [Advantages of Composition in React 💡](#3-advantages-of-composition-in-react-)
+4. [Why Inheritance is Avoided in React 🚫](#4-why-inheritance-is-avoided-in-react-)
+5. [Step-by-Step Examples of Composition](#5-step-by-step-examples-of-composition)
+6. [Real-life Example of Composition in React 🌐](#6-real-life-example-of-composition-in-react-)
+7. [Why the Composition Example is Better than Inheritance 🏆](#7-why-the-composition-example-is-better-than-inheritance-)
+8. [Inheritance in React: Step-by-Step Example](#8-inheritance-in-react-step-by-step-example)
+9. [How Inheritance Increases Dependency and Complexity](#9-how-inheritance-increases-dependency-and-complexity)
+
+---
+
+## 1. What is Composition in React? 🎨
+
+**Composition** হলো এমন একটি কৌশল, যা Component গুলিকে একত্র করে ব্যবহার করার মাধ্যমে জটিল Components তৈরী করা যায়। React-এ Composition খুবই গুরুত্বপূর্ণ কারণ এটি কোডকে বেশি Reusable এবং Manageable করে তোলে। এক Component কে অন্য Component-এ Nested ভাবে রেখে আরও বেশি ফাংশনালিটি যোগ করা সম্ভব হয়।
+
+## 2. Why Composition is Preferred over Inheritance 🚀
+
+Inheritance, অর্থাৎ একটি Component-এর মধ্যে অন্য Component-এর বৈশিষ্ট্য ধার করা, সাধারণত React-এ এড়িয়ে যাওয়া হয় কারণ এটি কোডকে জটিল এবং হ্যান্ডেল করা কঠিন করে তুলতে পারে। React-এ Composition ব্যবহার করলে কোড সহজ, Modular এবং Reusable হয় যা Inheritance-এর ক্ষেত্রে সাধারণত সম্ভব হয় না।
+
+## 3. Advantages of Composition in React 💡
+
+- **Reusability**: Composition ব্যবহার করে Components আরও Reusable করা যায়।
+- **Modularity**: Components ছোট ছোট অংশে বিভক্ত করা সহজ হয় যা কোডের Maintainability বাড়ায়।
+- **Flexibility**: একই Component কে বিভিন্ন জায়গায় আলাদা আঙ্গিকে ব্যবহার করা যায়।
+- **Easy to Test**: ছোট ছোট Components আলাদা ভাবে টেস্ট করা সহজ।
+
+## 4. Why Inheritance is Avoided in React 🚫
+
+Inheritance-এ Parent Component এর পরিবর্তন Child Component গুলিতে স্বয়ংক্রিয়ভাবে প্রভাব ফেলে, যা ব্যবস্থাপনা কঠিন করে তোলে। এর ফলে Unintended side effects ঘটতে পারে এবং কোড Maintain করা কঠিন হয়ে যায়। React-এর ধারনায় Component গুলি নির্দিষ্ট Purpose অনুযায়ী সাজানো হয়, এবং Composition এই ধারনাকে সঠিকভাবে অনুসরণ করে।
+
+## 5. Step-by-Step Examples of Composition
+
+এখন একটি উদাহরণ দেখে নিই, যেখানে Composition-এর মাধ্যমে কীভাবে React Component তৈরি করা যায়।
+
+### Example 1: Button Component Composition
+
+#### Step 1: Basic Button Component তৈরি করা
+
+```javascript
+// Button.js
+import React from 'react';
+
+function Button({ onClick, children }) {
+    return (
+        <button onClick={onClick} style={{ padding: '10px', margin: '5px' }}>
+            {children}
+        </button>
+    );
+}
+
+export default Button;
+```
+
+#### Step 2: Custom Button Component তৈরি করা
+
+এখন `AlertButton` নামে একটি Component তৈরি করব, যা Button Component-এর উপর ভিত্তি করে কাজ করবে।
+
+```javascript
+// AlertButton.js
+import React from 'react';
+import Button from './Button';
+
+function AlertButton({ message }) {
+    const showAlert = () => {
+        alert(message);
+    };
+
+    return (
+        <Button onClick={showAlert}>
+            Show Alert
+        </Button>
+    );
+}
+
+export default AlertButton;
+```
+
+এখানে, `AlertButton` Component মূল Button Component-এর Composition হিসেবে কাজ করছে।
+
+#### Step 3: Rendering in App Component
+
+```javascript
+// App.js
+import React from 'react';
+import AlertButton from './AlertButton';
+
+function App() {
+    return (
+        <div>
+            <h1>Composition in React</h1>
+            <AlertButton message="Hello from Alert Button!" />
+        </div>
+    );
+}
+
+export default App;
+```
+
+এই উদাহরণে, `AlertButton` একটি সাধারণ Button Component ব্যবহার করে এবং Alert Message দেখানোর জন্য Custom Functionality যোগ করেছে। এটি Composition-এর মাধ্যমে করা সম্ভব হয়েছে যা Code Reusability বাড়িয়েছে।
+
+## 6. Real-life Example of Composition in React 🌐
+
+### Example 2: User Profile Card with Composition
+
+#### Step 1: Basic Card Component তৈরি করা
+
+```javascript
+// Card.js
+import React from 'react';
+
+function Card({ children }) {
+    return (
+        <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '5px' }}>
+            {children}
+        </div>
+    );
+}
+
+export default Card;
+```
+
+#### Step 2: User Avatar Component তৈরি করা
+
+```javascript
+// Avatar.js
+import React from 'react';
+
+function Avatar({ src }) {
+    return <img src={src} alt="User Avatar" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />;
+}
+
+export default Avatar;
+```
+
+#### Step 3: UserInfo Component তৈরি করা
+
+```javascript
+// UserInfo.js
+import React from 'react';
+
+function UserInfo({ name, email }) {
+    return (
+        <div>
+            <h3>{name}</h3>
+            <p>{email}</p>
+        </div>
+    );
+}
+
+export default UserInfo;
+```
+
+#### Step 4: UserProfile Component-এ Composition ব্যবহার করা
+
+```javascript
+// UserProfile.js
+import React from 'react';
+import Card from './Card';
+import Avatar from './Avatar';
+import UserInfo from './UserInfo';
+
+function UserProfile({ user }) {
+    return (
+        <Card>
+            <Avatar src={user.avatar} />
+            <UserInfo name={user.name} email={user.email} />
+        </Card>
+    );
+}
+
+export default UserProfile;
+```
+
+#### Step 5: Rendering UserProfile in App Component
+
+```javascript
+// App.js
+import React from 'react';
+import UserProfile from './UserProfile';
+
+const user = {
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    avatar: 'https://via.placeholder.com/50'
+};
+
+function App() {
+    return (
+        <div>
+            <h1>User Profile Card with Composition</h1>
+            <UserProfile user={user} />
+        </div>
+    );
+}
+
+export default App;
+```
+
+## 7. Why the Composition Example is Better than Inheritance 🏆
+
+Composition ব্যবহার করে `UserProfile` Component-এর মধ্যে `Card`, `Avatar`, এবং `UserInfo` Components আলাদা ভাবে ব্যবহার করা হয়েছে। এর ফলে Component গুলিকে Reuse করা সহজ হয়েছে এবং আলাদা আলাদা Responsibility পাওয়া গেছে। Inheritance ব্যবহার করলে Components গুলি Parent-Child সম্পর্কের মধ্যে আটকে যাবে, ফলে এক Component পরিবর্তন করলে অন্যান্য Component গুলির উপর প্রভাব পড়বে। 
+
+## 8. Inheritance in React: Step-by-Step Example
+
+### Example: User Profile Card with Inheritance
+
+#### Step 1: Basic Profile Class Component তৈরি করা
+
+```javascript
+// Profile.js
+import React, { Component } from 'react';
+
+class Profile extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: 'John Doe',
+            email: 'john.doe@example.com'
+        };
+    }
+
+    render() {
+        return (
+            <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '5px' }}>
+                <h3>{this.state.name}</h3>
+                <p>{this.state.email}</p>
+            </div>
+        );
+    }
+}
+
+export default Profile;
+```
+
+#### Step 2: Avatar Component তৈরি করা (Profile Component-কে Inherit করে)
+
+```javascript
+// ProfileWithAvatar.js
+import React from 'react';
+import Profile from './Profile';
+
+class ProfileWithAvatar extends Profile {
+    render() {
+        return (
+            <div>
+                <img
+                    src="https://via.placeholder.com/50"
+                    alt="User Avatar"
+                    style={{ width: '50px', height: '50px', borderRadius: '50%' }}
+                />
+                {super.render()}
+            </div>
+        );
+    }
+}
+
+export default ProfileWithAvatar;
+```
+
+#### Step 3: Rendering in App Component
+
+```javascript
+// App.js
+import React from 'react';
+import ProfileWithAvatar from './ProfileWithAvatar';
+
+function App() {
+    return (
+        <div>
+            <h1>User Profile Card with Inheritance</h1>
+            <ProfileWithAvatar />
+        </div>
+    );
+}
+
+export default App;
+```
+
+## 9. How Inheritance Increases Dependency and Complexity
+
+এই উদাহরণে, `ProfileWithAvatar` Component `Profile` Component-কে Inherit করেছে, যার ফলে `Profile` Component-এর উপর সরাসরি নির্ভরশীল হয়ে পড়েছে। যদি `Profile` Component-এ কোন পরিবর্তন করা হয়, যেমন একটি নতুন State বা Props যোগ করা হয়, তাহলে `ProfileWithAvatar` Component-এও সেই পরিবর্তনটি ম্যানেজ করতে হবে। Inheritance ব্যবহারের ফলে Component-গুলির মধ্যে Dependency তৈরি হয়, যা কোডের জটিলতা বাড়িয়ে দেয় এবং Maintenance আরও কঠিন করে তোলে। 
+
+Inheritance-এর পরিবর্তে Composition ব্যবহার করলে Components গুলিকে তাদের নির্দিষ্ট Responsibility অনুযায়ী আলাদা রাখা যায়, ফলে Dependency কমে এবং Component গুলি আরও Modular এবং Reusable হয়ে ওঠে।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
