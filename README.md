@@ -22,8 +22,9 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 |          [09](#chapter-09-react-state--lifecycle-in-class-components)          |               [React State & Lifecycle in Class Components](#chapter-09-react-state--lifecycle-in-class-components)                |     Watch Now     |
 |                         [10](#chapter-10-react-events)                         |                                              [React Events](#chapter-10-react-events)                                              |     Watch Now     |
 |                 [11](#chapter-11-react-conditional-rendering)                  |                               [React Conditional Rendering](#chapter-11-react-conditional-rendering)                               |     Watch Now     |
-|                                    [12](#chapter-12-react-composition-vs-inheritance)                                     |                                            [React Composition vs Inheritance](#chapter-12-react-composition-vs-inheritance)                                             |     Watch Now     |
-|                                    [12.1](#chapter-121-why-react-prefers-composition-over-inheritance-️)                                     |                                            [Why React Prefers Composition Over Inheritance](#chapter-121-why-react-prefers-composition-over-inheritance-️)                                             |     Watch Now     |
+|                                    [12](#chapter-12--react-inheritance)                                     |                                            [React Inheritance](#chapter-12--react-inheritance)                                             |     Watch Now     |
+|                                    [12.1](#chapter-121-react-composition-️)                                     |                                            [React Composition](#chapter-121-react-composition-️)                                             |     Watch Now     |
+|                                    [12.2](#chapter-122--react-inheritance-vs-composition---detailed-example-and-explanation)                                     |                                            [React Inheritance vs Composition: Detailed Example & Explanation](#chapter-122--react-inheritance-vs-composition---detailed-example-and-explanation)                                             |     Watch Now     |
 |                         [13](#chapter-13-react-higher-order-components-hoc)                          |                                                    [React Higher Order Components (HOC)](#chapter-13-react-higher-order-components-hoc)                                                     |     Watch Now     |
 |                        [14](#chapter-14-react-render-props)                         |                                                   [React Render Props](#chapter-14-react-render-props)                                                    |     Watch Now     |
 |                    [15](#chapter-15-react-context-api)                     |                                               [React Context API](#chapter-15-react-context-api)                                                |     Watch Now     |
@@ -3166,478 +3167,653 @@ React এর **Conditional Rendering** একটি শক্তিশালী 
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-12: React Composition vs Inheritance
+# Chapter-12: 📋 React Inheritance
 
-### Table of Contents
-
-1. [📜 Introduction to Composition and Inheritance](#introduction-to-composition-and-inheritance)
-2. [📦 React Composition](#react-composition)
-3. [🧬 React Inheritance](#react-inheritance)
-4. [🤔 Why React Prefers Composition Over Inheritance](#why-react-prefers-composition-over-inheritance)
-5. [🔍 Examples of Composition](#examples-of-composition)
-6. [✅ Best Practices with Composition in React](#best-practices-with-composition-in-react)
-
----
-
-### 1. 📜 Introduction to Composition and Inheritance
-
-React একটি component-based framework যেখানে **UI** গুলো ছোট ছোট component এ ভাগ করা হয়। এই component গুলো আবার nested, reusable এবং encapsulated হয়। Component reuse করতে এবং নতুন component তৈরি করতে আমরা দুইটি প্রধান পদ্ধতি ব্যবহার করতে পারি:
-
-1. **Composition**
-2. **Inheritance**
-
-React মূলত **Composition** কে প্রাধান্য দেয়, কারণ এটি component গুলোকে আরও modular এবং flexible ভাবে ব্যবহার করতে সহায়তা করে। React এর official documentation এ বলা হয়েছে, **Composition** হলো component reuse এর সবচেয়ে উপযোগী এবং নিরাপদ পদ্ধতি, যেখানে **Inheritance** প্রায়শই বিভ্রান্তিকর হতে পারে।
-
-### 2. 📦 React Composition
-
-**Composition** বলতে বোঝানো হয় যে, একটি component এর মধ্যে অন্য component গুলোকে nested আকারে রাখা হয় এবং সেই component গুলোর কাজ parent component থেকে পরিচালনা করা হয়। Composition এর মাধ্যমে component গুলোতে বিভিন্ন UI structure তৈরি করা যায় এবং code reuse করা সহজ হয়।
-
-React এ Composition এর জন্য props বা children ব্যবহার করা হয়। এটি মূলত component গুলোর মধ্যে সম্পর্ক স্থাপন করে এবং parent component কে child component এর উপর নিয়ন্ত্রণের ক্ষমতা দেয়।
-
-#### Example of Composition
-
-1. **Simple Composition Example with Props**:
-
-```javascript
-function WelcomeMessage({ name }) {
-  return <p>Welcome, {name}!</p>;
-}
-
-function App() {
-  return (
-    <div>
-      <WelcomeMessage name="Alice" />
-      <WelcomeMessage name="Bob" />
-    </div>
-  );
-}
-```
-
-**Explanation**:
-
-- `WelcomeMessage` component `App` component এর মধ্যে রাখা হয়েছে এবং props হিসেবে `name` পাস করা হয়েছে।
-- এখানে `WelcomeMessage` component কে বিভিন্ন props সহ একাধিক বার ব্যবহার করা হচ্ছে, যা code reuse সহজ করছে।
-- **Output**:
-  - "Welcome, Alice!"
-  - "Welcome, Bob!"
-
-2. **Composition with Children**:
-
-React এ **children** props ব্যবহার করে একটি component এর মধ্যে অন্য component কে pass করা যায়। এটি বিশেষ করে wrapper component তৈরি করতে কাজে আসে।
-
-```javascript
-function Card({ children }) {
-  return <div className="card">{children}</div>;
-}
-
-function App() {
-  return (
-    <div>
-      <Card>
-        <h2>Title 1</h2>
-        <p>This is the content of the first card.</p>
-      </Card>
-      <Card>
-        <h2>Title 2</h2>
-        <p>This is the content of the second card.</p>
-      </Card>
-    </div>
-  );
-}
-```
-
-**Explanation**:
-
-- `Card` component একটি wrapper হিসেবে কাজ করছে, যেখানে `children` props এর মাধ্যমে যেকোনো content inject করা সম্ভব।
-- এটি খুবই flexible, কারণ `Card` component এর মধ্যে আমরা যেকোনো ধরনের JSX element রাখতে পারি।
-- **Output**:
-  - Title 1 - This is the content of the first card.
-  - Title 2 - This is the content of the second card.
-
-### 3. 🧬 React Inheritance
-
-**Inheritance** বলতে বোঝায়, একটি class এর বৈশিষ্ট্য আরেকটি class এর মধ্যে ব্যবহার করা। Object-Oriented Programming এ Inheritance খুব সাধারণ একটি ধারণা, যেখানে একটি class অন্য একটি class থেকে বৈশিষ্ট্য গ্রহণ করতে পারে।
-
-React এ **Inheritance** ব্যবহার করে component তৈরি করা তুলনামূলক কম ব্যবহৃত হয়। কারণ, Inheritance component গুলোর মধ্যে সম্পর্ক এবং নিয়ন্ত্রণ জটিল করে তোলে। এর পরিবর্তে, React এ composition পদ্ধতিই বেশি কার্যকর।
-
-React এর ক্ষেত্রে Inheritance কেবলমাত্র **React.Component** class extend করার জন্য ব্যবহৃত হয়। তবে component গুলোর মধ্যে parent-child সম্পর্ক তৈরি করতে composition বেশি প্রয়োগ করা হয়।
-
-#### Why React Avoids Inheritance
-
-React এ Inheritance কম ব্যবহৃত হওয়ার কারণ হলো:
-
-1. **Responsive Coding Style**: Composition ব্যবহার করে আমরা ছোট ছোট component তৈরি করে তাদের nesting এর মাধ্যমে বড় component তৈরি করতে পারি।
-2. **Increased Complexity**: Inheritance এ বিভিন্ন layer এর component এর উপর নির্ভরশীলতা বেড়ে যায়, যা debugging কে জটিল করে তোলে।
-3. **Fixed Structure**: Composition এ component গুলো আরও modular এবং loosely-coupled হয়, যা inheritance এর মাধ্যমে সম্ভব নয়।
-
-### 4. 🤔 Why React Prefers Composition Over Inheritance
-
-1. **Component Reuse**: Composition ব্যবহার করলে component গুলোকে সহজে reuse করা যায়। Inheritance এর ক্ষেত্রে code reuse করতে হলে আরও বেশি layer তৈরি করতে হয়।
-2. **Loose Coupling**: Composition component গুলোর মধ্যে একটি loose coupling তৈরি করে, যা component গুলোর মধ্যে সরাসরি কোনো নির্ভরশীলতা রাখে না।
-3. **Easy Debugging**: Composition এর ক্ষেত্রে component গুলো independent থাকে এবং পৃথকভাবে কাজ করে, তাই debugging সহজ হয়।
-
-### 5. 🔍 Examples of Composition
-
-#### Example 1: Specialization through Composition
-
-```javascript
-function Button({ children, onClick }) {
-  return <button onClick={onClick}>{children}</button>;
-}
-
-function DangerButton({ onClick }) {
-  return (
-    <Button onClick={onClick}>
-      <span style={{ color: "red" }}>Delete</span>
-    </Button>
-  );
-}
-
-function App() {
-  return (
-    <div>
-      <Button onClick={() => alert("Clicked!")}>Normal Button</Button>
-      <DangerButton onClick={() => alert("Danger!")} />
-    </div>
-  );
-}
-```
-
-**Explanation**:
-
-- `Button` component সাধারণ button এর জন্য ব্যবহৃত, যা `children` এবং `onClick` props গ্রহণ করে।
-- `DangerButton` component `Button` কে বিশেষায়িত করে একটি delete button তৈরি করেছে। এটি `Button` component এর সাথে `Delete` label এবং red color যুক্ত করে।
-- **Output**:
-  - প্রথম button এ ক্লিক করলে "Clicked!" এবং দ্বিতীয় button এ ক্লিক করলে "Danger!" alert message দেখায়।
-
-#### Example 2: Containment through Composition
-
-```javascript
-function Container({ children }) {
-  return <div className="container">{children}</div>;
-}
-
-function App() {
-  return (
-    <Container>
-      <h1>Title</h1>
-      <p>This is a paragraph inside the container.</p>
-    </Container>
-  );
-}
-```
-
-**Explanation**:
-
-- `Container` component একটি wrapper component হিসেবে কাজ করছে, যা `children` props এর মাধ্যমে nested content ধারণ করে।
-- `App` component এ `Container` component এর মধ্যে `<h1>` এবং `<p>` tags ব্যবহার করা হয়েছে, যা `Container` component এর মধ্যে প্রদর্শিত হয়।
-- **Output**:
-  - Title
-  - This is a paragraph inside the container.
-
-### 6. ✅ Best Practices with Composition in React
-
-1. **Create Flexible Components**: Component গুলো flexible রাখুন যেনো তাদের বিভিন্নভাবে ব্যবহার করা যায়।
-2. **Use Children**: যেকোনো content inject করতে **children** props ব্যবহার করুন, এটি component গুলোর মধ্যে composition এর জন্য অত্যন্ত উপকারী।
-3. **Use HOC (Higher Order Components)**: পুনরায় ব্যবহারযোগ্য component তৈরি করতে **Higher Order Components (HOC)** ব্যবহার করতে পারেন। এটি composition এর মাধ্যমে functionality wrap করে।
-4. **Use Compound Components**: একটি complex component তৈরি করতে composition ব্যবহার করে nested component তৈরি করা যায়, যা বড় আকারের UI component তৈরি করতে সাহায্য করে।
+## Table of Contents
+- [Introduction to React Inheritance](#introduction-to-react-inheritance)
+- [Why React Prefers Composition Over Inheritance](#why-react-prefers-composition-over-inheritance)
+- [Understanding the Limitations of Inheritance in React](#understanding-the-limitations-of-inheritance-in-react)
+- [Alternatives to Inheritance in React](#alternatives-to-inheritance-in-react)
+- [Real-life Examples of Composition vs. Inheritance](#real-life-examples-of-composition-vs-inheritance)
+- [Best Practices](#best-practices)
 
 ---
 
-Composition এবং Inheritance এর মধ্যে composition React এর জন্য সবচেয়ে কার্যকরী এবং প্রয়োজনীয় পদ্ধতি। এটি component গুলোকে nested এবং reusable ভাবে তৈরি করতে সাহায্য করে। Inheritance এর তুলনায় Composition ব্যবহার করে React এর UI component গুলো আরও modular, flexible এবং manageable রাখা যায়।
+### 📘 Introduction to React Inheritance
+
+React এ **Inheritance** concept টি বেশিরভাগ ক্ষেত্রে discouraged করা হয়। Inheritance অর্থাৎ parent-child class relationship traditional Object-Oriented Programming (OOP) এ সাধারণ ব্যাপার, যেখানে parent class এর properties বা methods child class এর দ্বারা inherit করা হয়। 
+
+React এর design philosophy অনুযায়ী component composition (composition over inheritance) কে encourage করা হয়। এতে component গুলো nested আকারে সাজানো যায় এবং data share করার জন্য props ও context ব্যবহার করা যায়।
+
+React এর composition প্যাটার্ন, অর্থাৎ component এর মধ্যে component রাখা, code structure কে আরও modular, flexible এবং reusable করে তোলে। 
+
+---
+
+### 🧐 Why React Prefers Composition Over Inheritance
+
+React এর ক্ষেত্রে composition কে inheritance এর উপরে প্রাধান্য দেয়ার কারণ গুলো হলো:
+
+1. **Code Reusability**: Composition ব্যবহার করে, component গুলোকে সহজে reuse করা যায় এবং বিভিন্ন layout এ বিভিন্ন component nesting করা সম্ভব।
+2. **Loose Coupling**: Composition এ component গুলো parent-child relationship এর strict binding এ আবদ্ধ থাকে না, ফলে তারা more flexible এবং reusable হয়।
+3. **Easy Debugging**: Composition structure কমপ্লেক্স হলে debugging এবং maintenance সহজ হয়।
+4. **Flexible Structure**: React এর ক্ষেত্রে component গুলোর মধ্যে বিভিন্ন structure তৈরি করতে composition বেশি কার্যকর এবং customization সহজ হয়।
+
+---
+
+### 🔍 Understanding the Limitations of Inheritance in React
+
+React এ inheritance এর কিছু গুরুত্বপূর্ণ limitation রয়েছে, যার কারণে এটি discouraged:
+
+1. **Complex Structure**: Inheritance ব্যবহার করলে component গুলো tightly-coupled হয় এবং component tree structure complex হয়ে যায়।
+2. **Less Flexibility**: Inheritance এ component গুলো parent class এর উপর অনেকটাই নির্ভরশীল হয়ে পড়ে, যা independent এবং reusable component তৈরি করা কঠিন করে তোলে।
+3. **Prop Management Complexity**: Inheritance ব্যবহারে prop management জটিল হয়ে যায় এবং data flow control করা কঠিন হয়।
+4. **Limited Use Cases**: React এর ক্ষেত্রে inheritance প্রায়শই প্রয়োজন হয় না কারণ composition এবং context data share করা অনেক বেশি flexible এবং maintainable।
+
+---
+
+### 🛠️ Alternatives to Inheritance in React
+
+React এ inheritance এর পরিবর্তে composition এবং context ব্যবহার করে code structure এবং data share করা সহজ করা যায়। নিচে inheritance এর কিছু কার্যকর বিকল্প তুলে ধরা হলো:
+
+#### 1. **Component Composition**
+
+React এর ক্ষেত্রে component composition বেশ কার্যকর। Component composition এ, এক বা একাধিক component nested আকারে অন্য component এর মধ্যে render হয়। Composition দ্বারা UI structure সহজেই modular এবং reusable রাখা যায়।
+
+**Example of Composition**:
+```javascript
+function Header() {
+  return <header>Header</header>;
+}
+
+function Footer() {
+  return <footer>Footer</footer>;
+}
+
+function Layout({ children }) {
+  return (
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Layout>
+      <main>Main Content</main>
+    </Layout>
+  );
+}
+```
+
+**Explanation**:
+- `Header` এবং `Footer` component গুলো `Layout` component এর মধ্যে composition হিসেবে ব্যবহৃত হয়েছে।
+- `Layout` component এ `children` prop ব্যবহার করে main content inject করা হয়েছে।
+- এটি inheritance এর বদলে composition ব্যবহার করে reusable UI structure তৈরি করে।
+
+#### 2. **Higher-Order Components (HOCs)**
+
+**Higher-Order Components (HOCs)** হলো এমন একটি প্যাটার্ন যা একটি component কে নতুন behavior যোগ করতে বা enhance করতে সাহায্য করে। এটি component গুলোর মধ্যে reusable logic share করতে কার্যকর।
+
+**Example of HOC**:
+```javascript
+import React from 'react';
+
+function withLogger(WrappedComponent) {
+  return function EnhancedComponent(props) {
+    console.log("Rendering:", WrappedComponent.name);
+    return <WrappedComponent {...props} />;
+  };
+}
+
+function MyComponent() {
+  return <div>Hello, World!</div>;
+}
+
+const EnhancedComponent = withLogger(MyComponent);
+```
+
+**Explanation**:
+- `withLogger` HOC `MyComponent` কে enhanced করে।
+- HOCs এর মাধ্যমে inheritance ছাড়াই reusable behavior বিভিন্ন component এ যোগ করা সম্ভব।
+
+#### 3. **Render Props**
+
+Render props প্যাটার্নের মাধ্যমে parent component তার data এবং behavior child component এ props হিসেবে pass করতে পারে। এটি composition এবং reusable logic share করার জন্য একটি জনপ্রিয় পদ্ধতি।
+
+**Example of Render Props**:
+```javascript
+import React, { useState } from 'react';
+
+function Counter({ render }) {
+  const [count, setCount] = useState(0);
+  return render(count, () => setCount(count + 1));
+}
+
+function App() {
+  return (
+    <Counter render={(count, increment) => (
+      <div>
+        <p>Count: {count}</p>
+        <button onClick={increment}>Increment</button>
+      </div>
+    )} />
+  );
+}
+```
+
+**Explanation**:
+- `Counter` component তার behavior `render` props এর মাধ্যমে child component এ pass করেছে।
+- Render props inheritance এর পরিবর্তে data এবং logic share করার জন্য একটি কার্যকর পদ্ধতি।
+
+---
+
+### 📖 Real-life Examples of Composition vs. Inheritance
+
+নিচে composition এবং inheritance এর মধ্যে তুলনা করার জন্য দুটি বাস্তব উদাহরণ রয়েছে।
+
+#### Example 1: Authentication Layout (Using Composition)
+
+ধরুন, আমাদের একটি application আছে যেখানে login এবং logout layout প্রয়োজন। Composition ব্যবহার করে এই layout তৈরি করা খুবই সহজ।
+
+```javascript
+function Header() {
+  return <header>Header</header>;
+}
+
+function Footer() {
+  return <footer>Footer</footer>;
+}
+
+function AuthLayout({ children }) {
+  return (
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
+}
+
+function Login() {
+  return (
+    <AuthLayout>
+      <div>Login Form</div>
+    </AuthLayout>
+  );
+}
+
+function Logout() {
+  return (
+    <AuthLayout>
+      <div>Logout Confirmation</div>
+    </AuthLayout>
+  );
+}
+```
+
+**Explanation**:
+- `AuthLayout` component composition ব্যবহার করে common `Header` এবং `Footer` সংরক্ষণ করেছে।
+- `Login` এবং `Logout` component গুলো `AuthLayout` কে reuse করে এবং এর মধ্যে content inject করেছে।
+
+#### Example 2: Applying Permissions (Using HOC Instead of Inheritance)
+
+একটি application এ permission check করার জন্য inheritance এর পরিবর্তে HOC ব্যবহার করা যেতে পারে, যা component এর behavior enhance করতে সাহায্য করবে।
+
+```javascript
+function withPermissionCheck(WrappedComponent) {
+  return function EnhancedComponent(props) {
+    const hasPermission = /* permission logic */;
+    if (!hasPermission) return <div>Access Denied</div>;
+    return <WrappedComponent {...props} />;
+  };
+}
+
+function Dashboard() {
+  return <div>Dashboard Content</div>;
+}
+
+const ProtectedDashboard = withPermissionCheck(Dashboard);
+```
+
+**Explanation**:
+- `withPermissionCheck` HOC `Dashboard` component এর জন্য permission check করে এবং `Dashboard` কে enhanced করে।
+- HOC inheritance এর পরিবর্তে behavior enhance করার জন্য একটি কার্যকর পদ্ধতি প্রদান করে।
+
+---
+
+### ✅ Best Practices
+
+React এ inheritance এর পরিবর্তে composition এবং অন্যান্য pattern ব্যবহার করার সময় কিছু Best Practices অনুসরণ করা উচিত।
+
+1. **Use Composition Over Inheritance**: React এর ক্ষেত্রে component nesting এবং props এর মাধ্যমে data pass করা inheritance এর চেয়ে বেশি কার্যকর।
+2. **Implement HOCs for Reusable Behavior**: একই behavior বা feature প্রয়োজন হলে HOC ব্যবহার করুন, যা inheritance এর জটিলতা ছাড়াই সহজে কাজ করতে সাহায্য করবে।
+3. **Use Render Props for Shared Logic**: Component গুলোর মধ্যে logic share করতে render props ব্যবহার করতে পারেন যা composition এর flexibility প্রদান করে।
+4. **Avoid Tight Coupling**: Component গুলোকে loosely coupled রাখতে composition পদ্ধতি ব্যবহার করুন, যা code structure পরিষ্কার এবং maintainable রাখবে।
+
+---
+
+React এ inheritance এর পরিবর্তে composition এবং context, HOCs, এবং render props ব্যবহার করে code structure আরও modular এবং reusable করা যায়। Proper usage এবং best practices অনুসরণ করে composition এবং অন্যান্য প্যাটার্ন ব্যবহারে React application আরও maintainable এবং flexible হয়ে ওঠে।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
 
-# Chapter-12.1: Why React Prefers Composition Over Inheritance ⚛️
+# Chapter-12.1: React Composition ⚛️
 
-### Table of Contents
-1. [What is Composition in React? 🎨](#1-what-is-composition-in-react-)
-2. [Why Composition is Preferred over Inheritance 🚀](#2-why-composition-is-preferred-over-inheritance-)
-3. [Advantages of Composition in React 💡](#3-advantages-of-composition-in-react-)
-4. [Why Inheritance is Avoided in React 🚫](#4-why-inheritance-is-avoided-in-react-)
-5. [Step-by-Step Examples of Composition](#5-step-by-step-examples-of-composition)
-6. [Real-life Example of Composition in React 🌐](#6-real-life-example-of-composition-in-react-)
-7. [Why the Composition Example is Better than Inheritance 🏆](#7-why-the-composition-example-is-better-than-inheritance-)
-8. [Inheritance in React: Step-by-Step Example](#8-inheritance-in-react-step-by-step-example)
-9. [How Inheritance Increases Dependency and Complexity](#9-how-inheritance-increases-dependency-and-complexity)
+## Table of Contents
+- [Introduction to Composition in React](#introduction-to-composition-in-react)
+- [Why Use Composition in React?](#why-use-composition-in-react)
+- [Implementing Composition in React](#implementing-composition-in-react)
+- [Common Patterns of Composition](#common-patterns-of-composition)
+  - [1. Children Props](#1-children-props)
+  - [2. Props for Dynamic Content](#2-props-for-dynamic-content)
+  - [3. Specialized Components](#3-specialized-components)
+- [Real-life Examples of Composition](#real-life-examples-of-composition)
+- [Best Practices for Composition in React](#best-practices-for-composition-in-react)
 
 ---
 
-## 1. What is Composition in React? 🎨
+### 📘 Introduction to Composition in React
 
-**Composition** হলো এমন একটি কৌশল, যা Component গুলিকে একত্র করে ব্যবহার করার মাধ্যমে জটিল Components তৈরী করা যায়। React-এ Composition খুবই গুরুত্বপূর্ণ কারণ এটি কোডকে বেশি Reusable এবং Manageable করে তোলে। এক Component কে অন্য Component-এ Nested ভাবে রেখে আরও বেশি ফাংশনালিটি যোগ করা সম্ভব হয়।
+**Composition** হলো React এর একটি powerful pattern যা component গুলোকে nested structure এ সাজিয়ে parent-child relationship তৈরি করতে সাহায্য করে। এটি component গুলোর মধ্যে code এবং behavior reuse করতে এবং UI structure কে আরো modular, maintainable এবং flexible করতে ব্যবহৃত হয়। Composition এর মাধ্যমে এক component এর মধ্যে অন্য component pass করে complex UI তৈরি করা সহজ হয়।
 
-## 2. Why Composition is Preferred over Inheritance 🚀
+React এর design philosophy অনুযায়ী, composition কে inheritance এর উপরে প্রাধান্য দেওয়া হয়। Composition parent component এর জন্য child component কে customize এবং re-use করার সুবিধা দেয়, যা inheritance এর তুলনায় বেশ কার্যকর।
 
-Inheritance, অর্থাৎ একটি Component-এর মধ্যে অন্য Component-এর বৈশিষ্ট্য ধার করা, সাধারণত React-এ এড়িয়ে যাওয়া হয় কারণ এটি কোডকে জটিল এবং হ্যান্ডেল করা কঠিন করে তুলতে পারে। React-এ Composition ব্যবহার করলে কোড সহজ, Modular এবং Reusable হয় যা Inheritance-এর ক্ষেত্রে সাধারণত সম্ভব হয় না।
+---
 
-## 3. Advantages of Composition in React 💡
+### 🧐 Why Use Composition in React?
 
-- **Reusability**: Composition ব্যবহার করে Components আরও Reusable করা যায়।
-- **Modularity**: Components ছোট ছোট অংশে বিভক্ত করা সহজ হয় যা কোডের Maintainability বাড়ায়।
-- **Flexibility**: একই Component কে বিভিন্ন জায়গায় আলাদা আঙ্গিকে ব্যবহার করা যায়।
-- **Easy to Test**: ছোট ছোট Components আলাদা ভাবে টেস্ট করা সহজ।
+React এ composition ব্যবহারের কিছু গুরুত্বপূর্ণ কারণ রয়েছে:
 
-## 4. Why Inheritance is Avoided in React 🚫
+1. **Code Reusability**: Composition ব্যবহার করে component গুলিকে reusable করা যায়, ফলে বারবার একই component তৈরি করতে হয় না।
+2. **Flexible and Modular Structure**: Component গুলিকে nested structure এ সাজানো যায়, যা UI structure কে আরও modular এবং flexible করে তোলে।
+3. **Loose Coupling**: Composition এর মাধ্যমে component গুলো loosely coupled থাকে এবং inheritance এর মতো tightly coupled হয় না।
+4. **Enhanced Readability**: Composition প্যাটার্নে component গুলোর structure পরিষ্কার এবং পড়তে সহজ হয়, যা debugging এবং maintenance সহজ করে।
 
-Inheritance-এ Parent Component এর পরিবর্তন Child Component গুলিতে স্বয়ংক্রিয়ভাবে প্রভাব ফেলে, যা ব্যবস্থাপনা কঠিন করে তোলে। এর ফলে Unintended side effects ঘটতে পারে এবং কোড Maintain করা কঠিন হয়ে যায়। React-এর ধারনায় Component গুলি নির্দিষ্ট Purpose অনুযায়ী সাজানো হয়, এবং Composition এই ধারনাকে সঠিকভাবে অনুসরণ করে।
+---
 
-## 5. Step-by-Step Examples of Composition
+### 🔍 Implementing Composition in React
 
-এখন একটি উদাহরণ দেখে নিই, যেখানে Composition-এর মাধ্যমে কীভাবে React Component তৈরি করা যায়।
+Composition implement করার জন্য React এ বিভিন্ন পদ্ধতি রয়েছে, যার মধ্যে `children` props, named props, এবং specialized components সবচেয়ে বেশি ব্যবহৃত হয়। নিচে composition এর বিভিন্ন implementation approach আলোচনা করা হয়েছে।
 
-### Example 1: Button Component Composition
+---
 
-#### Step 1: Basic Button Component তৈরি করা
+### 📂 Common Patterns of Composition
 
+#### 1. Children Props
+
+React এ **`children` props** সবচেয়ে সাধারণ composition প্যাটার্ন, যেখানে parent component তার child component কে `children` props হিসেবে render করে। এর মাধ্যমে parent component এর মধ্যে অন্য component inject করা যায়।
+
+**Example of Children Props**:
 ```javascript
-// Button.js
-import React from 'react';
-
-function Button({ onClick, children }) {
-    return (
-        <button onClick={onClick} style={{ padding: '10px', margin: '5px' }}>
-            {children}
-        </button>
-    );
-}
-
-export default Button;
-```
-
-#### Step 2: Custom Button Component তৈরি করা
-
-এখন `AlertButton` নামে একটি Component তৈরি করব, যা Button Component-এর উপর ভিত্তি করে কাজ করবে।
-
-```javascript
-// AlertButton.js
-import React from 'react';
-import Button from './Button';
-
-function AlertButton({ message }) {
-    const showAlert = () => {
-        alert(message);
-    };
-
-    return (
-        <Button onClick={showAlert}>
-            Show Alert
-        </Button>
-    );
-}
-
-export default AlertButton;
-```
-
-এখানে, `AlertButton` Component মূল Button Component-এর Composition হিসেবে কাজ করছে।
-
-#### Step 3: Rendering in App Component
-
-```javascript
-// App.js
-import React from 'react';
-import AlertButton from './AlertButton';
-
-function App() {
-    return (
-        <div>
-            <h1>Composition in React</h1>
-            <AlertButton message="Hello from Alert Button!" />
-        </div>
-    );
-}
-
-export default App;
-```
-
-এই উদাহরণে, `AlertButton` একটি সাধারণ Button Component ব্যবহার করে এবং Alert Message দেখানোর জন্য Custom Functionality যোগ করেছে। এটি Composition-এর মাধ্যমে করা সম্ভব হয়েছে যা Code Reusability বাড়িয়েছে।
-
-## 6. Real-life Example of Composition in React 🌐
-
-### Example 2: User Profile Card with Composition
-
-#### Step 1: Basic Card Component তৈরি করা
-
-```javascript
-// Card.js
-import React from 'react';
-
 function Card({ children }) {
-    return (
-        <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '5px' }}>
-            {children}
-        </div>
-    );
+  return (
+    <div className="card">
+      {children}
+    </div>
+  );
 }
-
-export default Card;
-```
-
-#### Step 2: User Avatar Component তৈরি করা
-
-```javascript
-// Avatar.js
-import React from 'react';
-
-function Avatar({ src }) {
-    return <img src={src} alt="User Avatar" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />;
-}
-
-export default Avatar;
-```
-
-#### Step 3: UserInfo Component তৈরি করা
-
-```javascript
-// UserInfo.js
-import React from 'react';
-
-function UserInfo({ name, email }) {
-    return (
-        <div>
-            <h3>{name}</h3>
-            <p>{email}</p>
-        </div>
-    );
-}
-
-export default UserInfo;
-```
-
-#### Step 4: UserProfile Component-এ Composition ব্যবহার করা
-
-```javascript
-// UserProfile.js
-import React from 'react';
-import Card from './Card';
-import Avatar from './Avatar';
-import UserInfo from './UserInfo';
-
-function UserProfile({ user }) {
-    return (
-        <Card>
-            <Avatar src={user.avatar} />
-            <UserInfo name={user.name} email={user.email} />
-        </Card>
-    );
-}
-
-export default UserProfile;
-```
-
-#### Step 5: Rendering UserProfile in App Component
-
-```javascript
-// App.js
-import React from 'react';
-import UserProfile from './UserProfile';
-
-const user = {
-    name: 'John Doe',
-    email: 'john.doe@example.com',
-    avatar: 'https://via.placeholder.com/50'
-};
 
 function App() {
+  return (
+    <Card>
+      <h2>Card Title</h2>
+      <p>This is a card description.</p>
+    </Card>
+  );
+}
+```
+
+**Explanation**:
+- `Card` component `children` props এর মাধ্যমে nested content inject করার জন্য একটি container হিসাবে কাজ করে।
+- `App` component এ `Card` component এর মধ্যে `h2` এবং `p` elements `children` props হিসেবে pass করা হয়েছে।
+- `children` props ব্যবহার করে component structure কে flexible রাখা সম্ভব হয়।
+
+#### 2. Props for Dynamic Content
+
+কখনো কখনো `children` props যথেষ্ট নয় এবং component এ নির্দিষ্ট content dynamically inject করতে হয়। এজন্য, props ব্যবহার করে specific content inject করা হয়, যা composition কে আরও dynamic এবং customizable করে তোলে।
+
+**Example of Dynamic Props**:
+```javascript
+function Dialog({ title, content }) {
+  return (
+    <div className="dialog">
+      <h2>{title}</h2>
+      <p>{content}</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <Dialog title="Welcome" content="This is a welcome message." />
+      <Dialog title="Goodbye" content="Thank you for visiting!" />
+    </div>
+  );
+}
+```
+
+**Explanation**:
+- `Dialog` component `title` এবং `content` props গ্রহণ করে, যা component কে বিভিন্ন context এ re-use করতে সাহায্য করে।
+- `App` component এ `Dialog` component কে বিভিন্ন content দিয়ে render করা হয়েছে, যা component structure কে flexible করে।
+
+#### 3. Specialized Components
+
+Composition এ **Specialized Components** তৈরি করতে context-specific বা layout-specific components ব্যবহার করা যায়। এতে parent component অন্যান্য component কে section বা slot আকারে pass করে, এবং structure অনুযায়ী customize করা যায়।
+
+**Example of Specialized Components**:
+```javascript
+function Layout({ header, sidebar, content }) {
+  return (
+    <div className="layout">
+      <header>{header}</header>
+      <aside>{sidebar}</aside>
+      <main>{content}</main>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Layout
+      header={<h1>Website Header</h1>}
+      sidebar={<p>Sidebar Content</p>}
+      content={<p>Main Content Area</p>}
+    />
+  );
+}
+```
+
+**Explanation**:
+- `Layout` component এ `header`, `sidebar`, এবং `content` props গ্রহণ করা হয়েছে, যা layout এর বিভিন্ন অংশে বিভিন্ন content inject করতে সহায়ক।
+- `App` component এ `Layout` component এর মধ্যে বিভিন্ন অংশে নির্দিষ্ট content pass করা হয়েছে, যা composition কে structured এবং readable করে।
+
+---
+
+### 📖 Real-life Examples of Composition
+
+#### Example 1: Modal Component with Composition
+
+একটি modal component তৈরি করা হয়েছে যা বিভিন্ন context এ বিভিন্ন content inject করতে composition ব্যবহার করেছে।
+
+```javascript
+function Modal({ title, children }) {
+  return (
+    <div className="modal">
+      <h2>{title}</h2>
+      <div className="modal-content">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <Modal title="Confirmation">
+        <p>Are you sure you want to proceed?</p>
+        <button>Yes</button>
+        <button>No</button>
+      </Modal>
+      <Modal title="Notification">
+        <p>You have a new message.</p>
+      </Modal>
+    </div>
+  );
+}
+```
+
+**Explanation**:
+1. **Modal Component**: `Modal` component `title` এবং `children` props ব্যবহার করে content display করে।
+2. **App Component**: `App` component এ `Modal` component এর মধ্যে বিভিন্ন context অনুযায়ী content inject করা হয়েছে।
+3. **Output**: Composition ব্যবহার করে `Modal` component কে বিভিন্ন layout এ content display করতে flexible রাখা হয়েছে।
+
+#### Example 2: Navbar Layout with Composition
+
+ধরুন, আমাদের একটি application আছে যেখানে Navbar এর বিভিন্ন section আছে। Composition ব্যবহার করে এই layout তৈরি করা সহজ।
+
+```javascript
+function Navbar({ logo, menu, profile }) {
+  return (
+    <nav className="navbar">
+      <div className="navbar-logo">{logo}</div>
+      <div className="navbar-menu">{menu}</div>
+      <div className="navbar-profile">{profile}</div>
+    </nav>
+  );
+}
+
+function App() {
+  return (
+    <Navbar
+      logo={<img src="logo.png" alt="Logo" />}
+      menu={<ul><li>Home</li><li>About</li><li>Contact</li></ul>}
+      profile={<button>Login</button>}
+    />
+  );
+}
+```
+
+**Explanation**:
+1. **Navbar Component**: `Navbar` component `logo`, `menu`, এবং `profile` props গ্রহণ করে।
+2. **App Component**: `App` component এ `Navbar` component এর মধ্যে বিভিন্ন section এ content inject করা হয়েছে।
+3. **Output**: Composition ব্যবহার করে `Navbar` component কে flexible এবং reusable রাখা হয়েছে।
+
+---
+
+### ✅ Best Practices for Composition in React
+
+Composition ব্যবহার করার সময় কিছু Best Practices অনুসরণ করা উচিত:
+
+1. **Use Composition Over Inheritance**: React এ inheritance এর পরিবর্তে composition ব্যবহার করুন, যা component structure কে simple এবং flexible রাখে।
+2. **Avoid Nested Composition if Possible**: অতিরিক্ত nested composition structure জটিল করে তোলে, তাই nesting কম রাখার চেষ্টা করুন।
+3. **Use Meaningful Names for Props**: Composition এর জন্য meaningful এবং descriptive props নাম ব্যবহার করুন, যা component এর বিভিন্ন অংশের কাজ বুঝতে সাহায্য করে।
+4. **Use `children` for Flexible Structure**: `children` props ব্যবহার করে nested structure তৈরি করুন, যা content inject করা সহজ করে।
+
+---
+
+React এ Composition প্যাটার্ন component গুলোর structure কে modular এবং reusable করতে সাহায্য করে। Proper usage এবং best practices অনুসরণ করে Composition ব্যবহার করলে React application গুলো আরো maintainable এবং flexible হয়ে ওঠে।
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-12.2: 📋 React Inheritance vs Composition - Detailed Example and Explanation
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Example of Inheritance vs Composition](#example-of-inheritance-vs-composition)
+  - [Using Inheritance](#using-inheritance)
+  - [Using Composition](#using-composition)
+- [Why Composition is Better than Inheritance in React](#why-composition-is-better-than-inheritance-in-react)
+
+---
+
+### 📘 Introduction
+
+React এ inheritance এবং composition দুটি পদ্ধতি ব্যবহৃত হয় component এর behavior এবং structure তৈরি করতে। যদিও inheritance traditional OOP তে গুরুত্বপূর্ণ ভূমিকা পালন করে, React এর ক্ষেত্রে composition কে বেশি প্রাধান্য দেয়া হয়। Composition component structure কে flexible, reusable, এবং maintainable রাখে। নিচের উদাহরণে, আমরা একটি `Card` component তৈরি করব, যা inheritance এবং composition দুইভাবে implement করা হবে। শেষে বোঝানো হবে কেন composition inheritance এর তুলনায় React এ বেশি কার্যকর।
+
+---
+
+### 📖 Example of Inheritance vs Composition
+
+ধরুন, আমরা একটি `Card` component তৈরি করতে চাই যেখানে বিভিন্ন ধরনের content থাকবে, যেমন header, body, এবং footer। এই component কে inheritance এবং composition দুটি পদ্ধতিতেই তৈরি করা হবে।
+
+---
+
+#### Using Inheritance
+
+Inheritance ব্যবহারে `Card` component তৈরি করা হলে আমরা একটি base class component তৈরি করব এবং বিভিন্ন ধরনের `Card` component তৈরি করতে subclass ব্যবহার করব। 
+
+```javascript
+import React from "react";
+
+// Base Card Class
+class Card extends React.Component {
+  renderHeader() {
+    return <div className="card-header">Default Header</div>;
+  }
+
+  renderBody() {
+    return <div className="card-body">Default Body Content</div>;
+  }
+
+  renderFooter() {
+    return <div className="card-footer">Default Footer</div>;
+  }
+
+  render() {
     return (
-        <div>
-            <h1>User Profile Card with Composition</h1>
-            <UserProfile user={user} />
-        </div>
+      <div className="card">
+        {this.renderHeader()}
+        {this.renderBody()}
+        {this.renderFooter()}
+      </div>
     );
+  }
+}
+
+// Specialized Card Classes
+class ProfileCard extends Card {
+  renderHeader() {
+    return <div className="card-header">Profile Header</div>;
+  }
+
+  renderBody() {
+    return <div className="card-body">This is a profile card.</div>;
+  }
+}
+
+class ProductCard extends Card {
+  renderHeader() {
+    return <div className="card-header">Product Header</div>;
+  }
+
+  renderBody() {
+    return <div className="card-body">This is a product card.</div>;
+  }
+
+  renderFooter() {
+    return <div className="card-footer">Buy Now</div>;
+  }
+}
+
+function App() {
+  return (
+    <div>
+      <ProfileCard />
+      <ProductCard />
+    </div>
+  );
 }
 
 export default App;
 ```
 
-## 7. Why the Composition Example is Better than Inheritance 🏆
+**Explanation**:
+1. **Base Class**: `Card` নামে একটি base class তৈরি করা হয়েছে, যার মধ্যে `renderHeader`, `renderBody`, এবং `renderFooter` নামে default methods রয়েছে।
+2. **Subclassing**: `ProfileCard` এবং `ProductCard` নামে দুইটি subclass তৈরি করা হয়েছে, যা `Card` base class থেকে extend করেছে।
+3. **Customization**: `ProfileCard` এবং `ProductCard` এ বিভিন্ন method override করে content customize করা হয়েছে।
 
-Composition ব্যবহার করে `UserProfile` Component-এর মধ্যে `Card`, `Avatar`, এবং `UserInfo` Components আলাদা ভাবে ব্যবহার করা হয়েছে। এর ফলে Component গুলিকে Reuse করা সহজ হয়েছে এবং আলাদা আলাদা Responsibility পাওয়া গেছে। Inheritance ব্যবহার করলে Components গুলি Parent-Child সম্পর্কের মধ্যে আটকে যাবে, ফলে এক Component পরিবর্তন করলে অন্যান্য Component গুলির উপর প্রভাব পড়বে। 
+**Limitations of Inheritance**:
+- Inheritance structure সহজে reusable নয়, কারণ আমরা প্রতিটি নতুন card type এর জন্য একটি subclass তৈরি করছি, যা code duplication বাড়ায়।
+- Flexibility কম, কারণ `Card` class এ নতুন behavior যোগ করতে হলে base class এবং সকল subclass পরিবর্তন করতে হতে পারে।
+- Tight Coupling এর কারণে component গুলো একে অপরের উপর নির্ভরশীল, যা React এর declarative nature এর সাথে অসামঞ্জস্যপূর্ণ।
 
-## 8. Inheritance in React: Step-by-Step Example
+---
 
-### Example: User Profile Card with Inheritance
+#### Using Composition
 
-#### Step 1: Basic Profile Class Component তৈরি করা
+এবার একই `Card` component composition ব্যবহার করে তৈরি করা হবে, যেখানে flexible props এবং `children` props ব্যবহার করা হবে।
 
 ```javascript
-// Profile.js
-import React, { Component } from 'react';
+import React from "react";
 
-class Profile extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: 'John Doe',
-            email: 'john.doe@example.com'
-        };
-    }
-
-    render() {
-        return (
-            <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '5px' }}>
-                <h3>{this.state.name}</h3>
-                <p>{this.state.email}</p>
-            </div>
-        );
-    }
+// Base Card Component using Composition
+function Card({ header, body, footer }) {
+  return (
+    <div className="card">
+      <div className="card-header">{header}</div>
+      <div className="card-body">{body}</div>
+      <div className="card-footer">{footer}</div>
+    </div>
+  );
 }
 
-export default Profile;
-```
-
-#### Step 2: Avatar Component তৈরি করা (Profile Component-কে Inherit করে)
-
-```javascript
-// ProfileWithAvatar.js
-import React from 'react';
-import Profile from './Profile';
-
-class ProfileWithAvatar extends Profile {
-    render() {
-        return (
-            <div>
-                <img
-                    src="https://via.placeholder.com/50"
-                    alt="User Avatar"
-                    style={{ width: '50px', height: '50px', borderRadius: '50%' }}
-                />
-                {super.render()}
-            </div>
-        );
-    }
+// Specialized Cards using Composition
+function ProfileCard() {
+  return (
+    <Card
+      header={<h2>Profile Header</h2>}
+      body={<p>This is a profile card.</p>}
+      footer={<button>Contact</button>}
+    />
+  );
 }
 
-export default ProfileWithAvatar;
-```
-
-#### Step 3: Rendering in App Component
-
-```javascript
-// App.js
-import React from 'react';
-import ProfileWithAvatar from './ProfileWithAvatar';
+function ProductCard() {
+  return (
+    <Card
+      header={<h2>Product Header</h2>}
+      body={<p>This is a product card.</p>}
+      footer={<button>Buy Now</button>}
+    />
+  );
+}
 
 function App() {
-    return (
-        <div>
-            <h1>User Profile Card with Inheritance</h1>
-            <ProfileWithAvatar />
-        </div>
-    );
+  return (
+    <div>
+      <ProfileCard />
+      <ProductCard />
+    </div>
+  );
 }
 
 export default App;
 ```
 
-## 9. How Inheritance Increases Dependency and Complexity
+**Explanation**:
+1. **Base Component with Composition**: `Card` component তৈরি করা হয়েছে যা `header`, `body`, এবং `footer` props গ্রহণ করে। এখানে `children` বা content props এর মাধ্যমে component এ content dynamically inject করা যায়।
+2. **Flexible Specialized Components**: `ProfileCard` এবং `ProductCard` component তৈরি করা হয়েছে যা `Card` component এ বিভিন্ন content pass করে।
+3. **Dynamic Content Management**: `header`, `body`, এবং `footer` এর জন্য আলাদা content pass করা হয়েছে, যা inheritance এর মত subclass তৈরির প্রয়োজনীয়তা দূর করে।
 
-এই উদাহরণে, `ProfileWithAvatar` Component `Profile` Component-কে Inherit করেছে, যার ফলে `Profile` Component-এর উপর সরাসরি নির্ভরশীল হয়ে পড়েছে। যদি `Profile` Component-এ কোন পরিবর্তন করা হয়, যেমন একটি নতুন State বা Props যোগ করা হয়, তাহলে `ProfileWithAvatar` Component-এও সেই পরিবর্তনটি ম্যানেজ করতে হবে। Inheritance ব্যবহারের ফলে Component-গুলির মধ্যে Dependency তৈরি হয়, যা কোডের জটিলতা বাড়িয়ে দেয় এবং Maintenance আরও কঠিন করে তোলে। 
+---
 
-Inheritance-এর পরিবর্তে Composition ব্যবহার করলে Components গুলিকে তাদের নির্দিষ্ট Responsibility অনুযায়ী আলাদা রাখা যায়, ফলে Dependency কমে এবং Component গুলি আরও Modular এবং Reusable হয়ে ওঠে।
+### 🔍 Why Composition is Better than Inheritance in React
+
+#### 1. Flexibility and Reusability
+
+Composition এর মাধ্যমে `Card` component কে আরো reusable এবং flexible করা হয়েছে। এখানে `header`, `body`, এবং `footer` content dynamically inject করা হয়েছে, যা inheritance structure এ subclass ব্যবহার করার পরিবর্তে props এর মাধ্যমে achieve করা সম্ভব।
+
+#### 2. Loose Coupling
+
+Composition ব্যবহার করে `ProfileCard` এবং `ProductCard` component গুলোকে `Card` component এর উপর নির্ভরশীল রাখা হয়নি। তারা `Card` component এর বিভিন্ন props pass করে independent ভাবে কাজ করতে পারে। Inheritance structure এ tight coupling এর কারণে subclasses গুলো base class এর উপর নির্ভরশীল থাকে, যা maintenance কঠিন করে তোলে।
+
+#### 3. Clearer and More Maintainable Code
+
+Composition structure inheritance এর তুলনায় অনেক পরিষ্কার এবং সহজে বোঝা যায়। `Card` component একটি flexible container হিসেবে কাজ করে, এবং content dynamically inject করা যায়। Inheritance structure এ subclassing এর মাধ্যমে code structure জটিল হয়ে যায় এবং নতুন feature যোগ করতে হলে base class এবং subclass দুটোই পরিবর্তন করতে হতে পারে।
+
+#### 4. Avoiding Code Duplication
+
+Inheritance structure এ প্রতিটি `Card` type এর জন্য আলাদা subclass তৈরি করতে হয়, যা code duplication বাড়ায়। Composition ব্যবহার করে `Card` component এর মধ্যে বিভিন্ন props inject করে customization করা হয়েছে, যা code duplication কমিয়ে modular structure তৈরি করে।
+
+---
+
+### Summary
+
+React এ composition inheritance এর তুলনায় অনেক বেশি flexible এবং maintainable। Composition এর মাধ্যমে:
+- **Code Reusability** বাড়ে এবং component গুলোকে modular রাখা সম্ভব হয়।
+- **Loose Coupling** এর মাধ্যমে component structure সহজে বুঝা এবং maintainable রাখা যায়।
+- **Props and `children`** ব্যবহার করে component structure dynamically configure করা যায়, যা inheritance এর জটিলতা এবং rigidity কমায়।
+
+Composition React এর declarative এবং functional nature এর সাথে আরও সামঞ্জস্যপূর্ণ এবং এটি code structure কে flexible এবং maintainable রাখতে সহায়ক। Proper usage এবং best practices অনুসরণ করে composition ব্যবহার করলে React application structure আরও উন্নত হয়। 
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
