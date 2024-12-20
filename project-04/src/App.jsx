@@ -4,8 +4,10 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import HeroClass from './components/HeroClass'
-import CounterClass from './components/CounterClass'
-import Timer from './components/Timer'
+import ButtonCounter from './components/HOC/ButtonCounter'
+import HoverCounter from './components/HOC/HoverCounter'
+import EnhancedButtonComponent from './components/HOC/EnhancedButtonComponent'
+import EnhancedHoverComponent from './components/HOC/EnhancedHoverComponent'
 
 
 
@@ -23,11 +25,8 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero data={myData} /> */}
-      <HeroClass data = {myData}/>
-      {/* <CounterClass /> */}
-      <Timer/>
-      <Footer />
+      <EnhancedButtonComponent/>
+      <EnhancedHoverComponent/>
     </>
   )
 }
