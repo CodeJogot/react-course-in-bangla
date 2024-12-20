@@ -4994,7 +4994,7 @@ export default App;
 # Chapter-14: React Render Props
 
 ## Problem Scenario:
-আপনার অ্যাপে এমন দুটি counter feature দরকার:
+ধরি আমাদের একটা অ্যাপ দরকার যে অ্যাপে এমন দুটি counter feature দরকার:
 1. একটি button click করলে count বাড়বে।
 2. একটি element hover করলে count বাড়বে।
 
