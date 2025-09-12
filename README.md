@@ -6,7 +6,8 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 
 |                                                  Chapter                                                  |                                                                                          Topics                                                                                          | Video Explanation |
 | :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------: |
-|                                                  [00](#)                                                  |                                                                                           []()                                                                                           |   [Watch Now]()   |
+|                               [00](#chapter-00-how-the-course-is-designed)                                |                                                           [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                           |   [Watch Now]()   |
+|                               [00.1](#chapter-001-roadmap-to-learn-reactjs)                               |                                                            [Roadmap to Learn React.js](#chapter-001-roadmap-to-learn-reactjs)                                                            |   [Watch Now]()   |
 |                                 [01](#chapter-01-introduction-to-reactjs)                                 |                                                             [Introduction to React.js](#chapter-01-introduction-to-reactjs)                                                              |   [Watch Now]()   |
 |                                 [01.1](#chapter-011-library-vs-framework)                                 |                                                                 [Libray vs Framework](#chapter-011-library-vs-framework)                                                                 |   [Watch Now]()   |
 |                               [02](#chapter-02-react-virtual-dom-what--why)                               |                                                         [React Virtual DOM: What & Why](#chapter-02-react-virtual-dom-what--why)                                                         |     Watch Now     |
@@ -23,14 +24,14 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 |                                                 [09.1](#)                                                 |                                                                        [React State in Functional Components](#)                                                                         |     Watch Now     |
 |                                      [10](#chapter-10-react-events)                                       |                                                                         [React Events](#chapter-10-react-events)                                                                         |     Watch Now     |
 |                               [11](#chapter-11-react-conditional-rendering)                               |                                                          [React Conditional Rendering](#chapter-11-react-conditional-rendering)                                                          |     Watch Now     |
-|                               [11.1](#chapter-111-react-list--keys)                               |                                                          [React List & Keys](#chapter-111-react-list--keys)                                                          |     Watch Now     |
-|                               [11.2](#chapter-112--react-form-handling---controlled-vs-uncontrolled-components)                               |                                                          [React Form Handling: Controlled vs Uncontrolled Components](#chapter-112--react-form-handling---controlled-vs-uncontrolled-components)                                                          |     Watch Now     |
-|                               [11.3](#chapter-113--react-lifting-state-up)                               |                                                          [React Lifting State Up](#chapter-113--react-lifting-state-up)                                                          |     Watch Now     |
+|                                   [11.1](#chapter-111-react-list--keys)                                   |                                                                    [React List & Keys](#chapter-111-react-list--keys)                                                                    |     Watch Now     |
+|             [11.2](#chapter-112--react-form-handling---controlled-vs-uncontrolled-components)             |                         [React Form Handling: Controlled vs Uncontrolled Components](#chapter-112--react-form-handling---controlled-vs-uncontrolled-components)                          |     Watch Now     |
+|                               [11.3](#chapter-113--react-lifting-state-up)                                |                                                              [React Lifting State Up](#chapter-113--react-lifting-state-up)                                                              |     Watch Now     |
 |                                   [12](#chapter-12--react-inheritance)                                    |                                                                   [React Inheritance](#chapter-12--react-inheritance)                                                                    |     Watch Now     |
 |                                 [12.1](#chapter-121-react-composition-️)                                  |                                                                  [React Composition](#chapter-121-react-composition-️)                                                                   |     Watch Now     |
 | [12.2](#chapter-122--react-inheritance-vs-composition---detailed-example-with-tight-coupling-explanation) | [React Inheritance vs Composition - Detailed Example with Tight Coupling Explanation](#chapter-122--react-inheritance-vs-composition---detailed-example-with-tight-coupling-explanation) |     Watch Now     |
 |                            [13](#chapter-13-react-higher-order-components-hoc)                            |                                                   [React Higher Order Components (HOC)](#chapter-13-react-higher-order-components-hoc)                                                   |     Watch Now     |
-|                            [13.1](#chapter-131-a-real-world-example-of-hoc)                            |                                                   [A Real-World Example of HOC](#chapter-131-a-real-world-example-of-hoc)                                                   |     Watch Now     |
+|                             [13.1](#chapter-131-a-real-world-example-of-hoc)                              |                                                         [A Real-World Example of HOC](#chapter-131-a-real-world-example-of-hoc)                                                          |     Watch Now     |
 |                                   [14](#chapter-14-react-render-props)                                    |                                                                   [React Render Props](#chapter-14-react-render-props)                                                                   |     Watch Now     |
 |                                    [15](#chapter-15-react-context-api)                                    |                                                                    [React Context API](#chapter-15-react-context-api)                                                                    |     Watch Now     |
 |                              [16](#chapter-16-how-to-use-react-context-api)                               |                                                         [How to Use React Context API](#chapter-16-how-to-use-react-context-api)                                                         |     Watch Now     |
@@ -75,6 +76,132 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 ### Prerequisite
 
 - Good understanding of HTML, CSS, JavaScript.
+
+<div align="right">
+    <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter-00.1: Roadmap to Learn React.js
+
+নিচে Beginner থেকে Advanced পর্যন্ত React.js শেখার জন্য ধাপে ধাপে একটি লার্নিং রোডম্যাপ দেওয়া হল। এটি এমনভাবে সাজানো হয়েছে যেন একদম শুরু থেকে শিখে ধীরে ধীরে প্রফেশনাল লেভেলে যাওয়া যায়। 💡
+
+---
+
+## 🟢 1. Prerequisites (React শুরুর আগে)
+
+React শেখার আগে এই বিষয়গুলো ভালোভাবে জানতে হবে:
+
+- **HTML5** (Semantic tags, Forms, Table ইত্যাদি)
+- **CSS3** (Flexbox, Grid, Animation, Responsive Design)
+- **JavaScript (ES6+)**
+
+  - let, const, arrow functions
+  - template literals
+  - array methods (map, filter, reduce)
+  - destructuring
+  - spread/rest operator
+  - promises, async/await
+  - modules & imports/exports
+
+- **Basic Git & GitHub** (Version control)
+- **Basic Terminal/Command Line** usage
+
+---
+
+## 🟡 2. React Fundamentals
+
+1. **Introduction to React**
+
+   - React কী, কেন ব্যবহার করা হয়
+   - SPA (Single Page Application) ধারণা
+
+2. **Create React App / Vite** দিয়ে Project Setup
+3. **JSX**: JSX Syntax, Expressions, Attributes
+4. **Components & Props**
+
+   - Functional Components
+   - Props ব্যবহার
+   - Props Drilling
+
+5. **State & setState** (useState Hook)
+6. **Handling Events**
+
+   - onClick, onChange, onSubmit
+
+7. **Conditional Rendering**
+
+   - if-else
+   - ternary operator
+
+8. **Lists & Keys**
+
+   - Array.map() দিয়ে list render করা
+
+9. **Styling in React**
+
+   - CSS Module
+   - Inline Styles
+   - Styled Components / Tailwind (optional)
+
+---
+
+## 🟠 3. Intermediate Topics
+
+1. **Hooks in Detail**
+
+   - useEffect
+   - useRef
+   - useContext
+   - Custom Hooks
+
+2. **Context API** (Props Drilling এর সমাধান)
+3. **Forms & Controlled Components**
+4. **React Router**
+
+   - Routing
+   - Nested Routes
+   - useParams, useNavigate
+
+5. **Fetching Data**
+
+   - Fetch API / Axios
+   - Loading & Error State
+
+6. **Performance Optimization**
+
+   - React.memo
+   - useCallback
+   - useMemo
+
+7. **React DevTools**
+
+---
+
+## 🟤 4. Advanced React
+
+1. **State Management Libraries**
+
+   - Redux Toolkit
+   - Zustand / Jotai (alternative)
+
+2. **TypeScript with React**
+3. **Code Splitting & Lazy Loading** (React.lazy, Suspense)
+4. **React Query / TanStack Query** (Server State Management)
+5. **Next.js** (React Framework for SSR/SSG)
+6. **Testing**
+
+   - Jest
+   - React Testing Library
+
+---
+
+## 🟣 5. Build & Deploy
+
+1. **Environment Variables & .env**
+2. **Build for Production** (npm run build)
+3. **Deploy to Hosting**
+
+   - Vercel / Netlify / GitHub Pages
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
@@ -429,6 +556,7 @@ React এর মতো libraries ছোট ছোট components তৈরি ক
 # Chapter-02: React Virtual DOM: What & Why
 
 ## সূচিপত্র
+
 1. [শুরুর আগে - একটি গল্প](#শুরুর-আগে---একটি-গল্প)
 2. [DOM কি? - মূল বিষয়টা বুঝি](#dom-কি---মূল-বিষয়টা-বুঝি)
 3. [Real DOM এর সমস্যা কি?](#real-dom-এর-সমস্যা-কি)
@@ -443,7 +571,7 @@ React এর মতো libraries ছোট ছোট components তৈরি ক
 
 ## শুরুর আগে - একটি গল্প
 
-মনে করুন আপনি একটি বইয়ের পাতায় কিছু লিখেছেন। এখন আপনার একটি শব্দ পরিবর্তন করতে হবে। 
+মনে করুন আপনি একটি বইয়ের পাতায় কিছু লিখেছেন। এখন আপনার একটি শব্দ পরিবর্তন করতে হবে।
 
 **সাধারণ উপায়ে:** পুরো পাতাটা মুছে আবার নতুন করে সব কিছু লিখতে হবে। এটা অনেক সময় নেয় এবং কষ্টকর।
 
@@ -456,6 +584,7 @@ Virtual DOM ঠিক এই স্মার্ট উপায়ের মত�
 ## DOM কি? - মূল বিষয়টা বুঝি
 
 ### সহজ ভাষায় DOM
+
 DOM মানে Document Object Model। এটা হল browser এ আপনার webpage টা কিভাবে তৈরি এবং organize হয়েছে তার একটা structure।
 
 ```html
@@ -478,13 +607,14 @@ html
   └── body
       └── div
           ├── h1 ("আমার ওয়েবসাইট")
-          ├── p ("এটি একটি paragraph")  
+          ├── p ("এটি একটি paragraph")
           └── button ("Click Me")
 ```
 
 এই tree structure টাই হল DOM।
 
 ### DOM এর বৈশিষ্ট্য
+
 - Browser এ যা দেখেন, সেটাই DOM
 - JavaScript দিয়ে DOM change করা যায়
 - DOM change হলে webpage এ তৎক্ষণাত পরিবর্তন দেখা যায়
@@ -494,36 +624,40 @@ html
 ## Real DOM এর সমস্যা কি?
 
 ### সমস্যা ১: অনেক ধীর (Slow)
+
 ```javascript
 // ধরুন আপনার 100টা list item আছে
-const list = document.getElementById('myList');
+const list = document.getElementById("myList");
 
 // এক এক করে 100টা item change করতে হলে
-for(let i = 0; i < 100; i++) {
+for (let i = 0; i < 100; i++) {
   list.children[i].innerHTML = `Item ${i} - Updated`;
   // প্রতিবার browser পুরো page re-calculate করে!
 }
 ```
 
 **কি হচ্ছে এখানে?**
+
 - প্রতিবার change এ browser পুরো page আবার calculate করে
 - Layout পুনরায় তৈরি হয় (Reflow)
 - Elements আবার paint হয় (Repaint)
 - এই process 100 বার repeat হয়!
 
 ### সমস্যা ২: অপ্রয়োজনীয় Update
+
 ```javascript
 // ধরুন আপনি একটা shopping cart আপডেট করছেন
 function updateCart() {
   // Total amount পরিবর্তন হয়েছে
-  document.getElementById('total').innerHTML = '৫০০ টাকা';
-  
+  document.getElementById("total").innerHTML = "৫০০ টাকা";
+
   // কিন্তু browser পুরো page check করে
   // যদিও শুধু একটা element পরিবর্তন হয়েছে
 }
 ```
 
 ### সমস্যা ৩: Memory এর অপব্যবহার
+
 Real DOM elements অনেক memory নেয় কারণ তাদের অনেক properties আছে।
 
 ---
@@ -531,9 +665,11 @@ Real DOM elements অনেক memory নেয় কারণ তাদের 
 ## Virtual DOM কি? - সহজ ভাষায়
 
 ### মূল ধারণা
+
 Virtual DOM হল Real DOM এর একটা **copy** যা JavaScript object হিসেবে computer এর memory তে থাকে। এটা browser এ দেখা যায় না, শুধু memory তে থাকে।
 
 ### সহজ তুলনা
+
 ```javascript
 // Real DOM (Browser এ যেটা দেখেন)
 <div>
@@ -558,6 +694,7 @@ Virtual DOM হল Real DOM এর একটা **copy** যা JavaScript objec
 ```
 
 ### Virtual DOM এর বৈশিষ্ট্য
+
 - এটা JavaScript object
 - Browser এ দেখা যায় না
 - Memory তে থাকে
@@ -573,16 +710,15 @@ Virtual DOM হল Real DOM এর একটা **copy** যা JavaScript objec
 ### Step 1: প্রথম রেন্ডার (Initial Render)
 
 **আপনার React Component:**
+
 ```javascript
 function MyComponent() {
-  const [name, setName] = useState('রহিম');
-  
+  const [name, setName] = useState("রহিম");
+
   return (
     <div>
       <h1>নাম: {name}</h1>
-      <button onClick={() => setName('করিম')}>
-        নাম পরিবর্তন করুন
-      </button>
+      <button onClick={() => setName("করিম")}>নাম পরিবর্তন করুন</button>
     </div>
   );
 }
@@ -591,6 +727,7 @@ function MyComponent() {
 **কি হয়:**
 
 1️⃣ **React Virtual DOM tree তৈরি করে:**
+
 ```javascript
 // Virtual DOM Tree (Memory তে)
 {
@@ -610,6 +747,7 @@ function MyComponent() {
 ```
 
 2️⃣ **React এই Virtual DOM থেকে Real DOM তৈরি করে:**
+
 ```html
 <!-- Browser এ যেটা দেখবেন -->
 <div>
@@ -631,6 +769,7 @@ function MyComponent() {
 ### Step 3: নতুন Virtual DOM তৈরি
 
 **React নতুন Virtual DOM tree তৈরি করে:**
+
 ```javascript
 // নতুন Virtual DOM Tree (Memory তে)
 {
@@ -666,7 +805,7 @@ function MyComponent() {
   ]
 }
 
-// নতুন Tree  
+// নতুন Tree
 {
   type: 'div',
   children: [
@@ -680,8 +819,9 @@ function MyComponent() {
 ```
 
 **React খুঁজে পায়:**
+
 - `div` element same আছে ✓
-- `button` element same আছে ✓  
+- `button` element same আছে ✓
 - শুধু `h1` এর text পরিবর্তন হয়েছে ⚡
 
 ### Step 5: Real DOM Update করা (Reconciliation)
@@ -690,7 +830,7 @@ function MyComponent() {
 
 ```javascript
 // React শুধু এই একটা line execute করে
-document.querySelector('h1').textContent = 'নাম: করিম';
+document.querySelector("h1").textContent = "নাম: করিম";
 
 // সম্পূর্ণ page বা component আবার তৈরি করে না!
 ```
@@ -704,22 +844,27 @@ document.querySelector('h1').textContent = 'নাম: করিম';
 চলুন একটা shopping cart এর example দিয়ে পুরো process টা দেখি:
 
 ### Initial State
+
 ```javascript
 function ShoppingCart() {
   const [items, setItems] = useState([
-    { id: 1, name: 'আম', price: 100, quantity: 2 },
-    { id: 2, name: 'কলা', price: 50, quantity: 5 }
+    { id: 1, name: "আম", price: 100, quantity: 2 },
+    { id: 2, name: "কলা", price: 50, quantity: 5 },
   ]);
-  
-  const total = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-  
+
+  const total = items.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
+
   return (
     <div>
       <h1>Shopping Cart</h1>
       <ul>
-        {items.map(item => (
+        {items.map((item) => (
           <li key={item.id}>
-            {item.name} - {item.price}৳ x {item.quantity} = {item.price * item.quantity}৳
+            {item.name} - {item.price}৳ x {item.quantity} ={" "}
+            {item.price * item.quantity}৳
           </li>
         ))}
       </ul>
@@ -730,6 +875,7 @@ function ShoppingCart() {
 ```
 
 ### Step 1: প্রথম Virtual DOM
+
 ```javascript
 // Memory তে Virtual DOM Tree
 {
@@ -749,16 +895,16 @@ function ShoppingCart() {
 ```
 
 ### Step 2: User আমের quantity বাড়ালো (2 থেকে 3)
+
 ```javascript
 // State update
-setItems(prevItems => 
-  prevItems.map(item => 
-    item.id === 1 ? { ...item, quantity: 3 } : item
-  )
+setItems((prevItems) =>
+  prevItems.map((item) => (item.id === 1 ? { ...item, quantity: 3 } : item))
 );
 ```
 
 ### Step 3: নতুন Virtual DOM
+
 ```javascript
 // নতুন Virtual DOM Tree
 {
@@ -778,16 +924,18 @@ setItems(prevItems =>
 ```
 
 ### Step 4: React যা খুঁজে পেল
+
 - `h1` → কোন পরিবর্তন নেই
 - প্রথম `li` → text পরিবর্তন হয়েছে
-- দ্বিতীয় `li` → কোন পরিবর্তন নেই  
+- দ্বিতীয় `li` → কোন পরিবর্তন নেই
 - `h2` → text পরিবর্তন হয়েছে
 
 ### Step 5: Real DOM এ শুধু 2টা update
+
 ```javascript
 // React শুধু এই 2টা operation করবে
-document.querySelector('li:first-child').textContent = 'আম - 100৳ x 3 = 300৳';
-document.querySelector('h2').textContent = 'Total: 550৳';
+document.querySelector("li:first-child").textContent = "আম - 100৳ x 3 = 300৳";
+document.querySelector("h2").textContent = "Total: 550৳";
 ```
 
 **ফলাফল:** পুরো page reload বা re-render না করে শুধু 2টা text update হল!
@@ -801,7 +949,7 @@ document.querySelector('h2').textContent = 'Total: 550৳';
 ```javascript
 function Counter() {
   const [count, setCount] = useState(0);
-  
+
   return (
     <div>
       <p>Count: {count}</p>
@@ -817,11 +965,12 @@ function Counter() {
 1. **State change:** `count` 0 থেকে 1 হয়
 2. **Virtual DOM comparison:**
    - `div` → same
-   - `p` text → "Count: 0" থেকে "Count: 1" 
+   - `p` text → "Count: 0" থেকে "Count: 1"
    - দুইটা `button` → same
 3. **Real DOM update:** শুধু `p` element এর text update
 
 **Traditional way তে কি হতো:**
+
 ```javascript
 // পুরো component আবার তৈরি হতো
 document.innerHTML = `
@@ -838,11 +987,11 @@ document.innerHTML = `
 ```javascript
 function App() {
   const [showContent, setShowContent] = useState(false);
-  
+
   return (
     <div>
       <button onClick={() => setShowContent(!showContent)}>
-        {showContent ? 'Hide' : 'Show'} Content
+        {showContent ? "Hide" : "Show"} Content
       </button>
       {showContent && <p>This is hidden content!</p>}
     </div>
@@ -853,6 +1002,7 @@ function App() {
 **Show button click করলে:**
 
 **Virtual DOM changes:**
+
 ```javascript
 // Before
 {
@@ -863,7 +1013,7 @@ function App() {
   ]
 }
 
-// After  
+// After
 {
   type: 'div',
   children: [
@@ -874,6 +1024,7 @@ function App() {
 ```
 
 **Real DOM updates:**
+
 1. Button text update: "Show" → "Hide"
 2. New p element add
 
@@ -884,15 +1035,17 @@ function App() {
 ### 1. গতি (Performance)
 
 **Virtual DOM ছাড়া:**
+
 ```javascript
 // প্রতি update এ
-document.getElementById('item1').innerHTML = 'New text 1';  // Browser recalculate
-document.getElementById('item2').innerHTML = 'New text 2';  // Browser recalculate  
-document.getElementById('item3').innerHTML = 'New text 3';  // Browser recalculate
+document.getElementById("item1").innerHTML = "New text 1"; // Browser recalculate
+document.getElementById("item2").innerHTML = "New text 2"; // Browser recalculate
+document.getElementById("item3").innerHTML = "New text 3"; // Browser recalculate
 // 3 বার browser calculation!
 ```
 
 **Virtual DOM এর সাথে:**
+
 ```javascript
 // React একসাথে সব changes batch করে
 // একবারেই সব DOM updates করে
@@ -902,24 +1055,26 @@ document.getElementById('item3').innerHTML = 'New text 3';  // Browser recalcula
 ### 2. সহজতা (Simplicity)
 
 **Traditional JavaScript:**
+
 ```javascript
 function updateUI() {
   // ম্যানুয়াল DOM manipulation
-  const nameEl = document.getElementById('name');
-  const emailEl = document.getElementById('email');
-  
+  const nameEl = document.getElementById("name");
+  const emailEl = document.getElementById("email");
+
   if (user.name) {
-    nameEl.style.display = 'block';
+    nameEl.style.display = "block";
     nameEl.textContent = user.name;
   } else {
-    nameEl.style.display = 'none';
+    nameEl.style.display = "none";
   }
-  
+
   // ... আরো অনেক manual work
 }
 ```
 
 **React এর সাথে:**
+
 ```javascript
 function UserProfile({ user }) {
   return (
@@ -935,6 +1090,7 @@ function UserProfile({ user }) {
 ### 3. Predictability (পূর্বাভাস)
 
 Virtual DOM ensure করে যে:
+
 - Same state = Same UI
 - কোন unexpected DOM changes নেই
 - UI bugs কম হয়
@@ -948,6 +1104,7 @@ Virtual DOM ensure করে যে:
 **উত্তর:** না! Simple applications এ Virtual DOM একটু slow হতে পারে। কিন্তু complex applications এ এটা অনেক fast।
 
 **কেন?**
+
 - Simple app: Virtual DOM extra step add করে
 - Complex app: Virtual DOM অনেক unnecessary updates prevent করে
 
@@ -956,8 +1113,9 @@ Virtual DOM ensure করে যে:
 **উত্তর:** হ্যাঁ, কিছুটা memory বেশি নেয়। কিন্তু benefits এর তুলনায় এটা নগণ্য।
 
 **বিবেচনা:**
+
 - Virtual DOM: Lightweight JavaScript objects
-- Real DOM: Heavy browser objects  
+- Real DOM: Heavy browser objects
 - Trade-off: একটু বেশি memory vs অনেক ভালো performance
 
 ### প্রশ্ন ৩: Virtual DOM ছাড়া React কাজ করে না?
@@ -973,6 +1131,7 @@ Virtual DOM ensure করে যে:
 **উত্তর:** হ্যাঁ, পারবেন! তবে এটা অনেক complex। React already optimized Virtual DOM provide করে।
 
 **Simple example:**
+
 ```javascript
 // Manual Virtual DOM (educational purpose)
 function createElement(tag, props, ...children) {
@@ -980,9 +1139,11 @@ function createElement(tag, props, ...children) {
 }
 
 // Usage
-const virtualElement = createElement('div', null,
-  createElement('h1', null, 'Hello'),
-  createElement('p', null, 'World')
+const virtualElement = createElement(
+  "div",
+  null,
+  createElement("h1", null, "Hello"),
+  createElement("p", null, "World")
 );
 ```
 
@@ -990,27 +1151,28 @@ const virtualElement = createElement('div', null,
 
 ## শেষ কথা
 
-Virtual DOM একটি brilliant concept যা modern web development এ revolution এনেছে। 
+Virtual DOM একটি brilliant concept যা modern web development এ revolution এনেছে।
 
 **মূল বিষয়গুলো মনে রাখুন:**
 
 1. **Virtual DOM = Real DOM এর JavaScript copy**
 2. **কাজের ধাপ:**
+
    - State change হয়
-   - নতুন Virtual DOM তৈরি হয়  
+   - নতুন Virtual DOM তৈরি হয়
    - পুরাতনের সাথে compare হয়
    - শুধু changes Real DOM এ update হয়
 
 3. **সুবিধা:**
+
    - দ্রুত performance
-   - সহজ development  
+   - সহজ development
    - কম bugs
 
 4. **কখন উপকারী:**
-   - Complex applications  
+   - Complex applications
    - Frequent UI updates
    - Large component trees
-
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
@@ -1341,12 +1503,12 @@ my-react-app
 ├── vite.config.js
 ```
 
-- **node_modules**: React এবং Other 3rd Party tools এখানে থাকে। এই Folder এ Touch করার কোন প্রয়োজন নেই। 
-- **public**: এই Folder এ আমাদের Website এর Public Assets যেমন Images, Files, Videos etc এগুলা থাকে। 
-- **src**: সমস্ত application এর মূল কোড এখানে থাকে। **App.jsx** এবং **main.jsx** হলো মূল React components এবং entry point। একটা React Application এর জন্য 95% সময় আমাদের এই Folder এই কাঁটাতে হবে। 
+- **node_modules**: React এবং Other 3rd Party tools এখানে থাকে। এই Folder এ Touch করার কোন প্রয়োজন নেই।
+- **public**: এই Folder এ আমাদের Website এর Public Assets যেমন Images, Files, Videos etc এগুলা থাকে।
+- **src**: সমস্ত application এর মূল কোড এখানে থাকে। **App.jsx** এবং **main.jsx** হলো মূল React components এবং entry point। একটা React Application এর জন্য 95% সময় আমাদের এই Folder এই কাঁটাতে হবে।
 - **public**: Static files এর জন্য ব্যবহৃত হয়।
-- **index.html**: Vite এর জন্য প্রধান HTML ফাইল। এই ফাইলে `<div id="root"></div>` root নামে যে div element থাকে, সেটিই আসলে আমাদের Application এর Container হিসেবে কাজ করে। কারন সব React Code এই root এর মধ্যেই render করা হয়।  
-- **vite.config.js**: Vite এর configuration ফাইল। এটিও Touch করার প্রয়োজন হয় না। 
+- **index.html**: Vite এর জন্য প্রধান HTML ফাইল। এই ফাইলে `<div id="root"></div>` root নামে যে div element থাকে, সেটিই আসলে আমাদের Application এর Container হিসেবে কাজ করে। কারন সব React Code এই root এর মধ্যেই render করা হয়।
+- **vite.config.js**: Vite এর configuration ফাইল। এটিও Touch করার প্রয়োজন হয় না।
 
 ---
 
@@ -3100,8 +3262,6 @@ State হল কম্পোনেন্টের ভেতরের ডেট�
 
 ## যখন সাধারণ ভ্যারিয়েবল যথেষ্ট নয়
 
-
-
 ## When a regular variable isn’t enough
 
 <div align="right">
@@ -3566,9 +3726,10 @@ React এর **Conditional Rendering** একটি শক্তিশালী 
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-# Chapter-11.1: React List & Keys 
+# Chapter-11.1: React List & Keys
 
 ## Table of Contents
+
 1. [Introduction to Lists & Keys](#introduction-to-lists--keys)
 2. [Why Use Lists & Keys in React?](#why-use-lists--keys-in-react)
 3. [Rendering Lists with the `map()` Function](#rendering-lists-with-the-map-function)
@@ -3587,6 +3748,7 @@ React এ **Lists** এবং **Keys** concepts component এর মধ্যে
 ### 2. 🧐 Why Use Lists & Keys in React?
 
 React এ lists এবং keys ব্যবহার করলে dynamic এবং efficient data rendering সহজ হয়। কিছু গুরুত্বপূর্ণ কারণ হলো:
+
 - **Dynamic Data Handling**: Lists ব্যবহার করে dynamic content সহজে display করা যায়।
 - **Optimized Rendering**: Keys এর মাধ্যমে React component update এবং re-render efficiently manage করতে পারে।
 
@@ -3627,7 +3789,7 @@ Keys React এর জন্য unique identifiers যা list items এর re-re
 এই উদাহরণে, একটি simple list render করা হয়েছে এবং প্রতিটি item এর জন্য unique key ব্যবহার করা হয়েছে।
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 const fruits = [
   { id: 1, name: "Apple" },
@@ -3649,6 +3811,7 @@ export default FruitList;
 ```
 
 **Explanation**:
+
 - `fruits` array এর প্রতিটি item কে `id` attribute এর মাধ্যমে key হিসেবে দেওয়া হয়েছে।
 - Key ব্যবহার করে React efficiently items track করতে পারে এবং unnecessary re-renders এড়াতে পারে।
 
@@ -3659,7 +3822,7 @@ export default FruitList;
 Dynamic data এবং conditional rendering এর জন্য নিচের উদাহরণটি দেখা যাক।
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 const products = [
   { id: 101, name: "Laptop", price: 999.99, isAvailable: true },
@@ -3676,9 +3839,9 @@ function ProductList() {
           <p>Price: ${product.price}</p>
           <p>
             {product.isAvailable ? (
-              <span style={{ color: 'green' }}>In Stock</span>
+              <span style={{ color: "green" }}>In Stock</span>
             ) : (
-              <span style={{ color: 'red' }}>Out of Stock</span>
+              <span style={{ color: "red" }}>Out of Stock</span>
             )}
           </p>
         </li>
@@ -3691,6 +3854,7 @@ export default ProductList;
 ```
 
 **Explanation**:
+
 1. **Nested Data**: `products` array এর প্রতিটি item এ name, price, এবং availability status রয়েছে।
 2. **Conditional Rendering**: Availability এর উপর ভিত্তি করে stock status green অথবা red color এ দেখানো হয়েছে।
 3. **Unique Key**: `id` কে key হিসেবে ব্যবহার করা হয়েছে, যা React কে items efficiently track করতে সাহায্য করে।
@@ -3702,16 +3866,16 @@ export default ProductList;
 ধরুন, আমাদের কাছে একটি external API থেকে data আসছে যা আমরা list এ render করব।
 
 ```javascript
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 function UserList() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
-      .then(response => response.json())
-      .then(data => setUsers(data))
-      .catch(error => console.error("Error fetching data:", error));
+      .then((response) => response.json())
+      .then((data) => setUsers(data))
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   return (
@@ -3733,6 +3897,7 @@ export default UserList;
 ```
 
 **Explanation**:
+
 1. **Data Fetching**: API থেকে data fetch করে `users` state এ সংরক্ষণ করা হয়েছে।
 2. **Unique Keys with API Data**: API থেকে আসা data এর `id` কে unique key হিসেবে ব্যবহার করা হয়েছে।
 3. **Real-Time Update**: Data fetch হওয়ার পর `users` state update হয় এবং UI তে list render হয়।
@@ -3750,7 +3915,7 @@ export default UserList;
 
 ### সংক্ষেপে
 
-React এ Lists এবং Keys application এর efficiency এবং manageability বাড়ায়। Keys এর মাধ্যমে React effectively items track এবং unnecessary re-renders এড়াতে পারে। Properly managed lists এবং keys ব্যবহার করলে React application এর performance এবং maintainability অনেক সহজ হয়ে যায়। 
+React এ Lists এবং Keys application এর efficiency এবং manageability বাড়ায়। Keys এর মাধ্যমে React effectively items track এবং unnecessary re-renders এড়াতে পারে। Properly managed lists এবং keys ব্যবহার করলে React application এর performance এবং maintainability অনেক সহজ হয়ে যায়।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
@@ -3759,6 +3924,7 @@ React এ Lists এবং Keys application এর efficiency এবং manageabi
 # Chapter-11.2: 📋 React Form Handling - Controlled vs Uncontrolled Components
 
 ## Table of Contents
+
 1. [Introduction to Form Handling in React](#introduction-to-form-handling-in-react)
 2. [What are Controlled Components?](#what-are-controlled-components)
 3. [What are Uncontrolled Components?](#what-are-uncontrolled-components)
@@ -3771,6 +3937,7 @@ React এ Lists এবং Keys application এর efficiency এবং manageabi
 ### 1. 📘 Introduction to Form Handling in React
 
 React এ form handling user input সংগ্রহ এবং data প্রসেস করার একটি গুরুত্বপূর্ণ অংশ। React এ form handling প্রধানত দুটি উপায়ে করা যায়:
+
 - **Controlled Components**: যেখানে form এর data React এর state দ্বারা নিয়ন্ত্রিত হয়।
 - **Uncontrolled Components**: যেখানে form এর data সরাসরি DOM এর মাধ্যমে access করা হয়।
 
@@ -3780,9 +3947,10 @@ React এ form handling user input সংগ্রহ এবং data প্র�
 
 ### 2. 📝 What are Controlled Components?
 
-**Controlled Components** হলো এমন একটি React component যেখানে form এর values গুলো সম্পূর্ণভাবে React এর state দ্বারা নিয়ন্ত্রিত হয়। প্রতিটি input field এর মান React এর state এ সংরক্ষণ করা হয় এবং এই state এর উপর ভিত্তি করে UI এবং data সম্পূর্ণরূপে synchronized থাকে। 
+**Controlled Components** হলো এমন একটি React component যেখানে form এর values গুলো সম্পূর্ণভাবে React এর state দ্বারা নিয়ন্ত্রিত হয়। প্রতিটি input field এর মান React এর state এ সংরক্ষণ করা হয় এবং এই state এর উপর ভিত্তি করে UI এবং data সম্পূর্ণরূপে synchronized থাকে।
 
 #### Key Points:
+
 - Form values React এর state এ সংরক্ষিত থাকে।
 - প্রতিটি পরিবর্তনের জন্য একটি `onChange` event trigger হয় যা state update করে।
 - এই পদ্ধতিতে React UI এবং data কে সম্পূর্ণরূপে synchronized রাখে।
@@ -3790,10 +3958,10 @@ React এ form handling user input সংগ্রহ এবং data প্র�
 #### Example: Controlled Component
 
 ```javascript
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function ControlledForm() {
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
 
   const handleChange = (event) => {
     setName(event.target.value);
@@ -3819,6 +3987,7 @@ export default ControlledForm;
 ```
 
 **ব্যাখ্যা**:
+
 - `name` state variable form input এর বর্তমান মান সংরক্ষণ করে।
 - `handleChange` ফাংশনের মাধ্যমে প্রতিবার input field এ পরিবর্তন ঘটলে `name` state update হয়।
 - `value={name}` attribute input এর মান React এর state এর সাথে সংযুক্ত করে, যা এই component কে একটি Controlled Component এ পরিণত করে।
@@ -3830,6 +3999,7 @@ export default ControlledForm;
 **Uncontrolled Components** এমন একটি পদ্ধতি যেখানে form এর values সরাসরি DOM থেকে access করা হয় `ref` ব্যবহার করে। এই পদ্ধতিতে data React এর state এ সংরক্ষণ না করে সরাসরি DOM থেকে সংগ্রহ করা হয় এবং এটি traditional HTML form এর মতো কাজ করে।
 
 #### Key Points:
+
 - Form values React এর state এ সংরক্ষণ না করে সরাসরি DOM থেকে access করা হয়।
 - Input fields এর জন্য `ref` attribute ব্যবহার করে values access করা হয়।
 - সাধারণ forms অথবা third-party libraries এর ক্ষেত্রে Uncontrolled Components দ্রুত এবং সহজ।
@@ -3837,7 +4007,7 @@ export default ControlledForm;
 #### Example: Uncontrolled Component
 
 ```javascript
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 
 function UncontrolledForm() {
   const nameRef = useRef();
@@ -3862,6 +4032,7 @@ export default UncontrolledForm;
 ```
 
 **ব্যাখ্যা**:
+
 - `nameRef` তৈরি করে `ref` attribute এর মাধ্যমে input field এর মান সরাসরি DOM থেকে access করা হয়েছে।
 - এখানে কোনো `onChange` handler এর প্রয়োজন নেই, বরং `nameRef.current.value` এর মাধ্যমে input field এর মান সরাসরি পড়া হচ্ছে।
 
@@ -3869,13 +4040,13 @@ export default UncontrolledForm;
 
 ### 4. 🔄 Controlled vs Uncontrolled Components - Key Differences
 
-| বৈশিষ্ট্য                   | Controlled Components                              | Uncontrolled Components                           |
-|-----------------------------|----------------------------------------------------|--------------------------------------------------|
-| **Data Handling**           | React এর state দ্বারা নিয়ন্ত্রিত                      | সরাসরি DOM থেকে access করা হয়                     |
-| **Control Over Input**      | React এর মাধ্যমে পূর্ণ নিয়ন্ত্রণ থাকে                 | DOM এর মাধ্যমে নিয়ন্ত্রিত                             |
-| **Real-time Validation**    | সহজে করা যায় কারণ data সরাসরি state এ থাকে          | কঠিন কারণ values `ref` এর মাধ্যমে access করতে হয়     |
-| **Use Case**                | Dynamic এবং complex forms                           | Simple forms অথবা third-party libraries এর সাথে ব্যবহৃত |
-| **Performance**             | সামান্য ধীর কারণ state ব্যবস্থাপনা দরকার                | দ্রুত, কারণ state এর প্রয়োজন হয় না এবং সরাসরি DOM access করা যায় |
+| বৈশিষ্ট্য                | Controlled Components                       | Uncontrolled Components                                             |
+| ------------------------ | ------------------------------------------- | ------------------------------------------------------------------- |
+| **Data Handling**        | React এর state দ্বারা নিয়ন্ত্রিত           | সরাসরি DOM থেকে access করা হয়                                      |
+| **Control Over Input**   | React এর মাধ্যমে পূর্ণ নিয়ন্ত্রণ থাকে      | DOM এর মাধ্যমে নিয়ন্ত্রিত                                          |
+| **Real-time Validation** | সহজে করা যায় কারণ data সরাসরি state এ থাকে | কঠিন কারণ values `ref` এর মাধ্যমে access করতে হয়                   |
+| **Use Case**             | Dynamic এবং complex forms                   | Simple forms অথবা third-party libraries এর সাথে ব্যবহৃত             |
+| **Performance**          | সামান্য ধীর কারণ state ব্যবস্থাপনা দরকার    | দ্রুত, কারণ state এর প্রয়োজন হয় না এবং সরাসরি DOM access করা যায় |
 
 ---
 
@@ -3888,12 +4059,12 @@ export default UncontrolledForm;
 এখানে একটি form রয়েছে যেখানে multiple input fields আছে (name এবং email), এবং প্রতিটি input field এর মান React এর state দ্বারা নিয়ন্ত্রিত।
 
 ```javascript
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function ControlledMultiInputForm() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    name: "",
+    email: "",
   });
 
   const handleChange = (event) => {
@@ -3913,11 +4084,21 @@ function ControlledMultiInputForm() {
     <form onSubmit={handleSubmit}>
       <label>
         Name:
-        <input type="text" name="name" value={formData.name} onChange={handleChange} />
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
       </label>
       <label>
         Email:
-        <input type="email" name="email" value={formData.email} onChange={handleChange} />
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
       </label>
       <button type="submit">Submit</button>
     </form>
@@ -3928,6 +4109,7 @@ export default ControlledMultiInputForm;
 ```
 
 **ব্যাখ্যা**:
+
 - `formData` state এ `name` এবং `email` values আলাদাভাবে সংরক্ষণ করা হয়েছে।
 - `handleChange` ফাংশন dynamically state update করতে সাহায্য করে এবং প্রতিটি input এর মান state এর সাথে synchronized থাকে।
 
@@ -3938,7 +4120,7 @@ export default ControlledMultiInputForm;
 এখানে multiple input fields এর মান সরাসরি DOM থেকে access করা হয়েছে `ref` attribute ব্যবহার করে।
 
 ```javascript
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 
 function UncontrolledMultiInputForm() {
   const nameRef = useRef();
@@ -3969,6 +4151,7 @@ export default UncontrolledMultiInputForm;
 ```
 
 **ব্যাখ্যা**:
+
 - `nameRef` এবং `emailRef` ব্যবহার করে DOM থেকে সরাসরি input values access করা হয়েছে।
 - Uncontrolled Components দ্রুত এবং সহজ কারণ এখানে state update করার প্রয়োজন নেই।
 
@@ -3994,13 +4177,14 @@ React এ **Controlled Components** state ব্যবহার করে form d
 # Chapter-11.3: 📋 React Lifting State Up
 
 ## Table of Contents
+
 1. [Introduction to Lifting State Up](#introduction-to-lifting-state-up)
 2. [Why Use Lifting State Up?](#why-use-lifting-state-up)
 3. [How Lifting State Up Works in React](#how-lifting-state-up-works-in-react)
 4. [Examples - Beginner to Advanced](#examples---beginner-to-advanced)
-    - [Example 1: Synchronized Temperature Inputs (Beginner)](#example-1-synchronized-temperature-inputs-beginner)
-    - [Example 2: Shopping Cart Quantity Sync (Intermediate)](#example-2-shopping-cart-quantity-sync-intermediate)
-    - [Example 3: Form Input Sync with Validation (Advanced)](#example-3-form-input-sync-with-validation-advanced)
+   - [Example 1: Synchronized Temperature Inputs (Beginner)](#example-1-synchronized-temperature-inputs-beginner)
+   - [Example 2: Shopping Cart Quantity Sync (Intermediate)](#example-2-shopping-cart-quantity-sync-intermediate)
+   - [Example 3: Form Input Sync with Validation (Advanced)](#example-3-form-input-sync-with-validation-advanced)
 5. [Best Practices for Lifting State Up](#best-practices-for-lifting-state-up)
 
 ---
@@ -4010,6 +4194,7 @@ React এ **Controlled Components** state ব্যবহার করে form d
 **Lifting State Up** হলো একটি React প্যাটার্ন যেখানে state কে component tree এর একটি higher level এ নিয়ে যাওয়া হয়, যাতে একাধিক child component সেই state access করতে পারে। যখন একাধিক component একই data share করতে চায় বা একটি component এর পরিবর্তন অন্য component এ reflect করতে চায়, তখন state কে parent বা common ancestor component এ move করা হয়। এই প্রক্রিয়াকে lifting state up বলা হয়।
 
 #### State Lifting এর মূল ধারণা:
+
 - **Centralized State Management**: State কে common ancestor component এ নিয়ে যাওয়া, যা child component গুলোর মধ্যে data consistency এবং synchronization নিশ্চিত করে।
 - **Component Communication**: Lifting state up parent-child component এর মধ্যে data passing কে সহজ করে।
 
@@ -4029,6 +4214,7 @@ React এ lifting state up ব্যবহারের প্রধান কা
 ### 3. 🔍 How Lifting State Up Works in React
 
 #### Steps for Lifting State Up:
+
 1. **Identify Shared State**: প্রথমে দেখে নিন কোন state একাধিক component এ ব্যবহার হবে।
 2. **Move State to Parent Component**: Shared state কে parent component এ নিয়ে আসুন, যেটি common ancestor হিসেবে কাজ করবে।
 3. **Pass State and Update Function as Props**: Parent component এর state এবং update function কে child component এ props হিসেবে pass করুন।
@@ -4047,7 +4233,7 @@ React এ lifting state up ব্যবহারের প্রধান কা
 ##### Step 1: TemperatureInput Component
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function TemperatureInput({ scale, temperature, onTemperatureChange }) {
   const scaleNames = { c: "Celsius", f: "Fahrenheit" };
@@ -4068,6 +4254,7 @@ export default TemperatureInput;
 ```
 
 **Explanation**:
+
 - `TemperatureInput` একটি reusable component যা `scale` (Celsius বা Fahrenheit), `temperature` (temperature value), এবং `onTemperatureChange` (temperature update function) props হিসেবে গ্রহণ করে।
 - `handleChange` function এর মাধ্যমে temperature পরিবর্তন হলে `onTemperatureChange` function call করা হয়।
 
@@ -4075,25 +4262,26 @@ export default TemperatureInput;
 
 ```javascript
 function toCelsius(fahrenheit) {
-  return (fahrenheit - 32) * 5 / 9;
+  return ((fahrenheit - 32) * 5) / 9;
 }
 
 function toFahrenheit(celsius) {
-  return (celsius * 9 / 5) + 32;
+  return (celsius * 9) / 5 + 32;
 }
 
 export { toCelsius, toFahrenheit };
 ```
 
 **Explanation**:
+
 - `toCelsius` এবং `toFahrenheit` function ব্যবহার করে Fahrenheit থেকে Celsius এবং Celsius থেকে Fahrenheit এ temperature conversion করা হয়।
 
 ##### Step 3: TemperatureCalculator Parent Component
 
 ```javascript
-import React, { useState } from 'react';
-import TemperatureInput from './TemperatureInput';
-import { toCelsius, toFahrenheit } from './conversions';
+import React, { useState } from "react";
+import TemperatureInput from "./TemperatureInput";
+import { toCelsius, toFahrenheit } from "./conversions";
 
 function TemperatureCalculator() {
   const [temperature, setTemperature] = useState("");
@@ -4132,6 +4320,7 @@ export default TemperatureCalculator;
 ```
 
 **Explanation**:
+
 1. **Lifting State Up**: `temperature` এবং `scale` state কে common parent component `TemperatureCalculator` এ initialize করা হয়েছে।
 2. **Passing Props**: `TemperatureInput` component গুলিতে `temperature`, `scale`, এবং `onTemperatureChange` props হিসেবে pass করা হয়েছে।
 3. **Data Synchronization**: `TemperatureInput` এর মাধ্যমে input temperature change করলে `handleCelsiusChange` বা `handleFahrenheitChange` function call হয়, যা updated temperature value এবং scale set করে। State change হলে parent component `TemperatureCalculator` re-render হয় এবং অন্য input field এ updated value display করে।
@@ -4145,7 +4334,7 @@ export default TemperatureCalculator;
 ##### Step 1: QuantityInput Component
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function QuantityInput({ quantity, onQuantityChange }) {
   return (
@@ -4161,12 +4350,13 @@ export default QuantityInput;
 ```
 
 **Explanation**:
+
 - `QuantityInput` একটি input component যা user এর quantity input গ্রহণ করে এবং `onQuantityChange` function call করে parent component এ quantity পাঠায়।
 
 ##### Step 2: CartDisplay Component
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function CartDisplay({ quantity }) {
   return <p>Total Quantity: {quantity}</p>;
@@ -4176,14 +4366,15 @@ export default CartDisplay;
 ```
 
 **Explanation**:
+
 - `CartDisplay` component শুধু total quantity display করে। Quantity value props হিসেবে parent component থেকে পাঠানো হয়।
 
 ##### Step 3: ShoppingCart Parent Component
 
 ```javascript
-import React, { useState } from 'react';
-import QuantityInput from './QuantityInput';
-import CartDisplay from './CartDisplay';
+import React, { useState } from "react";
+import QuantityInput from "./QuantityInput";
+import CartDisplay from "./CartDisplay";
 
 function ShoppingCart() {
   const [quantity, setQuantity] = useState(0);
@@ -4200,6 +4391,7 @@ export default ShoppingCart;
 ```
 
 **Explanation**:
+
 1. **Lifting State Up**: `quantity` state কে `ShoppingCart` component এ lift করা হয়েছে।
 2. **Passing Props**: `QuantityInput` এবং `CartDisplay` component গুলিতে `quantity` state এবং `setQuantity` function pass করা হয়েছে।
 3. **State Synchronization**: User quantity update করলে `setQuantity` call হয়, যা updated quantity `CartDisplay` component এ automatically reflect করে।
@@ -4213,14 +4405,14 @@ export default ShoppingCart;
 ##### Step 1: FormInput Component
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 function FormInput({ label, value, onChange, error }) {
   return (
     <div>
       <label>{label}</label>
       <input value={value} onChange={onChange} />
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {error && <p style={{ color: "red" }}>{error}</p>}
     </div>
   );
 }
@@ -4229,6 +4421,7 @@ export default FormInput;
 ```
 
 **Explanation**:
+
 - `FormInput` একটি reusable component যা `label`, `value`, `onChange`, এবং `error` props গ্রহণ করে।
 - Error থাকলে এটি error message display করে।
 
@@ -4285,6 +4478,7 @@ export default Form;
 ```
 
 **Explanation**:
+
 1. **Lifting State Up**: `username`, `email`, এবং `errors` state কে parent component `Form` এ lift করা হয়েছে।
 2. **Passing Props for Synchronization and Validation**: `FormInput` component গুলিতে value, onChange function, এবং error message props হিসেবে pass করা হয়েছে।
 3. **Real-Time Validation**: User input change করলে validation check হয় এবং error message update হয়। Updated value এবং error message `FormInput` এ synchronize হয়ে যায়।
@@ -4302,7 +4496,7 @@ export default Form;
 
 ### Summary
 
-React এ **Lifting State Up** একটি গুরুত্বপূর্ণ pattern যা component গুলোর মধ্যে data sync এবং consistent UI তৈরি করতে সহায়ক। Properly managed lifted state একটি React application এর data flow সহজ করে এবং component গুলোর মধ্যে data sharing structure পরিষ্কার এবং maintainable রাখতে সাহায্য করে। 
+React এ **Lifting State Up** একটি গুরুত্বপূর্ণ pattern যা component গুলোর মধ্যে data sync এবং consistent UI তৈরি করতে সহায়ক। Properly managed lifted state একটি React application এর data flow সহজ করে এবং component গুলোর মধ্যে data sharing structure পরিষ্কার এবং maintainable রাখতে সাহায্য করে।
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
@@ -5147,15 +5341,17 @@ React এ **Higher Order Components (HOC)** একটি শক্তিশা�
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-
 # Chapter-13.1: A Real-World Example of HOC
 
 ## Problem Scenario:
+
 আপনার একটি অ্যাপে দুইটি ফিচার আছে:
+
 1. একটি button, যা click করলে count বাড়বে।
 2. একটি element, যেটি hover করলে count বাড়বে।
 
 এই দু’টি feature এ কিছু common logic আছে:
+
 - Count পরিচালনা করা।
 - State management করা।
 
@@ -5164,6 +5360,7 @@ React এ **Higher Order Components (HOC)** একটি শক্তিশা�
 ---
 
 ## Steps to Solve Using HOC:
+
 1. একটি **HOC তৈরি করা হবে** যা count increment এবং state management পরিচালনা করবে।
 2. দুটি আলাদা component (CounterButton এবং HoverCounter) তৈরি করা হবে।
 3. এই component গুলোতে HOC ব্যবহার করে logic পুনরায় ব্যবহারযোগ্য করা হবে।
@@ -5177,26 +5374,20 @@ React এ **Higher Order Components (HOC)** একটি শক্তিশা�
 ### Step 1: Basic Components তৈরি করা
 
 #### Component 1: CounterButton Component
+
 ```javascript
 function CounterButton({ count, incrementCount }) {
-  return (
-    <button onClick={incrementCount}>
-      Button Clicked {count} times
-    </button>
-  );
+  return <button onClick={incrementCount}>Button Clicked {count} times</button>;
 }
 
 export default CounterButton;
 ```
 
 #### Component 2: HoverCounter Component
+
 ```javascript
 function HoverCounter({ count, incrementCount }) {
-  return (
-    <h2 onMouseOver={incrementCount}>
-      Hovered {count} times
-    </h2>
-  );
+  return <h2 onMouseOver={incrementCount}>Hovered {count} times</h2>;
 }
 
 export default HoverCounter;
@@ -5207,7 +5398,7 @@ export default HoverCounter;
 ### Step 2: Higher Order Component তৈরি করা
 
 ```javascript
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function withCounter(WrappedComponent) {
   return function EnhancedComponent(props) {
@@ -5231,11 +5422,14 @@ export default withCounter;
 ```
 
 #### ব্যাখ্যা:
+
 1. **HOC Function**:
+
    - `withCounter` একটি HOC যা একটি component (`WrappedComponent`) কে enhance করে।
    - এটি count এবং increment logic handle করে।
 
 2. **State Management**:
+
    - `useState` ব্যবহার করে `count` state তৈরি করা হয়েছে।
    - `incrementCount` function count বাড়ানোর জন্য তৈরি করা হয়েছে।
 
@@ -5248,9 +5442,10 @@ export default withCounter;
 ### Step 3: HOC ব্যবহার করে Enhanced Components তৈরি করা
 
 #### Enhanced CounterButton
+
 ```javascript
-import CounterButton from './CounterButton';
-import withCounter from './withCounter';
+import CounterButton from "./CounterButton";
+import withCounter from "./withCounter";
 
 const EnhancedCounterButton = withCounter(CounterButton);
 
@@ -5258,9 +5453,10 @@ export default EnhancedCounterButton;
 ```
 
 #### Enhanced HoverCounter
+
 ```javascript
-import HoverCounter from './HoverCounter';
-import withCounter from './withCounter';
+import HoverCounter from "./HoverCounter";
+import withCounter from "./withCounter";
 
 const EnhancedHoverCounter = withCounter(HoverCounter);
 
@@ -5272,9 +5468,9 @@ export default EnhancedHoverCounter;
 ### Step 4: App Component এ Enhanced Components ব্যবহার করা
 
 ```javascript
-import React from 'react';
-import EnhancedCounterButton from './EnhancedCounterButton';
-import EnhancedHoverCounter from './EnhancedHoverCounter';
+import React from "react";
+import EnhancedCounterButton from "./EnhancedCounterButton";
+import EnhancedHoverCounter from "./EnhancedHoverCounter";
 
 function App() {
   return (
@@ -5293,11 +5489,14 @@ export default App;
 ## How the HOC Simplifies the Code
 
 ### HOC এর কারণে কী সুবিধা হলো:
+
 1. **Code Reusability**:
+
    - `withCounter` HOC তৈরি করার পর `count` এবং `incrementCount` logic বারবার লিখতে হয়নি।
    - CounterButton এবং HoverCounter উভয়ের জন্য একই HOC ব্যবহার করা হয়েছে।
 
 2. **Separation of Concerns**:
+
    - HOC state management এবং counting logic পরিচালনা করছে।
    - মূল components (CounterButton এবং HoverCounter) শুধুমাত্র UI এবং event handle করছে।
 
@@ -5307,7 +5506,9 @@ export default App;
 ---
 
 ### HOC ছাড়া কী অসুবিধা হতো:
+
 1. **Duplicate Logic**:
+
    - প্রতিটি component এ `useState` এবং `incrementCount` বারবার লিখতে হতো।
    - এর ফলে code redundancy এবং maintenance সমস্যা হতো।
 
@@ -5319,14 +5520,17 @@ export default App;
 ### Detailed Step-by-Step Workflow
 
 1. **WrappedComponent**:
+
    - HOC এর ভিতরে `WrappedComponent` হলো মূল component যা enhance করা হয়।
    - উদাহরণ: CounterButton বা HoverCounter।
 
 2. **Props Passing**:
+
    - HOC এর মাধ্যমে `count` এবং `incrementCount` props `WrappedComponent` এ পাঠানো হয়।
    - Original props retain করতে `...props` ব্যবহার করা হয়।
 
 3. **Reusable Logic**:
+
    - Count এবং increment logic একবার HOC এ লিখলেই এটি যেকোনো component এ প্রয়োগ করা যায়।
 
 4. **Enhanced Components**:
@@ -5337,6 +5541,7 @@ export default App;
 ### Final Output:
 
 - **EnhancedCounterButton**:
+
   - Button click করলে count বাড়ে।
   - Output: `Button Clicked 1 times`.
 
@@ -5346,25 +5551,26 @@ export default App;
 
 ---
 
-
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
-
 # Chapter-14: React Render Props
 
 ## Problem Scenario:
+
 ধরি আমাদের একটা অ্যাপ দরকার যে অ্যাপে এমন দুটি counter feature দরকার:
+
 1. একটি button click করলে count বাড়বে।
 2. একটি element hover করলে count বাড়বে।
 
-এই দুটি counter feature একই **logic** (count management) ব্যবহার করে। কিন্তু যদি প্রতিটি component-এ একই logic বারবার লিখতে হয়, তাহলে code redundancy এবং maintenance সমস্যা দেখা দেবে। 
+এই দুটি counter feature একই **logic** (count management) ব্যবহার করে। কিন্তু যদি প্রতিটি component-এ একই logic বারবার লিখতে হয়, তাহলে code redundancy এবং maintenance সমস্যা দেখা দেবে।
 
 ---
 
 ## Solution Using Render Props:
-Render Props প্যাটার্ন ব্যবহার করে **common logic share করা যায়**। আমরা একবার counting logic তৈরি করব এবং তা বিভিন্ন UI components-এ প্রয়োগ করব। 
+
+Render Props প্যাটার্ন ব্যবহার করে **common logic share করা যায়**। আমরা একবার counting logic তৈরি করব এবং তা বিভিন্ন UI components-এ প্রয়োগ করব।
 
 ---
 
@@ -5383,8 +5589,9 @@ React এ **Render Props** একটি pattern যেখানে component এ
 ### Step 1: Create a `Counter` Component with Render Props
 
 #### Counter.js
+
 ```javascript
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Counter({ render }) {
   const [count, setCount] = useState(0);
@@ -5400,7 +5607,9 @@ export default Counter;
 ```
 
 #### Explanation:
+
 1. **State Management**:
+
    - `useState` দিয়ে `count` এবং `increment` function handle করা হয়েছে।
    - `count` এর মান `0` দিয়ে শুরু হয় এবং `increment` call করলে count বাড়ে।
 
@@ -5413,19 +5622,17 @@ export default Counter;
 ### Step 2: Create UI Components for Click and Hover Counters
 
 #### ClickCounter.js
+
 ```javascript
 function ClickCounter({ count, increment }) {
-  return (
-    <button onClick={increment}>
-      Button Clicked {count} times
-    </button>
-  );
+  return <button onClick={increment}>Button Clicked {count} times</button>;
 }
 
 export default ClickCounter;
 ```
 
 #### Explanation:
+
 - **UI Rendering**:
   - `ClickCounter` একটি button render করে।
   - Button এ click করলে `increment` function call হয় এবং `count` update হয়।
@@ -5433,19 +5640,17 @@ export default ClickCounter;
 ---
 
 #### HoverCounter.js
+
 ```javascript
 function HoverCounter({ count, increment }) {
-  return (
-    <h2 onMouseOver={increment}>
-      Hovered {count} times
-    </h2>
-  );
+  return <h2 onMouseOver={increment}>Hovered {count} times</h2>;
 }
 
 export default HoverCounter;
 ```
 
 #### Explanation:
+
 - **UI Rendering**:
   - `HoverCounter` একটি heading render করে।
   - Heading এ hover করলে `increment` function call হয় এবং `count` update হয়।
@@ -5455,11 +5660,12 @@ export default HoverCounter;
 ### Step 3: Use the `Counter` Component to Share Logic
 
 #### App.js
+
 ```javascript
-import React from 'react';
-import Counter from './Counter';
-import ClickCounter from './ClickCounter';
-import HoverCounter from './HoverCounter';
+import React from "react";
+import Counter from "./Counter";
+import ClickCounter from "./ClickCounter";
+import HoverCounter from "./HoverCounter";
 
 function App() {
   return (
@@ -5491,6 +5697,7 @@ export default App;
 ## How Render Props Solves the Problem
 
 ### Without Render Props (Problem):
+
 1. **Duplicate Logic**:
    - `ClickCounter` এবং `HoverCounter` এর জন্য `count` এবং `increment` logic বারবার লিখতে হতো।
 2. **Difficult Maintenance**:
@@ -5499,7 +5706,9 @@ export default App;
 ---
 
 ### With Render Props (Solution):
+
 1. **Shared Logic**:
+
    - `Counter` component logic (count এবং increment) encapsulate করে।
    - এই logic render props এর মাধ্যমে `ClickCounter` এবং `HoverCounter` এ share করা হয়েছে।
 
@@ -5510,13 +5719,16 @@ export default App;
 ---
 
 ### Final Output:
+
 #### Click Counter:
+
 ```
 [Button]
 Button Clicked 0 times
 ```
 
 #### Hover Counter:
+
 ```
 Hovered 0 times
 ```
@@ -5526,10 +5738,12 @@ Hovered 0 times
 ### Detailed Explanation of the Code Flow:
 
 1. **Counter Component**:
+
    - `useState` দিয়ে count এবং increment logic manage করে।
    - `render` prop এর মাধ্যমে `count` এবং `increment` অন্য component এ pass করে।
 
 2. **Render Prop Function**:
+
    - `render` function এ `count` এবং `increment` পাঠানো হয়।
    - UI component (যেমন `ClickCounter`, `HoverCounter`) এই render function থেকে props পায়।
 
@@ -5549,8 +5763,6 @@ Hovered 0 times
    - `render` function ব্যবহার করে আলাদা আলাদা UI তৈরি করা সম্ভব।
 4. **Maintenance-Friendly**:
    - Logic পরিবর্তন করতে হলে শুধু `Counter` component এ পরিবর্তন করতে হবে।
-
-
 
 <div align="right">
     <b><a href="#learn-reactjs-in-30-chapters">↥ Go to Top</a></b>
